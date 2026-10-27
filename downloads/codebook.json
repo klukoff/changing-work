@@ -1,0 +1,1788 @@
+{
+  "version": "2026-10-99-competencies-v1",
+  "status": "Study-authored operational definitions; not independently human-validated",
+  "competencies": [
+    {
+      "role": "uxr",
+      "branch_id": "uxr_researchops",
+      "branch": "ResearchOps & knowledge management",
+      "id": "uxr_self_service_research_agents",
+      "short_id": "R04",
+      "title": "Enable self-service AI research",
+      "definition": "Help other employees conduct research using AI tools, agents, or self-service research frameworks.",
+      "include_when": [
+        "An explicit link between an AI research method/tool and enabling other people to perform research. Coaching or stewardship can qualify without building the technology."
+      ],
+      "exclude_when": [
+        "Individual AI use alone; generic research democratization with no AI link; company statements that agents exist without a responsibility for this role."
+      ],
+      "minimum_evidence": [
+        "An explicit link between an AI research method/tool and enabling other people to perform research. Coaching or stewardship can qualify without building the technology."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_researchops",
+      "branch": "ResearchOps & knowledge management",
+      "id": "uxr_custom_research_skills",
+      "short_id": "R05",
+      "title": "Build research agents and automations",
+      "definition": "Build or customize AI-linked research agents, automations, scripts, or integrations.",
+      "include_when": [
+        "Creation or customization of research tooling is explicit, with an AI link established in the passage or directly relevant full-ad context."
+      ],
+      "exclude_when": [
+        "Using packaged tools; helping others use existing agents; a repository contribution without implementation evidence; generic automation with no AI link."
+      ],
+      "minimum_evidence": [
+        "Creation or customization of research tooling is explicit, with an AI link established in the passage or directly relevant full-ad context."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_researchops",
+      "branch": "ResearchOps & knowledge management",
+      "id": "uxr_automation_human_boundaries",
+      "short_id": "R06",
+      "title": "Set human oversight for research agents",
+      "definition": "Determine which research tasks are delegated to AI agents and where human review or intervention is required.",
+      "include_when": [
+        "An explicit decision about research-task allocation, human checkpoints, or oversight of AI-generated research inputs or outputs."
+      ],
+      "exclude_when": [
+        "Generic responsible-AI values; validation of an AI product unrelated to the research workflow; merely using an AI tool."
+      ],
+      "minimum_evidence": [
+        "An explicit decision about research-task allocation, human checkpoints, or oversight of AI-generated research inputs or outputs."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_researchops",
+      "branch": "ResearchOps & knowledge management",
+      "id": "uxr_ai_knowledge_base",
+      "short_id": "R07",
+      "title": "Contribute to an AI research repository",
+      "definition": "Contribute to building or maintaining an AI-enabled research knowledge base or repository.",
+      "include_when": [
+        "The role is linked to contributing to an explicitly AI-enabled research knowledge base; preserve whether this is optional, collaborative, or required."
+      ],
+      "exclude_when": [
+        "Ordinary repository use; generic knowledge management; assuming RAG implementation, deployment, or ownership from a request to help."
+      ],
+      "minimum_evidence": [
+        "The role is linked to contributing to an explicitly AI-enabled research knowledge base; preserve whether this is optional, collaborative, or required."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_researchops",
+      "branch": "ResearchOps & knowledge management",
+      "id": "uxr_research_output_integrity",
+      "short_id": "R17",
+      "title": "Review AI research quality and safeguards",
+      "definition": "Review AI-assisted research for explicit quality, privacy, or ethical safeguards.",
+      "include_when": [
+        "At least one concrete safeguard applied to AI-assisted research: source grounding, accuracy, hallucination/bias checks, participant privacy, or accountable human interpretation."
+      ],
+      "exclude_when": [
+        "A generic rigor or ethics claim without an AI-research link; AI synthesis alone; employer policy or recruitment safeguards unrelated to the researcher’s work."
+      ],
+      "minimum_evidence": [
+        "At least one concrete safeguard applied to AI-assisted research: source grounding, accuracy, hallucination/bias checks, participant privacy, or accountable human interpretation."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_ai_discovery",
+      "branch": "AI-assisted research & discovery",
+      "id": "uxr_continuous_ai_feedback",
+      "short_id": "R09",
+      "title": "Support continuous discovery with AI",
+      "definition": "Use AI-linked research methods in repeatable discovery or feedback processes.",
+      "include_when": [
+        "AI-enabled research is explicitly linked to continuous discovery, recurring feedback loops, or an ongoing research workflow."
+      ],
+      "exclude_when": [
+        "One-off AI analysis; ordinary continuous discovery with no AI link; inferring a weekly cadence, autonomous operation, or demonstrated quality."
+      ],
+      "minimum_evidence": [
+        "AI-enabled research is explicitly linked to continuous discovery, recurring feedback loops, or an ongoing research workflow."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_ai_discovery",
+      "branch": "AI-assisted research & discovery",
+      "id": "uxr_ai_augmented_synthesis",
+      "short_id": "R19",
+      "title": "Conduct AI-assisted research synthesis",
+      "definition": "Use AI to analyze or synthesize research material into patterns, themes, summaries, or insights.",
+      "include_when": [
+        "A role-linked AI method or tool is explicitly applied to research analysis or synthesis; a generic AI-tool list is insufficient."
+      ],
+      "exclude_when": [
+        "A product generating summaries for customers; conventional statistical analysis alone; inferring source verification or human review from synthesis itself."
+      ],
+      "minimum_evidence": [
+        "A role-linked AI method or tool is explicitly applied to research analysis or synthesis; a generic AI-tool list is insufficient."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_ai_discovery",
+      "branch": "AI-assisted research & discovery",
+      "id": "uxr_ai_moderated_research",
+      "short_id": "R20",
+      "title": "Support AI-moderated usability research",
+      "definition": "Conduct or contribute to usability research in which AI performs moderation.",
+      "include_when": [
+        "AI moderation is explicitly linked to usability research or a usability-research roadmap; support responsibilities qualify as contribution."
+      ],
+      "exclude_when": [
+        "AI-assisted analysis alone; unmoderated testing alone; synthetic respondents; inferring tool implementation, respondent recruitment, or sole study ownership."
+      ],
+      "minimum_evidence": [
+        "AI moderation is explicitly linked to usability research or a usability-research roadmap; support responsibilities qualify as contribution."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_prototyping",
+      "branch": "AI-assisted prototyping",
+      "id": "uxr_vibecoded_probes",
+      "short_id": "R10",
+      "title": "Build prototypes with AI coding tools",
+      "definition": "Use AI coding tools to create working prototypes.",
+      "include_when": [
+        "An explicit AI-coding or vibe-coding link to a working/code-based prototype. Record an alternative qualification as alternative, not a duty."
+      ],
+      "exclude_when": [
+        "AI-generated images or wireframes without code; technical fluency alone; assuming production delivery or a research-evidence basis."
+      ],
+      "minimum_evidence": [
+        "An explicit AI-coding or vibe-coding link to a working/code-based prototype. Record an alternative qualification as alternative, not a duty."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_prototyping",
+      "branch": "AI-assisted prototyping",
+      "id": "uxr_insight_grounded_prototypes",
+      "short_id": "R11",
+      "title": "Prototype from research evidence",
+      "definition": "Use AI to build prototypes explicitly informed by research evidence or insights.",
+      "include_when": [
+        "AI-assisted prototyping is linked to an existing body of research insights or to illustrating research recommendations."
+      ],
+      "exclude_when": [
+        "Generic AI prototyping without that link; treating every prototype as research-based; requiring coded or production software without evidence."
+      ],
+      "minimum_evidence": [
+        "AI-assisted prototyping is linked to an existing body of research insights or to illustrating research recommendations."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_prototyping",
+      "branch": "AI-assisted prototyping",
+      "id": "uxr_competing_ai_concepts",
+      "short_id": "R12",
+      "title": "Create AI-assisted concepts for testing",
+      "definition": "Use AI to create concepts or prototype directions intended for comparison with users.",
+      "include_when": [
+        "AI-assisted concept/wireframe/prototype creation and a user-testing or comparative-concept purpose are both explicit in connected context."
+      ],
+      "exclude_when": [
+        "Image generation without a testing purpose; testing concepts with no AI creation link; assuming executable code."
+      ],
+      "minimum_evidence": [
+        "AI-assisted concept/wireframe/prototype creation and a user-testing or comparative-concept purpose are both explicit in connected context."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_simulation",
+      "branch": "Customer simulation & validation",
+      "id": "uxr_synthetic_customer_models",
+      "short_id": "R01",
+      "title": "Build synthetic customer models",
+      "definition": "Build AI-linked representations that simulate or predict customer responses.",
+      "include_when": [
+        "Creating synthetic customer models or predictive customer-response simulations is explicit, and directly relevant full-ad context links AI to that modeling/simulation work. Record the model mechanism as unspecified unless identified."
+      ],
+      "exclude_when": [
+        "AI moderation; ordinary personas or segmentation without simulated/predictive customer behavior; assuming LLM respondents or substitution for human participants."
+      ],
+      "minimum_evidence": [
+        "Creating synthetic customer models or predictive customer-response simulations is explicit, and directly relevant full-ad context links AI to that modeling/simulation work. Record the model mechanism as unspecified unless identified."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_simulation",
+      "branch": "Customer simulation & validation",
+      "id": "uxr_dynamic_journey_models",
+      "short_id": "R02",
+      "title": "Explore AI-assisted journey simulation",
+      "definition": "Explore or apply AI-linked simulations or dynamic models of multi-step user journeys.",
+      "include_when": [
+        "AI-linked journey or experience modeling explicitly includes simulation, agent-based representations, or dynamic journey models."
+      ],
+      "exclude_when": [
+        "Ordinary journey maps; general persona generation; assuming a deployed synthetic-user system or predictive validity."
+      ],
+      "minimum_evidence": [
+        "AI-linked journey or experience modeling explicitly includes simulation, agent-based representations, or dynamic journey models."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_simulation",
+      "branch": "Customer simulation & validation",
+      "id": "uxr_calibrate_simulations",
+      "short_id": "R03",
+      "title": "Validate simulations against real behavior",
+      "definition": "Compare customer simulations or predictive methods with observed behavior or known outcomes.",
+      "include_when": [
+        "Validation against observed behavior/outcomes or investigation of predicted-versus-observed divergence is explicit in an AI-linked customer-modeling context."
+      ],
+      "exclude_when": [
+        "Creating synthetic models without validation; general model accuracy language; communicating confidence alone without a linked validation activity."
+      ],
+      "minimum_evidence": [
+        "Validation against observed behavior/outcomes or investigation of predicted-versus-observed divergence is explicit in an AI-linked customer-modeling context."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_ai_evaluation",
+      "branch": "Human-centered AI evaluation",
+      "id": "uxr_eval_rubrics_and_sets",
+      "short_id": "R13",
+      "title": "Develop AI evaluation criteria and materials",
+      "definition": "Develop user-centered criteria, rubrics, measurement frameworks, or evaluation datasets for AI experiences.",
+      "include_when": [
+        "At least one evaluation artifact is explicitly linked to AI behavior or user experience. Code the named artifact rather than requiring both rubrics and datasets."
+      ],
+      "exclude_when": [
+        "Generic research evaluation; AI familiarity alone; treating a preferred familiarity with datasets as a duty to build datasets."
+      ],
+      "minimum_evidence": [
+        "At least one evaluation artifact is explicitly linked to AI behavior or user experience. Code the named artifact rather than requiring both rubrics and datasets."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_ai_evaluation",
+      "branch": "Human-centered AI evaluation",
+      "id": "uxr_validate_llm_judges",
+      "short_id": "R14",
+      "title": "Validate LLM-as-judge evaluations",
+      "definition": "Assess or calibrate automated or LLM-based evaluators against relevant human judgments.",
+      "include_when": [
+        "Validation/calibration of automated or LLM judges against human judgment is explicit; qualification-level contribution can qualify with that status retained."
+      ],
+      "exclude_when": [
+        "Using AI to score outputs without judge validation; general human-in-the-loop language; ordinary product-summary fact checking."
+      ],
+      "minimum_evidence": [
+        "Validation/calibration of automated or LLM judges against human judgment is explicit; qualification-level contribution can qualify with that status retained."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_ai_evaluation",
+      "branch": "Human-centered AI evaluation",
+      "id": "uxr_conversational_failure_metrics",
+      "short_id": "R15",
+      "title": "Analyze conversational AI failures",
+      "definition": "Analyze conversational AI transcripts or evaluation signals for quality problems and failures.",
+      "include_when": [
+        "Conversation/transcript analysis or annotation is tied to AI quality, fallback, hallucination, refusal, or failure-related signals."
+      ],
+      "exclude_when": [
+        "Generic conversation research; conversational-product background without assigned analysis; assuming model development ownership."
+      ],
+      "minimum_evidence": [
+        "Conversation/transcript analysis or annotation is tied to AI quality, fallback, hallucination, refusal, or failure-related signals."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_ai_evaluation",
+      "branch": "Human-centered AI evaluation",
+      "id": "uxr_delegation_and_recovery",
+      "short_id": "R16",
+      "title": "Study human–AI interaction",
+      "definition": "Investigate how people collaborate with, supervise, delegate to, or recover from AI systems.",
+      "include_when": [
+        "A research or evaluation activity explicitly concerns human interaction with AI, including control, orientation, review, or recovery."
+      ],
+      "exclude_when": [
+        "Generic user research at an AI company; assigning design ownership from a research contribution; research automation without an AI-product interaction question."
+      ],
+      "minimum_evidence": [
+        "A research or evaluation activity explicitly concerns human interaction with AI, including control, orientation, review, or recovery."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_ai_measurement",
+      "branch": "AI experience measurement",
+      "id": "uxr_ai_agent_observability",
+      "short_id": "R08",
+      "title": "Build dashboards for AI experience metrics",
+      "definition": "Create instrumentation or reporting for measures of AI-product experience and outcomes.",
+      "include_when": [
+        "The role creates instrumentation, dashboards, or reporting explicitly tied to an AI product’s experience, behavior, adoption, or outcomes."
+      ],
+      "exclude_when": [
+        "Conventional research dashboards with no AI-product link; assuming the dashboard is created using AI; product marketing without reporting duties."
+      ],
+      "minimum_evidence": [
+        "The role creates instrumentation, dashboards, or reporting explicitly tied to an AI product’s experience, behavior, adoption, or outcomes."
+      ]
+    },
+    {
+      "role": "uxr",
+      "branch_id": "uxr_ai_measurement",
+      "branch": "AI experience measurement",
+      "id": "uxr_ai_rollout_impact",
+      "short_id": "R18",
+      "title": "Evaluate AI adoption and outcomes",
+      "definition": "Evaluate the adoption, performance, or consequences of AI tools or initiatives to inform organizational decisions.",
+      "include_when": [
+        "A role-linked evaluation of AI tools/pilots/rollouts or a measurement of their adoption/outcomes is explicit."
+      ],
+      "exclude_when": [
+        "Company adoption claims; purchasing AI without evaluation; requiring experimental designs or proof of successful adoption when not stated."
+      ],
+      "minimum_evidence": [
+        "A role-linked evaluation of AI tools/pilots/rollouts or a measurement of their adoption/outcomes is explicit."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_discovery",
+      "branch": "AI-assisted discovery & ideation",
+      "id": "design_ai_research_synthesis",
+      "short_id": "D19",
+      "title": "Synthesize research with AI",
+      "definition": "Use AI to analyze or synthesize research material into design-relevant patterns, summaries, or insights.",
+      "include_when": [
+        "AI use is explicitly tied to research analysis or synthesis in the designer’s work."
+      ],
+      "exclude_when": [
+        "AI product summaries; generic AI familiarity; automatically crediting verification, bias checks, or traceability."
+      ],
+      "minimum_evidence": [
+        "AI use is explicitly tied to research analysis or synthesis in the designer’s work."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_discovery",
+      "branch": "AI-assisted discovery & ideation",
+      "id": "design_ai_concept_exploration",
+      "short_id": "D20",
+      "title": "Explore design alternatives with AI",
+      "definition": "Use AI to generate or explore design concepts, variants, copy, or creative assets.",
+      "include_when": [
+        "An AI method/tool is explicitly connected to ideation, concept exploration, or generation of design alternatives or creative material."
+      ],
+      "exclude_when": [
+        "AI product context alone; ordinary design ideation; assuming executable prototypes from generated assets."
+      ],
+      "minimum_evidence": [
+        "An AI method/tool is explicitly connected to ideation, concept exploration, or generation of design alternatives or creative material."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_prototyping",
+      "branch": "AI-assisted prototyping and design engineering",
+      "id": "design_executable_prototypes",
+      "short_id": "D01",
+      "title": "Prototype with AI coding tools",
+      "definition": "Use AI coding tools to create working/code-based design prototypes.",
+      "include_when": [
+        "An explicit AI coding/tool link to working or coded prototypes. Familiarity with this activity is recorded as understanding, not execution."
+      ],
+      "exclude_when": [
+        "Image/wireframe generation without code; generic AI prototyping with no code/working-interface evidence; assuming production shipping."
+      ],
+      "minimum_evidence": [
+        "An explicit AI coding/tool link to working or coded prototypes. Familiarity with this activity is recorded as understanding, not execution."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_prototyping",
+      "branch": "AI-assisted prototyping and design engineering",
+      "id": "design_executable_repository",
+      "short_id": "D02",
+      "title": "Prototype with existing code and components",
+      "definition": "Use AI to create prototypes grounded in an existing product codebase or design system.",
+      "include_when": [
+        "Both AI-assisted prototyping and use of actual existing code/components/design-system material are explicit."
+      ],
+      "exclude_when": [
+        "Generic code prototypes; design-system work without AI prototyping; requiring both codebase and components when one clearly establishes grounding."
+      ],
+      "minimum_evidence": [
+        "Both AI-assisted prototyping and use of actual existing code/components/design-system material are explicit."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_prototyping",
+      "branch": "AI-assisted prototyping and design engineering",
+      "id": "design_executable_shipping",
+      "short_id": "D03",
+      "title": "Refine and ship AI-assisted UI code",
+      "definition": "Use AI coding tools in implementing, refining, or shipping production interfaces.",
+      "include_when": [
+        "AI-assisted coding is linked to production implementation or shipping the designed interface, with hands-on or explicit collaborative involvement."
+      ],
+      "exclude_when": [
+        "Prototype-only work; familiarity with frontend implementation; generic collaboration with engineering; assuming independent production ownership."
+      ],
+      "minimum_evidence": [
+        "AI-assisted coding is linked to production implementation or shipping the designed interface, with hands-on or explicit collaborative involvement."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_prototyping",
+      "branch": "AI-assisted prototyping and design engineering",
+      "id": "design_eval_generated_ui",
+      "short_id": "D14",
+      "title": "Review AI-generated interfaces",
+      "definition": "Assess AI-generated interfaces and identify or make needed design refinements.",
+      "include_when": [
+        "An explicit review/judgment activity concerns AI-generated UI or design output needing interface refinement. Record knowledge-only expectations separately."
+      ],
+      "exclude_when": [
+        "Generic AI understanding; merely generating interfaces; assuming a requirement to implement every identified fix."
+      ],
+      "minimum_evidence": [
+        "An explicit review/judgment activity concerns AI-generated UI or design output needing interface refinement. Record knowledge-only expectations separately."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_systems",
+      "branch": "Design systems for AI",
+      "id": "design_context_semantics",
+      "short_id": "D04",
+      "title": "Make design systems usable by AI agents",
+      "definition": "Structure design-system components, semantics, architecture, or documentation for AI-agent use.",
+      "include_when": [
+        "The role is assigned to make design-system material usable or interpretable by AI tools/agents; company descriptions alone do not establish the role activity."
+      ],
+      "exclude_when": [
+        "Ordinary design-system maintenance; a machine-readable system with no AI link; AI-assisted use without agent-facing system work."
+      ],
+      "minimum_evidence": [
+        "The role is assigned to make design-system material usable or interpretable by AI tools/agents; company descriptions alone do not establish the role activity."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_systems",
+      "branch": "Design systems for AI",
+      "id": "design_context_skills",
+      "short_id": "D05",
+      "title": "Create reusable design rules and agent skills",
+      "definition": "Create or maintain reusable instructions, rules, skills, or documentation for AI-assisted design implementation.",
+      "include_when": [
+        "Creating or maintaining a reusable AI-consumable design artifact is explicit."
+      ],
+      "exclude_when": [
+        "Using a one-off prompt; ordinary design documentation with no AI-consumer link; assuming code implementation when only documentation is assigned."
+      ],
+      "minimum_evidence": [
+        "Creating or maintaining a reusable AI-consumable design artifact is explicit."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_conversation",
+      "branch": "Conversation design",
+      "id": "design_behavior_prompts",
+      "short_id": "D07",
+      "title": "Design prompts, voice and persona",
+      "definition": "Create, configure, or refine prompts, voices, or personas that shape conversational AI behavior.",
+      "include_when": [
+        "At least one role-linked activity shapes conversational AI through prompts, voice selection, or persona configuration."
+      ],
+      "exclude_when": [
+        "Using prompts only to generate design assets; ordinary UX copy without AI interaction context; requiring every voice/persona/prompt subactivity."
+      ],
+      "minimum_evidence": [
+        "At least one role-linked activity shapes conversational AI through prompts, voice selection, or persona configuration."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_conversation",
+      "branch": "Conversation design",
+      "id": "design_behavior_memory",
+      "short_id": "D08",
+      "title": "Design intent and conversational context",
+      "definition": "Design how conversational AI interprets intent or maintains and presents context.",
+      "include_when": [
+        "Intent architecture/routing or conversational memory/context behavior is explicitly assigned to the role."
+      ],
+      "exclude_when": [
+        "Generic conversational UI design; assuming memory engineering from an interface-design responsibility; requiring both intent and persistence."
+      ],
+      "minimum_evidence": [
+        "Intent architecture/routing or conversational memory/context behavior is explicitly assigned to the role."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_conversation",
+      "branch": "Conversation design",
+      "id": "design_agent_modalities",
+      "short_id": "D12",
+      "title": "Connect conversational and visual experiences",
+      "definition": "Design coherent AI experiences across conversation, voice, graphical interfaces, or human-support handoffs.",
+      "include_when": [
+        "An AI experience explicitly spans multiple interaction surfaces or a meaningful handoff, with responsibility for coordinating them."
+      ],
+      "exclude_when": [
+        "A single chat interface; unrelated screen design; relying solely on source text marked as suggested/editorial."
+      ],
+      "minimum_evidence": [
+        "An AI experience explicitly spans multiple interaction surfaces or a meaningful handoff, with responsibility for coordinating them."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_human_ai",
+      "branch": "Human-AI interaction",
+      "id": "design_agent_control",
+      "short_id": "D10",
+      "title": "Design delegation and human control",
+      "definition": "Design agent authority and the means for people to approve, intervene in, or recover control of AI actions.",
+      "include_when": [
+        "Concrete agent-action boundaries or user-control mechanisms are explicit."
+      ],
+      "exclude_when": [
+        "General agency, transparency, or trust language without a control/delegation mechanism; AI-output review in the designer’s own work."
+      ],
+      "minimum_evidence": [
+        "Concrete agent-action boundaries or user-control mechanisms are explicit."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_human_ai",
+      "branch": "Human-AI interaction",
+      "id": "design_agent_states",
+      "short_id": "D11",
+      "title": "Design AI states and recovery",
+      "definition": "Design how an interface communicates AI execution states, uncertainty, failures, or recovery.",
+      "include_when": [
+        "At least one AI-specific interaction state or recovery behavior is assigned for interface design."
+      ],
+      "exclude_when": [
+        "Generic loading states with no AI link; general trust claims; assuming all lifecycle states are required."
+      ],
+      "minimum_evidence": [
+        "At least one AI-specific interaction state or recovery behavior is assigned for interface design."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_human_ai",
+      "branch": "Human-AI interaction",
+      "id": "design_accountability_reliance",
+      "short_id": "D17",
+      "title": "Design for appropriate reliance",
+      "definition": "Design human review or interaction patterns to address overreliance, automation bias, or review fatigue in AI use.",
+      "include_when": [
+        "An explicit reliance-related issue or meaningful human-review problem is tied to design action."
+      ],
+      "exclude_when": [
+        "Generic trustworthy AI; any human-in-the-loop mention without a reliance/review-design issue; ordinary usability work."
+      ],
+      "minimum_evidence": [
+        "An explicit reliance-related issue or meaningful human-review problem is tied to design action."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_evals",
+      "branch": "AI evals and observability",
+      "id": "design_eval_regression",
+      "short_id": "D13",
+      "title": "Develop AI evals and regression checks",
+      "definition": "Develop or contribute to evaluation frameworks, quality tests, or regression checks for AI interactions.",
+      "include_when": [
+        "An explicit evaluation/testing contribution concerns AI or conversational quality; record the particular test artifact and participation level."
+      ],
+      "exclude_when": [
+        "Generic usability testing; prompt writing alone; assuming sole ownership or requiring both evaluation and regression testing."
+      ],
+      "minimum_evidence": [
+        "An explicit evaluation/testing contribution concerns AI or conversational quality; record the particular test artifact and participation level."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_evals",
+      "branch": "AI evals and observability",
+      "id": "design_eval_observability",
+      "short_id": "D15",
+      "title": "Use live interaction data to improve agents",
+      "definition": "Analyze live AI interactions and use the evidence to improve agent behavior or experience.",
+      "include_when": [
+        "Interaction/conversation evidence from AI use is linked to diagnosing behavior or informing improvements."
+      ],
+      "exclude_when": [
+        "High-level adoption metrics alone; general analytics without an AI interaction link; assuming AI is used for the analysis."
+      ],
+      "minimum_evidence": [
+        "Interaction/conversation evidence from AI use is linked to diagnosing behavior or informing improvements."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_ops",
+      "branch": "AI-enabled DesignOps",
+      "id": "design_context_tooling",
+      "short_id": "D06",
+      "title": "Build shared AI design tools",
+      "definition": "Build or develop reusable AI-powered tools or workflows for design work.",
+      "include_when": [
+        "Creating tools/workflows for design use is explicit and AI-linked; exploratory building qualifies with exploration recorded."
+      ],
+      "exclude_when": [
+        "Personal use of packaged AI tools; generic AI evangelism; assuming an organizational rollout from an exploratory tool."
+      ],
+      "minimum_evidence": [
+        "Creating tools/workflows for design use is explicit and AI-linked; exploratory building qualifies with exploration recorded."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_ops",
+      "branch": "AI-enabled DesignOps",
+      "id": "design_accountability_adoption",
+      "short_id": "D18",
+      "title": "Develop and govern AI design workflows",
+      "definition": "Develop organizational practices for adopting, governing, or measuring AI-assisted design workflows.",
+      "include_when": [
+        "At least one concrete organization/team-level activity is explicit: pilot implementation, standards/governance, adoption measurement, scaling, or retirement."
+      ],
+      "exclude_when": [
+        "Individual AI tool use; hiring-process AI; general organizational metrics without an AI design-workflow link. Do not require a complete pilot-to-retirement sequence."
+      ],
+      "minimum_evidence": [
+        "At least one concrete organization/team-level activity is explicit: pilot implementation, standards/governance, adoption measurement, scaling, or retirement."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_foundations",
+      "branch": "Cross-cutting foundations",
+      "id": "design_behavior_capability",
+      "short_id": "D09",
+      "title": "Understand AI capabilities and limits",
+      "definition": "Understand model capabilities and constraints sufficiently to inform AI interaction design.",
+      "include_when": [
+        "A role-specific expectation links knowledge of AI capabilities/limits to design decisions or technical collaboration."
+      ],
+      "exclude_when": [
+        "Company AI branding; broad AI enthusiasm; assuming model engineering, evaluations, or implementation skills."
+      ],
+      "minimum_evidence": [
+        "A role-specific expectation links knowledge of AI capabilities/limits to design decisions or technical collaboration."
+      ]
+    },
+    {
+      "role": "design",
+      "branch_id": "design_foundations",
+      "branch": "Cross-cutting foundations",
+      "id": "design_accountability_evidence",
+      "short_id": "D16",
+      "title": "Verify AI-generated evidence and outputs",
+      "definition": "Apply explicit quality or safety checks to AI-generated material used in design work.",
+      "include_when": [
+        "At least one concrete check is named: accuracy, bias, source traceability, privacy, or regulatory risk, linked to the designer’s AI-assisted outputs."
+      ],
+      "exclude_when": [
+        "Generic craft/judgment language; generating outputs alone; employer recruitment safeguards; requiring every safeguard in the list."
+      ],
+      "minimum_evidence": [
+        "At least one concrete check is named: accuracy, bias, source traceability, privacy, or regulatory risk, linked to the designer’s AI-assisted outputs."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_strategy",
+      "branch": "AI product strategy and economics",
+      "id": "pm_choose_ai",
+      "short_id": "P01",
+      "title": "Choose when to use AI",
+      "definition": "Compare AI approaches with non-AI solutions when defining a product or workflow.",
+      "include_when": [
+        "The role explicitly decides where AI is appropriate versus deterministic software, a UX change, or another non-AI approach."
+      ],
+      "exclude_when": [
+        "Prioritizing AI features without an alternative decision; general product strategy at an AI company."
+      ],
+      "minimum_evidence": [
+        "The role explicitly decides where AI is appropriate versus deterministic software, a UX change, or another non-AI approach."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_strategy",
+      "branch": "AI product strategy and economics",
+      "id": "pm_model_tradeoffs",
+      "short_id": "P02",
+      "title": "Choose models and AI architectures",
+      "definition": "Select or contribute to selecting AI models or architectural approaches against product constraints.",
+      "include_when": [
+        "Model/provider or AI-pattern selection is explicitly linked to product needs, quality, cost, latency, or other constraints."
+      ],
+      "exclude_when": [
+        "Generic technical fluency; naming tools without selection work; assuming independent architect responsibility."
+      ],
+      "minimum_evidence": [
+        "Model/provider or AI-pattern selection is explicitly linked to product needs, quality, cost, latency, or other constraints."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_strategy",
+      "branch": "AI product strategy and economics",
+      "id": "pm_ai_unit_economics",
+      "short_id": "P16",
+      "title": "Manage AI unit economics and pricing",
+      "definition": "Assess AI operating economics or AI-product pricing models.",
+      "include_when": [
+        "Inference cost/economics, token economics, or consumption-based pricing is explicitly linked to AI systems/products."
+      ],
+      "exclude_when": [
+        "Ordinary product pricing or profitability; pricing algorithms using ML without AI operating-cost evidence; assuming both inference economics and pricing are required."
+      ],
+      "minimum_evidence": [
+        "Inference cost/economics, token economics, or consumption-based pricing is explicitly linked to AI systems/products."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_evals",
+      "branch": "AI evals and observability",
+      "id": "pm_eval_spec",
+      "short_id": "P04",
+      "title": "Define AI success criteria and evals",
+      "definition": "Define or contribute to measurable acceptance criteria, evaluation cases, or quality thresholds for AI behavior.",
+      "include_when": [
+        "An explicit role contribution translates expectations into AI evaluation criteria or measurable acceptance conditions."
+      ],
+      "exclude_when": [
+        "Generic KPIs; company AI positioning; merely understanding an evaluation; requiring sole ownership."
+      ],
+      "minimum_evidence": [
+        "An explicit role contribution translates expectations into AI evaluation criteria or measurable acceptance conditions."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_evals",
+      "branch": "AI evals and observability",
+      "id": "pm_failure_diagnosis",
+      "short_id": "P05",
+      "title": "Diagnose AI failures",
+      "definition": "Investigate AI failures and distinguish plausible causes to inform corrective action.",
+      "include_when": [
+        "Explicit diagnostic/root-cause work concerning AI behavior, retrieval, representations, or comparable failures."
+      ],
+      "exclude_when": [
+        "Understanding evaluations or discussing trade-offs without diagnostic action; generic debugging; assuming causal diagnosis from a tool list."
+      ],
+      "minimum_evidence": [
+        "Explicit diagnostic/root-cause work concerning AI behavior, retrieval, representations, or comparable failures."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_evals",
+      "branch": "AI evals and observability",
+      "id": "pm_regression_gates",
+      "short_id": "P06",
+      "title": "Set AI release and regression criteria",
+      "definition": "Define release acceptance or regression checks for AI-system changes.",
+      "include_when": [
+        "AI-related release gating, regression testing, or backtesting against relevant cases is explicitly assigned."
+      ],
+      "exclude_when": [
+        "Generic release management; AI evaluation without release/regression linkage; assuming full autonomy from a release threshold."
+      ],
+      "minimum_evidence": [
+        "AI-related release gating, regression testing, or backtesting against relevant cases is explicitly assigned."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_evals",
+      "branch": "AI evals and observability",
+      "id": "pm_learning_loops",
+      "short_id": "P15",
+      "title": "Turn production feedback into AI improvements",
+      "definition": "Use production/user evidence and evaluation results to prioritize or specify AI improvements.",
+      "include_when": [
+        "A feedback-to-improvement connection is explicit for an AI system, agent, or orchestration workflow."
+      ],
+      "exclude_when": [
+        "Generic customer feedback; deployment alone; assuming the PM performs every analysis or writes the fix."
+      ],
+      "minimum_evidence": [
+        "A feedback-to-improvement connection is explicit for an AI system, agent, or orchestration workflow."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_agent_workflows",
+      "branch": "Agent workflow design",
+      "id": "pm_agent_orchestration",
+      "short_id": "P07",
+      "title": "Specify agent orchestration",
+      "definition": "Define how an AI-agent workflow coordinates actions, tools, conditions, or handoffs.",
+      "include_when": [
+        "At least one orchestration element is specified for agents: triggers, tool/action chaining, state, handoffs, exceptions, or checkpoints."
+      ],
+      "exclude_when": [
+        "Generic agent knowledge without a named orchestration expectation; ordinary workflow mapping with no AI link; assuming implementation ownership."
+      ],
+      "minimum_evidence": [
+        "At least one orchestration element is specified for agents: triggers, tool/action chaining, state, handoffs, exceptions, or checkpoints."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_agent_workflows",
+      "branch": "Agent workflow design",
+      "id": "pm_action_boundaries",
+      "short_id": "P08",
+      "title": "Set agent permissions and escalation",
+      "definition": "Specify authorization boundaries or approval/escalation mechanisms for AI-agent actions.",
+      "include_when": [
+        "AI-agent permissions, confirmation/approval, action authority, or escalation to people is explicit."
+      ],
+      "exclude_when": [
+        "General governance or security; company claims of safety; confusing the PM’s own approval workflow with customer-agent controls."
+      ],
+      "minimum_evidence": [
+        "AI-agent permissions, confirmation/approval, action authority, or escalation to people is explicit."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_agent_workflows",
+      "branch": "Agent workflow design",
+      "id": "pm_agent_interfaces",
+      "short_id": "P09",
+      "title": "Make products accessible to AI agents",
+      "definition": "Define product tools, actions, or integrations that external AI assistants and agents can use.",
+      "include_when": [
+        "An explicit product capability exposes actions or integrations to customer/external AI agents or assistants."
+      ],
+      "exclude_when": [
+        "Using AI for the PM’s own work; generic APIs; MCP familiarity alone without a relevant product responsibility."
+      ],
+      "minimum_evidence": [
+        "An explicit product capability exposes actions or integrations to customer/external AI agents or assistants."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_agent_workflows",
+      "branch": "Agent workflow design",
+      "id": "pm_graduated_autonomy",
+      "short_id": "P17",
+      "title": "Stage AI autonomy and rollout",
+      "definition": "Set conditions for progressing an AI workflow between levels of autonomy or rollout.",
+      "include_when": [
+        "A role-linked decision ties advancing autonomy/rollout to readiness criteria such as trust, accuracy, adoption, or risk."
+      ],
+      "exclude_when": [
+        "A vision of eventual autonomy without a role-linked gating decision; treating a future ambition as an operational deployment."
+      ],
+      "minimum_evidence": [
+        "A role-linked decision ties advancing autonomy/rollout to readiness criteria such as trust, accuracy, adoption, or risk."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_ai_development",
+      "branch": "AI-assisted product development",
+      "id": "pm_code_to_learn",
+      "short_id": "P10",
+      "title": "Build prototypes with AI",
+      "definition": "Use AI tools to create working concepts, prototypes, or proofs of concept in the PM’s work, including internal tooling.",
+      "include_when": [
+        "The PM uses AI tools in creating a prototype or proof of concept. Purpose and code/production status are separately recorded."
+      ],
+      "exclude_when": [
+        "A prototype of an AI product without AI-assisted creation; generic prototyping; assuming product-validation purpose or production delivery."
+      ],
+      "minimum_evidence": [
+        "The PM uses AI tools in creating a prototype or proof of concept. Purpose and code/production status are separately recorded."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_ai_development",
+      "branch": "AI-assisted product development",
+      "id": "pm_spec_driven",
+      "short_id": "P11",
+      "title": "Use spec-driven development with AI",
+      "definition": "Use AI to develop specifications or coordinate specification-led product development.",
+      "include_when": [
+        "AI-assisted specification generation or an explicitly AI spec-driven development workflow is assigned to the PM."
+      ],
+      "exclude_when": [
+        "Generic specification writing; AI prototyping without specification work; human review alone; assuming the PM independently ships code."
+      ],
+      "minimum_evidence": [
+        "AI-assisted specification generation or an explicitly AI spec-driven development workflow is assigned to the PM."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_ai_development",
+      "branch": "AI-assisted product development",
+      "id": "pm_personal_agents",
+      "short_id": "P12",
+      "title": "Build reusable agents for PM work",
+      "definition": "Create or customize reusable AI agents, skills, prompt patterns, or multi-step workflows for PM activities.",
+      "include_when": [
+        "Explicit construction/customization of reusable AI workflows for research, analysis, or documentation."
+      ],
+      "exclude_when": [
+        "Packaged AI tool use; one-off prompting; verifying AI output without construction; assuming internal-source integration is always required."
+      ],
+      "minimum_evidence": [
+        "Explicit construction/customization of reusable AI workflows for research, analysis, or documentation."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_ai_development",
+      "branch": "AI-assisted product development",
+      "id": "pm_ai_research_synthesis",
+      "short_id": "P19",
+      "title": "Use AI for customer and market synthesis",
+      "definition": "Use AI to analyze or synthesize customer, behavioral, market, or competitor evidence for product work.",
+      "include_when": [
+        "AI is explicitly applied to relevant research, analysis, summarization, or synthesis in the PM’s workflow."
+      ],
+      "exclude_when": [
+        "AI features that summarize data for customers; generic company AI positioning; automatically adding human review or source verification."
+      ],
+      "minimum_evidence": [
+        "AI is explicitly applied to relevant research, analysis, summarization, or synthesis in the PM’s workflow."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_grounding",
+      "branch": "Domain knowledge and AI grounding",
+      "id": "pm_encode_domain",
+      "short_id": "P03",
+      "title": "Translate domain expertise into AI behavior",
+      "definition": "Translate domain-specific distinctions or exceptions into the rules, prompts, or structures of an AI system.",
+      "include_when": [
+        "An explicit translation/encoding action connects domain knowledge to AI behavior, prompts, agents, rules, or data structures."
+      ],
+      "exclude_when": [
+        "Domain knowledge alone; general strategy at a domain-AI company; assuming all implementation is performed by the PM."
+      ],
+      "minimum_evidence": [
+        "An explicit translation/encoding action connects domain knowledge to AI behavior, prompts, agents, rules, or data structures."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_grounding",
+      "branch": "Domain knowledge and AI grounding",
+      "id": "pm_semantic_foundations",
+      "short_id": "P13",
+      "title": "Define AI-ready data and semantics",
+      "definition": "Specify data meaning, structure, quality, or interfaces that support AI use.",
+      "include_when": [
+        "A role-specific data/semantic specification or assessment explicitly supports AI grounding, inference, or agent use."
+      ],
+      "exclude_when": [
+        "Broad product ownership at a company with a knowledge graph; generic analytics data work; assuming AI linkage from company context alone."
+      ],
+      "minimum_evidence": [
+        "A role-specific data/semantic specification or assessment explicitly supports AI grounding, inference, or agent use."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_grounding",
+      "branch": "Domain knowledge and AI grounding",
+      "id": "pm_evidence_grounding",
+      "short_id": "P14",
+      "title": "Specify retrieval and grounded answers",
+      "definition": "Define or contribute requirements for AI retrieval, grounding, citations, or use of domain knowledge.",
+      "include_when": [
+        "A role-linked specification or collaboration activity explicitly concerns retrieval augmentation, answer grounding/citation accuracy, or client-specific AI context."
+      ],
+      "exclude_when": [
+        "Repository maintenance with no AI-answer behavior; merely knowing RAG; assuming independent RAG implementation or measured accuracy."
+      ],
+      "minimum_evidence": [
+        "A role-linked specification or collaboration activity explicitly concerns retrieval augmentation, answer grounding/citation accuracy, or client-specific AI context."
+      ]
+    },
+    {
+      "role": "pm",
+      "branch_id": "pm_governance",
+      "branch": "Responsible AI governance",
+      "id": "pm_operational_governance",
+      "short_id": "P18",
+      "title": "Define AI governance controls",
+      "definition": "Translate AI governance requirements into operational controls or product practices.",
+      "include_when": [
+        "Concrete AI-linked controls, guardrails, audit trails, versioning, or release practices are explicitly assigned."
+      ],
+      "exclude_when": [
+        "General responsible-AI rhetoric; ordinary compliance without an AI link; assuming legal compliance has been demonstrated."
+      ],
+      "minimum_evidence": [
+        "Concrete AI-linked controls, guardrails, audit trails, versioning, or release practices are explicitly assigned."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "strategy_gtm",
+      "branch": "Marketing strategy & go-to-market",
+      "id": "marketing_ai_synthesis",
+      "short_id": "M01",
+      "title": "Analyze customer and marketing data with AI",
+      "definition": "Use AI to analyze or synthesize customer feedback, market research, competitive information, audience evidence, or marketing/commercial-performance data.",
+      "include_when": [
+        "The passage links AI to gathering, analyzing, or synthesizing specified customer, audience, competitor, market, campaign, or commercial-performance information."
+      ],
+      "exclude_when": [
+        "General data-driven marketing; describing an analytics or AI product; unspecified AI familiarity; AI audience targeting without a research or evidence activity."
+      ],
+      "minimum_evidence": [
+        "The passage links AI to gathering, analyzing, or synthesizing specified customer, audience, competitor, market, campaign, or commercial-performance information."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "strategy_gtm",
+      "branch": "Marketing strategy & go-to-market",
+      "id": "marketing_ai_planning",
+      "short_id": "M02",
+      "title": "Develop marketing plans and concepts with AI",
+      "definition": "Use AI to develop marketing strategy, briefs, positioning, campaign concepts, or plans.",
+      "include_when": [
+        "AI is explicitly linked to creating or exploring a marketing plan, strategy, brief, positioning, or campaign concept."
+      ],
+      "exclude_when": [
+        "A strategy for adopting AI tools; a go-to-market plan for an AI product; content generation alone; generic strategic thinking."
+      ],
+      "minimum_evidence": [
+        "AI is explicitly linked to creating or exploring a marketing plan, strategy, brief, positioning, or campaign concept."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "strategy_gtm",
+      "branch": "Marketing strategy & go-to-market",
+      "id": "marketing_customer_simulation",
+      "short_id": "M03",
+      "title": "Use synthetic audiences and customer simulations",
+      "definition": "Create, use, or evaluate AI-generated personas, synthetic audiences, simulated customers, or modeled customer journeys for marketing decisions.",
+      "include_when": [
+        "The passage names synthetic or simulated customer/audience behavior and establishes an AI link."
+      ],
+      "exclude_when": [
+        "Traditional personas, lookalike targeting, predictive scoring, or survey respondents without explicit synthetic/simulation evidence; AI-moderated human interviews."
+      ],
+      "minimum_evidence": [
+        "The passage names synthetic or simulated customer/audience behavior and establishes an AI link."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "strategy_gtm",
+      "branch": "Marketing strategy & go-to-market",
+      "id": "marketing_ai_product_gtm",
+      "short_id": "M04",
+      "title": "Develop go-to-market strategy for AI products",
+      "definition": "Position, launch, communicate, or market a product or service explicitly identified as AI-enabled.",
+      "include_when": [
+        "A role responsibility or qualification explicitly concerns positioning, launching, messaging, or marketing an AI-enabled product or service; directly linked full-ad product context can establish its object."
+      ],
+      "exclude_when": [
+        "The employer merely calls itself an AI company; generic marketing duties with no definite link to its AI product; using AI to create marketing work."
+      ],
+      "minimum_evidence": [
+        "A role responsibility or qualification explicitly concerns positioning, launching, messaging, or marketing an AI-enabled product or service; directly linked full-ad product context can establish its object."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "experience_commerce",
+      "branch": "Customer experience & commerce",
+      "id": "marketing_ai_personalization",
+      "short_id": "M05",
+      "title": "Apply AI to personalized customer experiences",
+      "definition": "Use or shape AI-driven personalization, recommendations, next-best actions, or dynamic experiences across marketing and commerce touchpoints.",
+      "include_when": [
+        "A named customer-experience personalization or recommendation activity is explicitly AI-linked."
+      ],
+      "exclude_when": [
+        "Generic personalization, segmentation, CRM, or lifecycle marketing with no AI link; a product description with no role responsibility."
+      ],
+      "minimum_evidence": [
+        "A named customer-experience personalization or recommendation activity is explicitly AI-linked."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "experience_commerce",
+      "branch": "Customer experience & commerce",
+      "id": "marketing_conversational_commerce",
+      "short_id": "M06",
+      "title": "Shape conversational AI customer experiences",
+      "definition": "Design, deploy, optimize, or oversee customer-facing conversational AI, assistants, chatbots, or agents for marketing, engagement, or commerce.",
+      "include_when": [
+        "An explicit AI/conversational automation mechanism is linked to a customer-facing marketing or commerce experience and this role."
+      ],
+      "exclude_when": [
+        "Using ChatGPT internally; sales outreach automation without conversational interaction; generic chatbot employer descriptions."
+      ],
+      "minimum_evidence": [
+        "An explicit AI/conversational automation mechanism is linked to a customer-facing marketing or commerce experience and this role."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "experience_commerce",
+      "branch": "Customer experience & commerce",
+      "id": "marketing_ai_experience_experiments",
+      "short_id": "M07",
+      "title": "Evaluate AI-driven marketing experiences",
+      "definition": "Experiment on, evaluate, or set success criteria for AI-driven marketing experiences, recommendations, or customer interactions.",
+      "include_when": [
+        "Testing, experimentation, quality evaluation, or success criteria are linked specifically to an AI experience or system."
+      ],
+      "exclude_when": [
+        "Ordinary campaign A/B tests without AI linkage; using AI to analyze test results alone; generic measurement of an AI product business."
+      ],
+      "minimum_evidence": [
+        "Testing, experimentation, quality evaluation, or success criteria are linked specifically to an AI experience or system."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "experience_commerce",
+      "branch": "Customer experience & commerce",
+      "id": "marketing_ai_prototyping",
+      "short_id": "M08",
+      "title": "Build marketing prototypes with AI",
+      "definition": "Use AI tools to build marketing or commerce prototypes, demos, mockups, or proofs of concept.",
+      "include_when": [
+        "AI is explicitly used to create a prototype, demonstration, mockup, or proof of concept; retain stated purpose and do not infer production delivery."
+      ],
+      "exclude_when": [
+        "Generating finished campaign content alone; describing a product demo without evidence that AI helps build it; familiarity with prototypes."
+      ],
+      "minimum_evidence": [
+        "AI is explicitly used to create a prototype, demonstration, mockup, or proof of concept; retain stated purpose and do not infer production delivery."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "channel_partner",
+      "branch": "Channel & partner marketing",
+      "id": "marketing_ai_content",
+      "short_id": "M09",
+      "title": "Create and adapt marketing content with AI",
+      "definition": "Use AI to generate, edit, repurpose, or adapt marketing copy, imagery, video, creative assets, or campaign content.",
+      "include_when": [
+        "AI is explicitly linked to producing, editing, repurposing, or adapting a named marketing content or creative artifact."
+      ],
+      "exclude_when": [
+        "General content creation or creative direction with no AI link; messaging an AI product; localization can additionally receive M10 when explicit."
+      ],
+      "minimum_evidence": [
+        "AI is explicitly linked to producing, editing, repurposing, or adapting a named marketing content or creative artifact."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "channel_partner",
+      "branch": "Channel & partner marketing",
+      "id": "marketing_ai_localization",
+      "short_id": "M10",
+      "title": "Localize marketing with AI",
+      "definition": "Use or implement AI for translation, localization, transcreation, or cultural adaptation of marketing materials and experiences.",
+      "include_when": [
+        "An explicit AI link to localization, translation, transcreation, or regional/cultural adaptation of marketing work."
+      ],
+      "exclude_when": [
+        "Global or regional marketing experience alone; generic content adaptation with no regional/language component; multilingual AI-product marketing alone."
+      ],
+      "minimum_evidence": [
+        "An explicit AI link to localization, translation, transcreation, or regional/cultural adaptation of marketing work."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "channel_partner",
+      "branch": "Channel & partner marketing",
+      "id": "marketing_ai_channel_optimization",
+      "short_id": "M11",
+      "title": "Optimize channels and campaigns with AI",
+      "definition": "Use AI-powered targeting, bidding, channel allocation, search optimization, campaign optimization, lead scoring, or marketing decision systems.",
+      "include_when": [
+        "AI is explicitly linked to a named targeting, search, channel, campaign, scoring, or allocation action; a named platform alone is insufficient."
+      ],
+      "exclude_when": [
+        "Marketing automation, analytics, ad platforms, SEO, or A/B testing without explicit AI linkage; generic AI familiarity; marketing an AI optimization product."
+      ],
+      "minimum_evidence": [
+        "AI is explicitly linked to a named targeting, search, channel, campaign, scoring, or allocation action; a named platform alone is insufficient."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "channel_partner",
+      "branch": "Channel & partner marketing",
+      "id": "marketing_ai_partner_enablement",
+      "short_id": "M12",
+      "title": "Enable partners and teams to market with AI",
+      "definition": "Train, coach, equip, or enable partners, agencies, retailers, sellers, or marketing teams to use AI capabilities in their work.",
+      "include_when": [
+        "AI use or capability is linked to enabling other people through training, playbooks, coaching, tools, or partner programs."
+      ],
+      "exclude_when": [
+        "Individual tool use; partner marketing for an AI product without AI-use enablement; using existing partner AI tools is not building those tools."
+      ],
+      "minimum_evidence": [
+        "AI use or capability is linked to enabling other people through training, playbooks, coaching, tools, or partner programs."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "channel_partner",
+      "branch": "Channel & partner marketing",
+      "id": "marketing_ai_search_discovery",
+      "short_id": "M19",
+      "title": "Optimize content for AI search and discovery",
+      "definition": "Adapt, optimize, measure, or plan marketing content and digital presence for generative search, answer engines, AI recommendations, or AI-mediated discovery.",
+      "include_when": [
+        "An advertised role activity explicitly concerns AI-search visibility, answer/generative-engine optimization, or discovery through AI systems. Record whether the marketer actually uses AI tools separately."
+      ],
+      "exclude_when": [
+        "Ordinary SEO without AI linkage; simply using AI to perform SEO research; employer branding about AI; do not infer personal AI-tool use from AI-search visibility."
+      ],
+      "minimum_evidence": [
+        "An advertised role activity explicitly concerns AI-search visibility, answer/generative-engine optimization, or discovery through AI systems. Record whether the marketer actually uses AI tools separately."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "transformation_operations",
+      "branch": "Marketing transformation & operations",
+      "id": "marketing_ai_automation",
+      "short_id": "M13",
+      "title": "Build AI marketing workflows and agents",
+      "definition": "Build, configure, integrate, or automate repeatable marketing workflows using AI tools, agents, prompts, scripts, or integrations.",
+      "include_when": [
+        "The passage explicitly links AI to construction/configuration/integration of repeatable marketing workflows or agents; normal tool use does not establish building."
+      ],
+      "exclude_when": [
+        "Generic marketing automation without AI; adoption or oversight of an existing agent; one-off prompting without reusable workflow evidence."
+      ],
+      "minimum_evidence": [
+        "The passage explicitly links AI to construction/configuration/integration of repeatable marketing workflows or agents; normal tool use does not establish building."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "transformation_operations",
+      "branch": "Marketing transformation & operations",
+      "id": "marketing_ai_data_infrastructure",
+      "short_id": "M14",
+      "title": "Prepare marketing data and knowledge for AI",
+      "definition": "Create, curate, integrate, or govern the customer data, knowledge, brand information, or measurement infrastructure used by AI marketing systems.",
+      "include_when": [
+        "A specified data/knowledge infrastructure activity has an explicit AI application or consumer."
+      ],
+      "exclude_when": [
+        "CRM, CDP, data quality, dashboards, or knowledge management with no AI link; individual analysis of customer data alone."
+      ],
+      "minimum_evidence": [
+        "A specified data/knowledge infrastructure activity has an explicit AI application or consumer."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "transformation_operations",
+      "branch": "Marketing transformation & operations",
+      "id": "marketing_ai_adoption",
+      "short_id": "M15",
+      "title": "Lead AI adoption in marketing",
+      "definition": "Identify, evaluate, pilot, adopt, or scale AI capabilities across marketing processes or teams.",
+      "include_when": [
+        "An organizational marketing AI adoption activity or responsibility is explicit; retain explore/pilot/operate only when the source supports that stage."
+      ],
+      "exclude_when": [
+        "Personal curiosity or generic AI fluency; simply using a tool for one task; company-level AI ambition without a responsibility for this role."
+      ],
+      "minimum_evidence": [
+        "An organizational marketing AI adoption activity or responsibility is explicit; retain explore/pilot/operate only when the source supports that stage."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "transformation_operations",
+      "branch": "Marketing transformation & operations",
+      "id": "marketing_ai_output_verification",
+      "short_id": "M16",
+      "title": "Verify AI-generated marketing outputs",
+      "definition": "Check AI-generated marketing work for factual accuracy, evidence, brand quality, bias, suitability, or other explicitly stated quality criteria.",
+      "include_when": [
+        "A review, verification, quality-control, or human-judgment action is explicitly linked to AI-generated output."
+      ],
+      "exclude_when": [
+        "AI-assisted generation or synthesis alone; generic attention to detail; brand stewardship without an AI-output link; governance policies without output review."
+      ],
+      "minimum_evidence": [
+        "A review, verification, quality-control, or human-judgment action is explicitly linked to AI-generated output."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "transformation_operations",
+      "branch": "Marketing transformation & operations",
+      "id": "marketing_ai_governance",
+      "short_id": "M17",
+      "title": "Set safeguards for AI marketing",
+      "definition": "Define or apply safeguards for privacy, consent, copyright, bias, legal compliance, disclosure, accountability, or human oversight in marketing AI use.",
+      "include_when": [
+        "A named risk, safeguard, policy, governance, or oversight responsibility is explicitly linked to marketing AI."
+      ],
+      "exclude_when": [
+        "Generic marketing compliance or responsible behavior with no AI link; recruitment AI disclosure; output verification alone unless a safeguard is also explicit."
+      ],
+      "minimum_evidence": [
+        "A named risk, safeguard, policy, governance, or oversight responsibility is explicitly linked to marketing AI."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "transformation_operations",
+      "branch": "Marketing transformation & operations",
+      "id": "marketing_ai_outcomes",
+      "short_id": "M18",
+      "title": "Measure the value of marketing AI adoption",
+      "definition": "Assess the productivity, quality, commercial, customer, or organizational outcomes of adopting AI in marketing work.",
+      "include_when": [
+        "Measurement or evaluation is explicitly about the impact/value of adopting or using AI in marketing processes, teams, or experiences."
+      ],
+      "exclude_when": [
+        "Generic marketing ROI or analytics with no AI link; promised benefits in employer branding; revenue metrics for an AI product alone."
+      ],
+      "minimum_evidence": [
+        "Measurement or evaluation is explicitly about the impact/value of adopting or using AI in marketing processes, teams, or experiences."
+      ]
+    },
+    {
+      "role": "marketing",
+      "branch_id": "transformation_operations",
+      "branch": "Marketing transformation & operations",
+      "id": "marketing_ai_analytics_toolbuilding",
+      "short_id": "M20",
+      "title": "Build analytics tools with AI coding",
+      "definition": "Use AI coding tools or vibe coding to create dashboards, reports, scripts, or internal analytics applications for marketing work.",
+      "include_when": [
+        "Building a marketing analytics artifact is explicitly linked to AI-assisted coding or vibe coding, either directly or through directly linked full-ad context. Preserve packaged-tool alternatives; a typo such as vide code alone is an unresolved recall lead."
+      ],
+      "exclude_when": [
+        "Using a packaged dashboard; ordinary coding without AI linkage; using an existing AI analytics tool; prototypes without analytics purpose; generic AI workflow automation; do not infer production deployment."
+      ],
+      "minimum_evidence": [
+        "Building a marketing analytics artifact is explicitly linked to AI-assisted coding or vibe coding, either directly or through directly linked full-ad context. Preserve packaged-tool alternatives; a typo such as vide code alone is an unresolved recall lead."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "ai_applications",
+      "branch": "Building and deploying AI applications",
+      "id": "swe_S01",
+      "short_id": "S01",
+      "title": "LLM foundations",
+      "definition": "Knowledge or applied use of LLM behavior, prompting, model selection, context windows, or transformer/foundation-model capabilities.",
+      "include_when": [
+        "An explicit role duty or knowledge requirement involving LLMs, prompting, or foundation models."
+      ],
+      "exclude_when": [
+        "A tool name alone or company AI branding is not LLM foundations."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "ai_applications",
+      "branch": "Building and deploying AI applications",
+      "id": "swe_S02",
+      "short_id": "S02",
+      "title": "Grounding models with data",
+      "definition": "Ground an AI model in external information through retrieval, embeddings, vector search, knowledge sources, or retrieval-augmented generation.",
+      "include_when": [
+        "A role-linked RAG, grounding, retrieval/embedding, or vector-search requirement tied to AI."
+      ],
+      "exclude_when": [
+        "Ordinary database administration and information retrieval without AI linkage are excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "ai_applications",
+      "branch": "Building and deploying AI applications",
+      "id": "swe_S03",
+      "short_id": "S03",
+      "title": "Building agentic systems",
+      "definition": "Build or design AI agents, tool-using models, agent orchestration, or multi-agent applications.",
+      "include_when": [
+        "Agent implementation, orchestration, agent architecture, or named agent frameworks in duties or qualifications."
+      ],
+      "exclude_when": [
+        "Using a coding assistant alone is not building an agentic system; sales/customer agents and ordinary software daemons are excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "ai_applications",
+      "branch": "Building and deploying AI applications",
+      "id": "swe_S04",
+      "short_id": "S04",
+      "title": "Evaluation-driven development",
+      "definition": "Develop or apply evaluations of AI/model outputs to guide application quality and iteration.",
+      "include_when": [
+        "Explicit AI evaluation, model benchmarking, eval datasets, hallucination tests, or model-output quality measurement."
+      ],
+      "exclude_when": [
+        "Generic software testing, system performance testing, or interviewing candidates is excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "ai_applications",
+      "branch": "Building and deploying AI applications",
+      "id": "swe_S05",
+      "short_id": "S05",
+      "title": "Operating in production",
+      "definition": "Deploy, serve, monitor, optimize, or maintain AI models and applications in production.",
+      "include_when": [
+        "AI/model serving, inference infrastructure, MLOps/LLMOps, production model deployment, or AI observability."
+      ],
+      "exclude_when": [
+        "Generic deployment or production work without AI linkage belongs to software fundamentals."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "ai_applications",
+      "branch": "Building and deploying AI applications",
+      "id": "swe_S06",
+      "short_id": "S06",
+      "title": "Machine learning foundations",
+      "definition": "Understand or apply machine-learning methods, training, statistical learning, model architectures, or learning frameworks.",
+      "include_when": [
+        "Explicit ML-method or framework knowledge/application in duties or qualifications."
+      ],
+      "exclude_when": [
+        "Company-level AI claims alone, general analytics, and generic tool enthusiasm are excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "software_fundamentals",
+      "branch": "Software engineering fundamentals",
+      "id": "swe_S07",
+      "short_id": "S07",
+      "title": "Building full-stack applications",
+      "definition": "Build software applications, including front-end, back-end, full-stack, web, or mobile components and APIs.",
+      "include_when": [
+        "Specific application/component development or relevant front/back/mobile/web development qualifications."
+      ],
+      "exclude_when": [
+        "Generic familiarity with software or employer product descriptions alone are excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "software_fundamentals",
+      "branch": "Software engineering fundamentals",
+      "id": "swe_S08",
+      "short_id": "S08",
+      "title": "Managing data",
+      "definition": "Design, transform, store, or manage data used by software systems.",
+      "include_when": [
+        "Database, schema, data pipeline, ETL, data modeling, or storage engineering duties/qualifications."
+      ],
+      "exclude_when": [
+        "Merely reading data or a product being data-driven is excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "software_fundamentals",
+      "branch": "Software engineering fundamentals",
+      "id": "swe_S09",
+      "short_id": "S09",
+      "title": "Designing system architectures",
+      "definition": "Design system-level software architecture, services, integrations, or distributed-system structures.",
+      "include_when": [
+        "Software/distributed-system architecture or design responsibilities/knowledge."
+      ],
+      "exclude_when": [
+        "Architectural roles for buildings or hardware alone are excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "software_fundamentals",
+      "branch": "Software engineering fundamentals",
+      "id": "swe_S10",
+      "short_id": "S10",
+      "title": "Making systems secure and reliable",
+      "definition": "Engineer and verify secure, reliable software, including testing, debugging, resilience, and software security.",
+      "include_when": [
+        "Explicit software testing, debugging, secure development, reliability, or security engineering."
+      ],
+      "exclude_when": [
+        "Corporate security policies and generic culture language alone are excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "software_fundamentals",
+      "branch": "Software engineering fundamentals",
+      "id": "swe_S11",
+      "short_id": "S11",
+      "title": "Scaling and operating in production",
+      "definition": "Scale, deploy, operate, and maintain software systems, infrastructure, CI/CD, or service observability.",
+      "include_when": [
+        "Explicit production software operations, deployment, CI/CD, infrastructure automation, or scaling."
+      ],
+      "exclude_when": [
+        "Operating machinery, nonsoftware field service, or company scale alone is excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "coding_agents",
+      "branch": "Using coding agents",
+      "id": "swe_S12",
+      "short_id": "S12",
+      "title": "Directing the workflow",
+      "definition": "Direct AI coding assistants by decomposing tasks, prompting, providing context, and managing an AI-assisted development workflow.",
+      "include_when": [
+        "Explicit use or direction of a coding agent/assistant for coding tasks."
+      ],
+      "exclude_when": [
+        "Building an AI customer-facing product does not establish using AI to write its code."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "coding_agents",
+      "branch": "Using coding agents",
+      "id": "swe_S13",
+      "short_id": "S13",
+      "title": "Enabling agent autonomy",
+      "definition": "Delegate multi-step software work to coding agents with suitable tools, permissions, environments, or supervision.",
+      "include_when": [
+        "Explicit autonomous coding-agent workflows, agent delegation, or multi-step agent execution in development."
+      ],
+      "exclude_when": [
+        "A generic coding-assistant tool mention or a product-side autonomous agent does not suffice."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "coding_agents",
+      "branch": "Using coding agents",
+      "id": "swe_S14",
+      "short_id": "S14",
+      "title": "Reviewing the work",
+      "definition": "Review, test, debug, validate, or verify code or changes generated by AI coding tools.",
+      "include_when": [
+        "An explicit link between AI-generated coding output and human review/testing/verification."
+      ],
+      "exclude_when": [
+        "Ordinary code review or AI recruiting assessment is excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "coding_agents",
+      "branch": "Using coding agents",
+      "id": "swe_S15",
+      "short_id": "S15",
+      "title": "Customizing the agent and its environment",
+      "definition": "Configure or customize coding agents with development context, tools, integrations, instructions, or environments.",
+      "include_when": [
+        "Explicit coding-agent customization, rules/context files, development tool integrations, or MCP integrations for coding."
+      ],
+      "exclude_when": [
+        "Generic model customization or product agents without software-development purpose is excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "coding_agents",
+      "branch": "Using coding agents",
+      "id": "swe_S16",
+      "short_id": "S16",
+      "title": "Coding agent foundations",
+      "definition": "Understand AI coding tools and their capabilities, limitations, or effective use.",
+      "include_when": [
+        "Role-linked experience/familiarity with named AI coding assistants or explicit AI-assisted software-development tools."
+      ],
+      "exclude_when": [
+        "AI enthusiasm, employer subscriptions, or optional recruiting-tool access alone are excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "shaping",
+      "branch": "Shaping the build",
+      "id": "swe_S17",
+      "short_id": "S17",
+      "title": "Driving the build loop",
+      "definition": "Drive iterative software delivery from feedback through implementation, testing, release, and improvement.",
+      "include_when": [
+        "Explicit iterative delivery, experimentation, feedback-led development, or end-to-end build/release cycles."
+      ],
+      "exclude_when": [
+        "A generic mention of an agile workplace or continuous improvement alone is excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "shaping",
+      "branch": "Shaping the build",
+      "id": "swe_S18",
+      "short_id": "S18",
+      "title": "Making product decisions",
+      "definition": "Make software-product choices using customer needs, requirements, prioritization, user evidence, or tradeoffs.",
+      "include_when": [
+        "Explicit responsibility to shape product requirements/priorities or make product tradeoffs with user/business context."
+      ],
+      "exclude_when": [
+        "Pure task execution without product-decision involvement is excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "shaping",
+      "branch": "Shaping the build",
+      "id": "swe_S19",
+      "short_id": "S19",
+      "title": "Communicating and leading",
+      "definition": "Communicate technical decisions and coordinate, mentor, or lead colleagues in software delivery.",
+      "include_when": [
+        "Technical communication/collaboration, engineering mentorship, or team leadership expectations."
+      ],
+      "exclude_when": [
+        "Company teamwork slogans alone are excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    },
+    {
+      "role": "swe",
+      "branch_id": "shaping",
+      "branch": "Shaping the build",
+      "id": "swe_S20",
+      "short_id": "S20",
+      "title": "High-agency ownership",
+      "definition": "Take initiative and ownership for software outcomes, including ambiguous problems and delivery across boundaries.",
+      "include_when": [
+        "Explicit autonomous ownership, initiative, proactive problem-solving, or end-to-end accountability."
+      ],
+      "exclude_when": [
+        "Generic company values such as entrepreneurial culture without a candidate expectation are excluded."
+      ],
+      "minimum_evidence": [
+        "An exact role-linked duty or qualification span; company/product context and recruiting instructions alone are excluded."
+      ]
+    }
+  ]
+}

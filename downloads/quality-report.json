@@ -1,0 +1,642 @@
+{
+  "version": "quality-audit-2026-10-26",
+  "geography_version": "swe-body-location-headers-v1.2-2026-10-26",
+  "interpretation": "Sensitivity variants, not corrected population estimates. Main samples are retained. Automated AI signals remain unvalidated. Geography is a rule-assisted audit, not independent ground truth.",
+  "roles": {
+    "uxr": {
+      "n": 346,
+      "geography_classifications": {
+        "us_corroborated_raw_job_location": 319,
+        "conflicting_singular_role_locations": 8,
+        "us_country_field_only": 11,
+        "us_and_non_us_location_options": 7,
+        "unknown_or_global_remote_us_eligibility_unresolved": 1
+      },
+      "non_US_or_unresolved_after_body_check_n": 9,
+      "largest_source_employer": {
+        "name": "Etsy",
+        "ads": 7
+      },
+      "unique_exact_text_hashes": 334,
+      "sensitivity": {
+        "retained_cohort": {
+          "n": 346,
+          "automatic_signal_counts": {
+            "any_ai_reference": 205,
+            "workflow": 122,
+            "product": 73,
+            "enablement": 70
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 59.25,
+            "workflow": 35.26,
+            "product": 21.1,
+            "enablement": 20.23
+          }
+        },
+        "corroborated_US": {
+          "n": 326,
+          "automatic_signal_counts": {
+            "any_ai_reference": 191,
+            "workflow": 111,
+            "product": 65,
+            "enablement": 66
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 58.59,
+            "workflow": 34.05,
+            "product": 19.94,
+            "enablement": 20.25
+          }
+        },
+        "known_2026_original_date": {
+          "n": 315,
+          "automatic_signal_counts": {
+            "any_ai_reference": 193,
+            "workflow": 117,
+            "product": 69,
+            "enablement": 65
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 61.27,
+            "workflow": 37.14,
+            "product": 21.9,
+            "enablement": 20.63
+          }
+        },
+        "posted_since_2026_07_18": {
+          "n": 141,
+          "automatic_signal_counts": {
+            "any_ai_reference": 93,
+            "workflow": 59,
+            "product": 37,
+            "enablement": 35
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 65.96,
+            "workflow": 41.84,
+            "product": 26.24,
+            "enablement": 24.82
+          }
+        },
+        "active_at_snapshot": {
+          "n": 79,
+          "automatic_signal_counts": {
+            "any_ai_reference": 57,
+            "workflow": 35,
+            "product": 22,
+            "enablement": 19
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 72.15,
+            "workflow": 44.3,
+            "product": 27.85,
+            "enablement": 24.05
+          }
+        },
+        "excluding_largest_source_employer": {
+          "n": 339,
+          "automatic_signal_counts": {
+            "any_ai_reference": 202,
+            "workflow": 120,
+            "product": 72,
+            "enablement": 69
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 59.59,
+            "workflow": 35.4,
+            "product": 21.24,
+            "enablement": 20.35
+          }
+        },
+        "one_record_per_exact_text_hash": {
+          "n": 334,
+          "automatic_signal_counts": {
+            "any_ai_reference": 200,
+            "workflow": 118,
+            "product": 71,
+            "enablement": 68
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 59.88,
+            "workflow": 35.33,
+            "product": 21.26,
+            "enablement": 20.36
+          }
+        }
+      }
+    },
+    "design": {
+      "n": 500,
+      "geography_classifications": {
+        "us_corroborated_raw_job_location": 448,
+        "us_country_field_only": 38,
+        "us_and_non_us_location_options": 13,
+        "explicit_non_us_conflicts_with_us_label": 1
+      },
+      "non_US_or_unresolved_after_body_check_n": 1,
+      "largest_source_employer": {
+        "name": "Photon",
+        "ads": 5
+      },
+      "unique_exact_text_hashes": 494,
+      "sensitivity": {
+        "retained_cohort": {
+          "n": 500,
+          "automatic_signal_counts": {
+            "any_ai_reference": 341,
+            "workflow": 238,
+            "product": 174,
+            "enablement": 123
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 68.2,
+            "workflow": 47.6,
+            "product": 34.8,
+            "enablement": 24.6
+          }
+        },
+        "corroborated_US": {
+          "n": 461,
+          "automatic_signal_counts": {
+            "any_ai_reference": 318,
+            "workflow": 221,
+            "product": 164,
+            "enablement": 116
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 68.98,
+            "workflow": 47.94,
+            "product": 35.57,
+            "enablement": 25.16
+          }
+        },
+        "known_2026_original_date": {
+          "n": 442,
+          "automatic_signal_counts": {
+            "any_ai_reference": 307,
+            "workflow": 215,
+            "product": 157,
+            "enablement": 112
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 69.46,
+            "workflow": 48.64,
+            "product": 35.52,
+            "enablement": 25.34
+          }
+        },
+        "posted_since_2026_07_18": {
+          "n": 193,
+          "automatic_signal_counts": {
+            "any_ai_reference": 137,
+            "workflow": 97,
+            "product": 75,
+            "enablement": 53
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 70.98,
+            "workflow": 50.26,
+            "product": 38.86,
+            "enablement": 27.46
+          }
+        },
+        "active_at_snapshot": {
+          "n": 150,
+          "automatic_signal_counts": {
+            "any_ai_reference": 112,
+            "workflow": 76,
+            "product": 65,
+            "enablement": 41
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 74.67,
+            "workflow": 50.67,
+            "product": 43.33,
+            "enablement": 27.33
+          }
+        },
+        "excluding_largest_source_employer": {
+          "n": 495,
+          "automatic_signal_counts": {
+            "any_ai_reference": 339,
+            "workflow": 237,
+            "product": 173,
+            "enablement": 123
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 68.48,
+            "workflow": 47.88,
+            "product": 34.95,
+            "enablement": 24.85
+          }
+        },
+        "one_record_per_exact_text_hash": {
+          "n": 494,
+          "automatic_signal_counts": {
+            "any_ai_reference": 336,
+            "workflow": 233,
+            "product": 170,
+            "enablement": 119
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 68.02,
+            "workflow": 47.17,
+            "product": 34.41,
+            "enablement": 24.09
+          }
+        }
+      }
+    },
+    "pm": {
+      "n": 500,
+      "geography_classifications": {
+        "us_corroborated_raw_job_location": 459,
+        "us_and_non_us_location_options": 12,
+        "us_country_field_only": 29
+      },
+      "non_US_or_unresolved_after_body_check_n": 0,
+      "largest_source_employer": {
+        "name": "Salesforce",
+        "ads": 5
+      },
+      "unique_exact_text_hashes": 495,
+      "sensitivity": {
+        "retained_cohort": {
+          "n": 500,
+          "automatic_signal_counts": {
+            "any_ai_reference": 326,
+            "workflow": 166,
+            "product": 150,
+            "enablement": 140
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 65.2,
+            "workflow": 33.2,
+            "product": 30.0,
+            "enablement": 28.0
+          }
+        },
+        "corroborated_US": {
+          "n": 471,
+          "automatic_signal_counts": {
+            "any_ai_reference": 311,
+            "workflow": 159,
+            "product": 141,
+            "enablement": 132
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 66.03,
+            "workflow": 33.76,
+            "product": 29.94,
+            "enablement": 28.03
+          }
+        },
+        "known_2026_original_date": {
+          "n": 439,
+          "automatic_signal_counts": {
+            "any_ai_reference": 291,
+            "workflow": 148,
+            "product": 138,
+            "enablement": 124
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 66.29,
+            "workflow": 33.71,
+            "product": 31.44,
+            "enablement": 28.25
+          }
+        },
+        "posted_since_2026_07_18": {
+          "n": 171,
+          "automatic_signal_counts": {
+            "any_ai_reference": 114,
+            "workflow": 62,
+            "product": 54,
+            "enablement": 49
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 66.67,
+            "workflow": 36.26,
+            "product": 31.58,
+            "enablement": 28.65
+          }
+        },
+        "active_at_snapshot": {
+          "n": 114,
+          "automatic_signal_counts": {
+            "any_ai_reference": 83,
+            "workflow": 42,
+            "product": 33,
+            "enablement": 33
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 72.81,
+            "workflow": 36.84,
+            "product": 28.95,
+            "enablement": 28.95
+          }
+        },
+        "excluding_largest_source_employer": {
+          "n": 495,
+          "automatic_signal_counts": {
+            "any_ai_reference": 321,
+            "workflow": 166,
+            "product": 148,
+            "enablement": 138
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 64.85,
+            "workflow": 33.54,
+            "product": 29.9,
+            "enablement": 27.88
+          }
+        },
+        "one_record_per_exact_text_hash": {
+          "n": 495,
+          "automatic_signal_counts": {
+            "any_ai_reference": 323,
+            "workflow": 164,
+            "product": 150,
+            "enablement": 139
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 65.25,
+            "workflow": 33.13,
+            "product": 30.3,
+            "enablement": 28.08
+          }
+        }
+      }
+    },
+    "marketing": {
+      "n": 500,
+      "geography_classifications": {
+        "us_corroborated_raw_job_location": 480,
+        "us_country_field_only": 18,
+        "us_and_non_us_location_options": 2
+      },
+      "non_US_or_unresolved_after_body_check_n": 0,
+      "largest_source_employer": {
+        "name": "Red Bull",
+        "ads": 5
+      },
+      "unique_exact_text_hashes": 499,
+      "sensitivity": {
+        "retained_cohort": {
+          "n": 500,
+          "automatic_signal_counts": {
+            "any_ai_reference": 186,
+            "workflow": 85,
+            "product": 51,
+            "enablement": 57
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 37.2,
+            "workflow": 17.0,
+            "product": 10.2,
+            "enablement": 11.4
+          }
+        },
+        "corroborated_US": {
+          "n": 482,
+          "automatic_signal_counts": {
+            "any_ai_reference": 180,
+            "workflow": 80,
+            "product": 50,
+            "enablement": 56
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 37.34,
+            "workflow": 16.6,
+            "product": 10.37,
+            "enablement": 11.62
+          }
+        },
+        "known_2026_original_date": {
+          "n": 419,
+          "automatic_signal_counts": {
+            "any_ai_reference": 165,
+            "workflow": 71,
+            "product": 45,
+            "enablement": 53
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 39.38,
+            "workflow": 16.95,
+            "product": 10.74,
+            "enablement": 12.65
+          }
+        },
+        "posted_since_2026_07_18": {
+          "n": 190,
+          "automatic_signal_counts": {
+            "any_ai_reference": 75,
+            "workflow": 25,
+            "product": 21,
+            "enablement": 27
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 39.47,
+            "workflow": 13.16,
+            "product": 11.05,
+            "enablement": 14.21
+          }
+        },
+        "active_at_snapshot": {
+          "n": 115,
+          "automatic_signal_counts": {
+            "any_ai_reference": 53,
+            "workflow": 24,
+            "product": 16,
+            "enablement": 18
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 46.09,
+            "workflow": 20.87,
+            "product": 13.91,
+            "enablement": 15.65
+          }
+        },
+        "excluding_largest_source_employer": {
+          "n": 495,
+          "automatic_signal_counts": {
+            "any_ai_reference": 186,
+            "workflow": 85,
+            "product": 51,
+            "enablement": 57
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 37.58,
+            "workflow": 17.17,
+            "product": 10.3,
+            "enablement": 11.52
+          }
+        },
+        "one_record_per_exact_text_hash": {
+          "n": 499,
+          "automatic_signal_counts": {
+            "any_ai_reference": 186,
+            "workflow": 85,
+            "product": 51,
+            "enablement": 57
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 37.27,
+            "workflow": 17.03,
+            "product": 10.22,
+            "enablement": 11.42
+          }
+        }
+      }
+    },
+    "swe": {
+      "n": 1000,
+      "geography_classifications": {
+        "us_corroborated_raw_job_location": 974,
+        "us_country_field_only": 22,
+        "us_and_non_us_location_options": 4
+      },
+      "non_US_or_unresolved_after_body_check_n": 0,
+      "largest_source_employer": {
+        "name": "Syms Strategic Group",
+        "ads": 48
+      },
+      "unique_exact_text_hashes": 971,
+      "sensitivity": {
+        "retained_cohort": {
+          "n": 1000,
+          "automatic_signal_counts": {
+            "any_ai_reference": 512,
+            "workflow": 260,
+            "product": 222,
+            "enablement": 214
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 51.2,
+            "workflow": 26.0,
+            "product": 22.2,
+            "enablement": 21.4
+          }
+        },
+        "corroborated_US": {
+          "n": 978,
+          "automatic_signal_counts": {
+            "any_ai_reference": 498,
+            "workflow": 250,
+            "product": 212,
+            "enablement": 207
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 50.92,
+            "workflow": 25.56,
+            "product": 21.68,
+            "enablement": 21.17
+          }
+        },
+        "known_2026_original_date": {
+          "n": 811,
+          "automatic_signal_counts": {
+            "any_ai_reference": 452,
+            "workflow": 226,
+            "product": 196,
+            "enablement": 186
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 55.73,
+            "workflow": 27.87,
+            "product": 24.17,
+            "enablement": 22.93
+          }
+        },
+        "posted_since_2026_07_18": {
+          "n": 369,
+          "automatic_signal_counts": {
+            "any_ai_reference": 212,
+            "workflow": 108,
+            "product": 94,
+            "enablement": 92
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 57.45,
+            "workflow": 29.27,
+            "product": 25.47,
+            "enablement": 24.93
+          }
+        },
+        "active_at_snapshot": {
+          "n": 319,
+          "automatic_signal_counts": {
+            "any_ai_reference": 176,
+            "workflow": 77,
+            "product": 77,
+            "enablement": 67
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 55.17,
+            "workflow": 24.14,
+            "product": 24.14,
+            "enablement": 21.0
+          }
+        },
+        "excluding_largest_source_employer": {
+          "n": 952,
+          "automatic_signal_counts": {
+            "any_ai_reference": 512,
+            "workflow": 260,
+            "product": 222,
+            "enablement": 214
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 53.78,
+            "workflow": 27.31,
+            "product": 23.32,
+            "enablement": 22.48
+          }
+        },
+        "one_record_per_exact_text_hash": {
+          "n": 971,
+          "automatic_signal_counts": {
+            "any_ai_reference": 512,
+            "workflow": 260,
+            "product": 222,
+            "enablement": 214
+          },
+          "automatic_signal_percent": {
+            "any_ai_reference": 52.73,
+            "workflow": 26.78,
+            "product": 22.86,
+            "enablement": 22.04
+          }
+        }
+      }
+    }
+  },
+  "role_boundary_review_flags": [
+    {
+      "role": "uxr",
+      "record_id": "OJD_b85009aebc67",
+      "title": "Senior Product Designer, Studio Team",
+      "employer": "GameChanger"
+    },
+    {
+      "role": "uxr",
+      "record_id": "OJD_9d73a9904664",
+      "title": "Analytics Data Scientist",
+      "employer": "BRMi"
+    },
+    {
+      "role": "uxr",
+      "record_id": "OJD_8244bcb94960",
+      "title": "AI PM Intern",
+      "employer": "OpusClip"
+    },
+    {
+      "role": "design",
+      "record_id": "OJD_e39822d9ba66",
+      "title": "Product Manager, Design & UX",
+      "employer": "Fizz"
+    }
+  ],
+  "role_boundary_review_note": "These retained hybrid or adjacent titles need primary-role adjudication. The public release preserves original cohort membership; do not treat these flags alone as exclusions."
+}

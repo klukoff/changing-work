@@ -1,0 +1,100 @@
+role,short_id,title,count,denominator,measure,reviewed_positive_count,unreviewed_candidate_count,ai_linked_candidate_count,candidate_count
+uxr,R04,Enable self-service AI research,9,346,partial_AI_reviewed_detections,9,0,,49
+uxr,R05,Build research agents and automations,10,346,partial_AI_reviewed_detections,10,0,,59
+uxr,R06,Set human oversight for research agents,4,346,partial_AI_reviewed_detections,4,0,,11
+uxr,R07,Contribute to an AI research repository,1,346,partial_AI_reviewed_detections,1,0,,4
+uxr,R17,Review AI research quality and safeguards,24,346,partial_AI_reviewed_detections,24,0,,66
+uxr,R09,Support continuous discovery with AI,2,346,partial_AI_reviewed_detections,2,0,,17
+uxr,R19,Conduct AI-assisted research synthesis,51,346,partial_AI_reviewed_detections,51,0,,84
+uxr,R20,Support AI-moderated usability research,1,346,partial_AI_reviewed_detections,1,0,,13
+uxr,R10,Build prototypes with AI coding tools,2,346,partial_AI_reviewed_detections,2,0,,9
+uxr,R11,Prototype from research evidence,3,346,partial_AI_reviewed_detections,3,0,,7
+uxr,R12,Create AI-assisted concepts for testing,2,346,partial_AI_reviewed_detections,2,0,,19
+uxr,R01,Build synthetic customer models,1,346,partial_AI_reviewed_detections,1,0,,2
+uxr,R02,Explore AI-assisted journey simulation,1,346,partial_AI_reviewed_detections,1,0,,1
+uxr,R03,Validate simulations against real behavior,1,346,partial_AI_reviewed_detections,1,0,,2
+uxr,R13,Develop AI evaluation criteria and materials,13,346,partial_AI_reviewed_detections,13,0,,41
+uxr,R14,Validate LLM-as-judge evaluations,2,346,partial_AI_reviewed_detections,2,0,,4
+uxr,R15,Analyze conversational AI failures,2,346,partial_AI_reviewed_detections,2,0,,5
+uxr,R16,Study human–AI interaction,27,346,partial_AI_reviewed_detections,27,0,,25
+uxr,R08,Build dashboards for AI experience metrics,1,346,partial_AI_reviewed_detections,1,0,,16
+uxr,R18,Evaluate AI adoption and outcomes,19,346,partial_AI_reviewed_detections,19,0,,30
+design,D19,Synthesize research with AI,14,500,partial_AI_reviewed_detections,14,14,,50
+design,D20,Explore design alternatives with AI,44,500,partial_AI_reviewed_detections,44,54,,155
+design,D01,Prototype with AI coding tools,36,500,partial_AI_reviewed_detections,36,34,,91
+design,D02,Prototype with existing code and components,4,500,partial_AI_reviewed_detections,4,9,,31
+design,D03,Refine and ship AI-assisted UI code,18,500,partial_AI_reviewed_detections,18,48,,135
+design,D14,Review AI-generated interfaces,11,500,partial_AI_reviewed_detections,11,3,,14
+design,D04,Make design systems usable by AI agents,14,500,partial_AI_reviewed_detections,14,10,,28
+design,D05,Create reusable design rules and agent skills,12,500,partial_AI_reviewed_detections,12,7,,23
+design,D07,"Design prompts, voice and persona",6,500,partial_AI_reviewed_detections,6,28,,64
+design,D08,Design intent and conversational context,2,500,partial_AI_reviewed_detections,2,5,,9
+design,D12,Connect conversational and visual experiences,4,500,partial_AI_reviewed_detections,4,5,,9
+design,D10,Design delegation and human control,10,500,partial_AI_reviewed_detections,10,14,,27
+design,D11,Design AI states and recovery,13,500,partial_AI_reviewed_detections,13,7,,20
+design,D17,Design for appropriate reliance,11,500,partial_AI_reviewed_detections,11,2,,4
+design,D13,Develop AI evals and regression checks,6,500,partial_AI_reviewed_detections,6,16,,43
+design,D15,Use live interaction data to improve agents,1,500,partial_AI_reviewed_detections,1,20,,54
+design,D06,Build shared AI design tools,15,500,partial_AI_reviewed_detections,15,60,,180
+design,D18,Develop and govern AI design workflows,14,500,partial_AI_reviewed_detections,14,30,,76
+design,D09,Understand AI capabilities and limits,6,500,partial_AI_reviewed_detections,6,11,,22
+design,D16,Verify AI-generated evidence and outputs,5,500,partial_AI_reviewed_detections,5,5,,16
+pm,P01,Choose when to use AI,1,500,partial_AI_reviewed_detections,1,17,,28
+pm,P02,Choose models and AI architectures,4,500,partial_AI_reviewed_detections,4,26,,51
+pm,P16,Manage AI unit economics and pricing,2,500,partial_AI_reviewed_detections,2,5,,14
+pm,P04,Define AI success criteria and evals,9,500,partial_AI_reviewed_detections,9,25,,46
+pm,P05,Diagnose AI failures,1,500,partial_AI_reviewed_detections,1,5,,8
+pm,P06,Set AI release and regression criteria,3,500,partial_AI_reviewed_detections,3,3,,7
+pm,P15,Turn production feedback into AI improvements,5,500,partial_AI_reviewed_detections,5,45,,76
+pm,P07,Specify agent orchestration,3,500,partial_AI_reviewed_detections,3,24,,41
+pm,P08,Set agent permissions and escalation,7,500,partial_AI_reviewed_detections,7,12,,19
+pm,P09,Make products accessible to AI agents,5,500,partial_AI_reviewed_detections,5,6,,10
+pm,P17,Stage AI autonomy and rollout,3,500,partial_AI_reviewed_detections,3,6,,12
+pm,P10,Build prototypes with AI,15,500,partial_AI_reviewed_detections,15,44,,64
+pm,P11,Use spec-driven development with AI,6,500,partial_AI_reviewed_detections,6,22,,38
+pm,P12,Build reusable agents for PM work,0,500,partial_AI_reviewed_detections,0,73,,118
+pm,P19,Use AI for customer and market synthesis,2,500,partial_AI_reviewed_detections,2,36,,48
+pm,P03,Translate domain expertise into AI behavior,3,500,partial_AI_reviewed_detections,3,3,,11
+pm,P13,Define AI-ready data and semantics,9,500,partial_AI_reviewed_detections,9,6,,16
+pm,P14,Specify retrieval and grounded answers,7,500,partial_AI_reviewed_detections,7,11,,20
+pm,P18,Define AI governance controls,7,500,partial_AI_reviewed_detections,7,41,,66
+marketing,M01,Analyze customer and marketing data with AI,20,500,earlier_AI_reviewed_detections,,,,
+marketing,M02,Develop marketing plans and concepts with AI,9,500,earlier_AI_reviewed_detections,,,,
+marketing,M03,Use synthetic audiences and customer simulations,0,500,earlier_AI_reviewed_detections,,,,
+marketing,M04,Develop go-to-market strategy for AI products,39,500,earlier_AI_reviewed_detections,,,,
+marketing,M05,Apply AI to personalized customer experiences,12,500,earlier_AI_reviewed_detections,,,,
+marketing,M06,Shape conversational AI customer experiences,2,500,earlier_AI_reviewed_detections,,,,
+marketing,M07,Evaluate AI-driven marketing experiences,0,500,earlier_AI_reviewed_detections,,,,
+marketing,M08,Build marketing prototypes with AI,2,500,earlier_AI_reviewed_detections,,,,
+marketing,M09,Create and adapt marketing content with AI,37,500,earlier_AI_reviewed_detections,,,,
+marketing,M10,Localize marketing with AI,3,500,earlier_AI_reviewed_detections,,,,
+marketing,M11,Optimize channels and campaigns with AI,21,500,earlier_AI_reviewed_detections,,,,
+marketing,M12,Enable partners and teams to market with AI,9,500,earlier_AI_reviewed_detections,,,,
+marketing,M19,Optimize content for AI search and discovery,18,500,earlier_AI_reviewed_detections,,,,
+marketing,M13,Build AI marketing workflows and agents,25,500,earlier_AI_reviewed_detections,,,,
+marketing,M14,Prepare marketing data and knowledge for AI,7,500,earlier_AI_reviewed_detections,,,,
+marketing,M15,Lead AI adoption in marketing,36,500,earlier_AI_reviewed_detections,,,,
+marketing,M16,Verify AI-generated marketing outputs,6,500,earlier_AI_reviewed_detections,,,,
+marketing,M17,Set safeguards for AI marketing,3,500,earlier_AI_reviewed_detections,,,,
+marketing,M18,Measure the value of marketing AI adoption,2,500,earlier_AI_reviewed_detections,,,,
+marketing,M20,Build analytics tools with AI coding,1,500,earlier_AI_reviewed_detections,,,,
+swe,S01,LLM foundations,112,1000,automated_candidates,,,112,
+swe,S02,Grounding models with data,48,1000,automated_candidates,,,48,
+swe,S03,Building agentic systems,77,1000,automated_candidates,,,77,
+swe,S04,Evaluation-driven development,37,1000,automated_candidates,,,37,
+swe,S05,Operating in production,46,1000,automated_candidates,,,46,
+swe,S06,Machine learning foundations,85,1000,automated_candidates,,,85,
+swe,S07,Building full-stack applications,832,1000,automated_candidates,,,141,
+swe,S08,Managing data,470,1000,automated_candidates,,,52,
+swe,S09,Designing system architectures,239,1000,automated_candidates,,,13,
+swe,S10,Making systems secure and reliable,656,1000,automated_candidates,,,87,
+swe,S11,Scaling and operating in production,721,1000,automated_candidates,,,104,
+swe,S12,Directing the workflow,62,1000,automated_candidates,,,62,
+swe,S13,Enabling agent autonomy,0,1000,automated_candidates,,,0,
+swe,S14,Reviewing the work,8,1000,automated_candidates,,,8,
+swe,S15,Customizing the agent and its environment,1,1000,automated_candidates,,,1,
+swe,S16,Coding agent foundations,110,1000,automated_candidates,,,110,
+swe,S17,Driving the build loop,218,1000,automated_candidates,,,34,
+swe,S18,Making product decisions,323,1000,automated_candidates,,,25,
+swe,S19,Communicating and leading,711,1000,automated_candidates,,,109,
+swe,S20,High-agency ownership,278,1000,automated_candidates,,,50,

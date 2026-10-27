@@ -1,0 +1,55 @@
+{
+  "version": "prospective-capture-v1",
+  "repository": "scholarweave/Jobs-Dataset-v2",
+  "revision": "e5dce2a8bc631fc65ba4bc1ec31e41912d15352f",
+  "captured_at": "2026-10-27T06:39:24.236799+00:00",
+  "source_updated_at": "2026-10-26T18:06:33.353379+00:00",
+  "batch": {
+    "counts": {
+      "full:active_insert": 41404,
+      "full:active_update": 172949,
+      "full:close": 31716,
+      "minimal:active_insert": 41404,
+      "minimal:active_update": 172949,
+      "minimal:close": 31716
+    },
+    "date": "2026-10-26",
+    "run_id": "2026-10-26T14-14-39Z"
+  },
+  "expected_files": 8,
+  "expected_bytes": 989177433,
+  "status": "listed_files_archived_manifest_discrepancy",
+  "interpretation": "Source change batch; inserts, updates, and closures are not newly posted vacancies.",
+  "candidate_status": "Unscreened title retrieval, not eligible occupational cohorts. No AI filter.",
+  "date_policy": "Keep posted_at, first_seen_at, observation and collection dates separate. Collector onboarding and backfills can introduce old ads.",
+  "publication_policy": "Raw descriptions and private review notes are not part of public downloads.",
+  "verified_files": 8,
+  "rows_seen": 214353,
+  "archived_event_counts": {
+    "active_update": 172949,
+    "active_insert": 41404
+  },
+  "manifest_discrepancies": {
+    "close": {
+      "manifest": 31716,
+      "archived_rows": 0
+    }
+  },
+  "completeness_note": "All listed full Parquet files verified. Event counts must reconcile before this capture can define a complete change cohort.",
+  "candidate_versions": 7697,
+  "candidate_versions_by_role": {
+    "uxr": 16,
+    "design": 678,
+    "pm": 1200,
+    "marketing": 2351,
+    "swe": 3476
+  },
+  "candidate_unique_ids_by_role": {
+    "uxr": 16,
+    "design": 678,
+    "pm": 1200,
+    "marketing": 2351,
+    "swe": 3476
+  },
+  "candidates_sha256": "9c6cb04284ef6e52fe4d2bdd2c17082cdc70d65cff413c9900cc5f17eed74212"
+}

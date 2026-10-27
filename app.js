@@ -452,6 +452,10 @@ function readRoute() {
     $('explore').scrollIntoView({ behavior: 'instant' });
     return;
   }
+  if (!role) {
+    const section = document.getElementById(parts[0]);
+    if (section) section.scrollIntoView({ behavior: 'instant' });
+  }
   if (role) {
     setView('maps', false); selectRole(role.id, false);
     if (!parts[1]) $('explore').scrollIntoView({ behavior: 'instant' });

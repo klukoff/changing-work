@@ -1,0 +1,98 @@
+{
+  "description": "The four original detailed branch diagrams published by Andrew Ng. Together these show all 20 individual skills. These are four separately published original diagrams, not a single author-published composite.",
+  "total_individual_skills": 20,
+  "images": [
+    {
+      "file": "assets/references/andrew-ng-building-ai-applications.png",
+      "branch": "Building and deploying AI applications",
+      "source_page": "https://www.linkedin.com/pulse/ai-engineering-skills-map-building-deploying-applications-andrew-ng-gyn5e",
+      "source_image": "https://media.licdn.com/dms/image/v2/D4E12AQHre1rJM__q3A/article-cover_image-shrink_720_1280/B4EaAlIYiBHYAQ-/0/1787329350419?e=2147483647&t=dMlAxvgXTkrtWyXB9IjmHsgeEu7af6FOuZFN-GpKgS0&v=beta",
+      "published_date": "2026-08-21",
+      "individual_skills": [
+        "LLM foundations",
+        "Grounding models with data",
+        "Building agentic systems",
+        "Evaluation-driven development",
+        "Operating in production",
+        "Machine learning foundations"
+      ],
+      "credit": "Andrew Ng, AI Engineering Skills Map: Building and deploying AI applications, 2026-08-21",
+      "alt": "Andrew Ng\u2019s original detailed diagram for Building and deploying AI applications, showing LLM foundations, Grounding models with data, Building agentic systems, Evaluation-driven development, Operating in production, Machine learning foundations.",
+      "width": 1279,
+      "height": 720,
+      "bytes": 245286,
+      "sha256": "0d2244240b3d4e99ee32e51e81e7798076722700efdba52aa4e9a658c6bc44eb",
+      "verified_at": "2026-10-27",
+      "modifications": "None. Original downloaded bytes preserved.",
+      "rights_note": "Original author graphic. No open license stated; original rights retained. Reproduced for discussion of the framework that inspired this independent study."
+    },
+    {
+      "file": "assets/references/andrew-ng-software-fundamentals.png",
+      "branch": "Software engineering fundamentals",
+      "source_page": "https://www.linkedin.com/pulse/ai-engineering-skills-map-software-fundamentals-andrew-ng-7lnac",
+      "source_image": "https://media.licdn.com/dms/image/v2/D5612AQGjROPoQswa6A/article-cover_image-shrink_720_1280/B56aBJVQOaG0AU-/0/1787936703638?e=2147483647&t=sFqHTeHPp5zhcoV6XR54Dkk1247726sjGb78T_AKuSU&v=beta",
+      "published_date": "2026-08-28",
+      "individual_skills": [
+        "Building full-stack applications",
+        "Managing data",
+        "Designing system architectures",
+        "Making systems secure and reliable",
+        "Scaling and operating in production"
+      ],
+      "credit": "Andrew Ng, AI Engineering Skills Map: Software engineering fundamentals, 2026-08-28",
+      "alt": "Andrew Ng\u2019s original detailed diagram for Software engineering fundamentals, showing Building full-stack applications, Managing data, Designing system architectures, Making systems secure and reliable, Scaling and operating in production.",
+      "width": 1200,
+      "height": 675,
+      "bytes": 52437,
+      "sha256": "b77bff2646eff0cbafb89ff8e3adb20940466c83f568103c4125a9d78952188b",
+      "verified_at": "2026-10-27",
+      "modifications": "None. Original downloaded bytes preserved.",
+      "rights_note": "Original author graphic. No open license stated; original rights retained. Reproduced for discussion of the framework that inspired this independent study."
+    },
+    {
+      "file": "assets/references/andrew-ng-coding-agents.png",
+      "branch": "Using coding agents",
+      "source_page": "https://www.linkedin.com/pulse/ai-engineering-skills-map-using-coding-agents-andrew-ng-h8yxc",
+      "source_image": "https://media.licdn.com/dms/image/v2/D5612AQFJEOl3Sbz0JA/article-cover_image-shrink_720_1280/B56aBs227kIAAc-/0/1788532715509?e=2147483647&t=iYxOk4Km-s8tP8Exab_T0dD_TF0mxDENbQ9VSCADllo&v=beta",
+      "published_date": "2026-09-04",
+      "individual_skills": [
+        "Directing the workflow",
+        "Enabling agent autonomy",
+        "Reviewing the work",
+        "Customizing the agent and its environment",
+        "Coding agent foundations"
+      ],
+      "credit": "Andrew Ng, AI Engineering Skills Map: Using coding agents, 2026-09-04",
+      "alt": "Andrew Ng\u2019s original detailed diagram for Using coding agents, showing Directing the workflow, Enabling agent autonomy, Reviewing the work, Customizing the agent and its environment, Coding agent foundations.",
+      "width": 1102,
+      "height": 620,
+      "bytes": 98662,
+      "sha256": "9fec4cc162b64b36c61f688da83a5697358e64be3bd42ee3f98c2dcc28b43a86",
+      "verified_at": "2026-10-27",
+      "modifications": "None. Original downloaded bytes preserved.",
+      "rights_note": "Original author graphic. No open license stated; original rights retained. Reproduced for discussion of the framework that inspired this independent study."
+    },
+    {
+      "file": "assets/references/andrew-ng-shaping-build.png",
+      "branch": "Shaping the build",
+      "source_page": "https://www.linkedin.com/pulse/ai-engineering-skills-map-shaping-build-andrew-ng-td7uc",
+      "source_image": "https://media.licdn.com/dms/image/v2/D5612AQEtU9dByEajuQ/article-cover_image-shrink_600_2000/B56aCRW4tAIMAM-/0/1789145091097?e=2147483647&t=kkwlPjxCGWQaVbR2by3YfACFbBMuehwx-HL5b1rnsYI&v=beta",
+      "published_date": "2026-09-11",
+      "individual_skills": [
+        "Driving the build loop",
+        "Making product decisions",
+        "Communicating and leading",
+        "High-agency ownership"
+      ],
+      "credit": "Andrew Ng, AI Engineering Skills Map: Shaping the build, 2026-09-11",
+      "alt": "Andrew Ng\u2019s original detailed diagram for Shaping the build, showing Driving the build loop, Making product decisions, Communicating and leading, High-agency ownership.",
+      "width": 748,
+      "height": 421,
+      "bytes": 44176,
+      "sha256": "9bbe318eb45095562559060ffeed208e3d1a1c9a86b98618053812ae66e8a800",
+      "verified_at": "2026-10-27",
+      "modifications": "None. Original downloaded bytes preserved.",
+      "rights_note": "Original author graphic. No open license stated; original rights retained. Reproduced for discussion of the framework that inspired this independent study."
+    }
+  ]
+}

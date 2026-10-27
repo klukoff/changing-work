@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Meaningful static-release checks, without browser or private source access."""
-import csv,json,re
+import csv,json,re,hashlib
+from html import unescape
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import unquote,urlsplit
@@ -10,6 +11,13 @@ s=load('data/study.json');roles=s['roles'];assert len(roles)==5
 assert sum(r['sample_n'] for r in roles)==2846
 skills=[x for r in roles for b in r['branches'] for x in b['skills']]
 assert len(skills)==99 and len({x['id'] for x in skills})==99
+ng=load('assets/references/ng-detailed-map-sources.json')
+ng_labels=[label for branch in ng['images'] for label in branch['individual_skills']]
+assert len(ng_labels)==20 and len(ng['images'])==4
+rendered_ng=[unescape(x) for x in re.findall(r'<li class="ng-skill">([^<]+)</li>',(root/'index.html').read_text())]
+assert rendered_ng==ng_labels, 'Combined Ng map must preserve all original labels and ordering'
+for diagram in ng['images']:
+ assert hashlib.sha256((root/diagram['file']).read_bytes()).hexdigest()==diagram['sha256'],diagram['file']
 for r in roles:
  for b in r['branches']:
   for sk in b['skills']:

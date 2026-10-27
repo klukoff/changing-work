@@ -45,7 +45,7 @@ def main():
       if len(item['evidence'])>=2:break
      branch['skills'].append(item)
     role['branches'].append(branch)
-   role['measurement_note']=f"Counts show ads with contextually supported evidence, not complete prevalence. {stats['contextually_reviewed_ads_n']} ads have contextually reviewed passages; {stats['unreviewed_candidate_ads_n']} initial candidate ads await review. Percentages are withheld because the entire cohort has not been reviewed. Open a skill for automated candidates and remaining uncertainty."
+   role['measurement_note']=f"Counts show ads with contextually supported evidence, not complete prevalence. {stats['contextually_reviewed_ads_n']} ads have contextually reviewed passages; {stats['unreviewed_candidate_ads_n']} initial candidate ads await review. Percentages show supporting detections recorded so far divided by all ads in the cohort. Further review can change these shares; these are not validated prevalence estimates. Open a skill for automated candidates and remaining uncertainty."
   elif r=='marketing':
    code_by={c['short_id']:c for c in mc['competencies']};counts={c['skill_id']:c for c in md['skills']}
    for b in mc['branches']:
@@ -58,7 +58,7 @@ def main():
       if len(item['evidence'])>=2:break
      branch['skills'].append(item)
     role['branches'].append(branch)
-   role['measurement_note']='Counts retain the earlier AI-assisted full-ad marketing review (500 ads), including knowledge and alternative qualifications where explicit. UXR, design and PM show reviewed detections without prevalence percentages; engineering shows automated candidates. Use Compare occupations for the same automated measure across all five; neither view is independently human validated.'
+   role['measurement_note']='Counts retain the earlier AI-assisted full-ad marketing review (500 ads), including knowledge and alternative qualifications where explicit. UXR, design and PM show the share of their full samples with supporting evidence recorded so far; engineering shows automated candidate shares. Use Compare occupations for the same automated measure across all five; neither view is independently human validated.'
   else:
    public_swe=load(swe/'public_examples.json') if (swe/'public_examples.json').exists() else []
    for b in sc['branches']:

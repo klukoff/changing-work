@@ -8,11 +8,11 @@ The October 27, 2026 exploratory release covers 2,846 occupation-ad observations
 
 ## Visual encoding
 
-All occupation maps use the same count-first cards and evidence-status labels. Card height has no data meaning. Percentages are secondary in detail panels when the coding coverage permits them. The homepage dot plot uses the same automated screen across all five cohorts on a fixed 0–100% scale, with stable occupation order and direct counts. It does not mix the occupation-specific reviewed skill counts.
+All occupation maps use the same percentage cards, recorded counts and evidence-status labels. Fixed-height bars share a 0–100% scale. Percentages divide the recorded count by the entire occupational sample, never by the candidate-selected subset of reviewed ads. Unfilled portions include ads without recorded support, unreviewed text and inconclusive evidence; they do not establish absence. These shares are descriptive results of the current coding, not validated prevalence or statistical lower bounds. The homepage dot plot uses the same automated screen across all five cohorts on a fixed 0–100% scale, with stable occupation order and direct counts. It does not mix the occupation-specific reviewed skill counts.
 
 ## What the numbers mean
 
-- UXR, design and PM maps display contextually supported detections from AI review of retrieved passages. They withhold prevalence percentages because unmatched text has not received exhaustive review.
+- UXR, design and PM maps display contextually supported detections from AI review of retrieved passages. Their percentages show the share of all sampled ads with support recorded so far. Unmatched text has not received exhaustive review, and subsequent coding can change these shares.
 - Marketing retains an earlier AI-assisted full-ad interpretation of 500 ads.
 - Engineering shows automated candidate capabilities. Ordinary engineering fundamentals are not automatically AI use.
 - The comparison table uses the same automated AI-text screen for all five occupations. It includes false positives and has unmeasured recall. It is not a ranking of workplace adoption.

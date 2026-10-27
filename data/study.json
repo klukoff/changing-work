@@ -912,7 +912,7 @@
       "known_original_date_n": 315,
       "unknown_original_date_n": 31,
       "methods_note": "346 ads · 229 source employer names · 315 known 2026 posting dates, 31 unknown dates. Active and closed ads from the October 16 snapshot.",
-      "measurement_note": "Counts show ads with contextually supported evidence, not complete prevalence. 153 ads have contextually reviewed passages; 0 initial candidate ads await review. Percentages are withheld because the entire cohort has not been reviewed. Open a skill for automated candidates and remaining uncertainty."
+      "measurement_note": "Counts show ads with contextually supported evidence, not complete prevalence. 153 ads have contextually reviewed passages; 0 initial candidate ads await review. Percentages show supporting detections recorded so far divided by all ads in the cohort. Further review can change these shares; these are not validated prevalence estimates. Open a skill for automated candidates and remaining uncertainty."
     },
     {
       "id": "design",
@@ -1866,7 +1866,7 @@
       "known_original_date_n": 442,
       "unknown_original_date_n": 58,
       "methods_note": "500 ads · 419 source employer names · 442 known 2026 posting dates, 58 unknown dates. Active and closed ads from the October 16 snapshot.",
-      "measurement_note": "Counts show ads with contextually supported evidence, not complete prevalence. 300 ads have contextually reviewed passages; 0 initial candidate ads await review. Percentages are withheld because the entire cohort has not been reviewed. Open a skill for automated candidates and remaining uncertainty."
+      "measurement_note": "Counts show ads with contextually supported evidence, not complete prevalence. 300 ads have contextually reviewed passages; 0 initial candidate ads await review. Percentages show supporting detections recorded so far divided by all ads in the cohort. Further review can change these shares; these are not validated prevalence estimates. Open a skill for automated candidates and remaining uncertainty."
     },
     {
       "id": "pm",
@@ -2765,7 +2765,7 @@
       "known_original_date_n": 439,
       "unknown_original_date_n": 61,
       "methods_note": "500 ads · 394 source employer names · 439 known 2026 posting dates, 61 unknown dates. Active and closed ads from the October 16 snapshot.",
-      "measurement_note": "Counts show ads with contextually supported evidence, not complete prevalence. 244 ads have contextually reviewed passages; 0 initial candidate ads await review. Percentages are withheld because the entire cohort has not been reviewed. Open a skill for automated candidates and remaining uncertainty."
+      "measurement_note": "Counts show ads with contextually supported evidence, not complete prevalence. 244 ads have contextually reviewed passages; 0 initial candidate ads await review. Percentages show supporting detections recorded so far divided by all ads in the cohort. Further review can change these shares; these are not validated prevalence estimates. Open a skill for automated candidates and remaining uncertainty."
     },
     {
       "id": "marketing",
@@ -3428,7 +3428,7 @@
       "known_original_date_n": 419,
       "unknown_original_date_n": 81,
       "methods_note": "500 ads · 449 source employer names · 419 known 2026 posting dates, 81 unknown dates. Active and closed ads from the October 16 snapshot.",
-      "measurement_note": "Counts retain the earlier AI-assisted full-ad marketing review (500 ads), including knowledge and alternative qualifications where explicit. UXR, design and PM show reviewed detections without prevalence percentages; engineering shows automated candidates. Use Compare occupations for the same automated measure across all five; neither view is independently human validated."
+      "measurement_note": "Counts retain the earlier AI-assisted full-ad marketing review (500 ads), including knowledge and alternative qualifications where explicit. UXR, design and PM show the share of their full samples with supporting evidence recorded so far; engineering shows automated candidate shares. Use Compare occupations for the same automated measure across all five; neither view is independently human validated."
     },
     {
       "id": "swe",

@@ -6,6 +6,10 @@ An exploratory dashboard of AI-related activities in job advertisements across U
 
 The October 27, 2026 exploratory release covers 2,846 occupation-ad observations and 99 operational competencies. The software-engineering hierarchy follows [Andrew Ng's AI Engineering Skills Map](https://www.linkedin.com/pulse/ai-engineering-skills-map-andrew-ng-m479c/). Study definitions, samples and numerical results are independent of his project.
 
+## Visual encoding
+
+All occupation maps use the same count-first cards and evidence-status labels. Card height has no data meaning. Percentages are secondary in detail panels when the coding coverage permits them. The homepage dot plot uses the same automated screen across all five cohorts on a fixed 0–100% scale, with stable occupation order and direct counts. It does not mix the occupation-specific reviewed skill counts.
+
 ## What the numbers mean
 
 - UXR, design and PM maps display contextually supported detections from AI review of retrieved passages. They withhold prevalence percentages because unmatched text has not received exhaustive review.

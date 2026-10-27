@@ -84,6 +84,44 @@ function renderHeader() {
   if (data.repository_url) { $('repository-link').href = data.repository_url; $('repository-link').textContent = 'View the GitHub repository ↗'; }
   if (data.release?.baseline_label) $('baseline-date').textContent = data.release.baseline_label;
 }
+function renderOverview() {
+  const select = $('overview-metric');
+  const metrics = array(state.study.comparison?.metrics);
+  if (!select.options.length) {
+    metrics.forEach(metric => {
+      const option = node('option', metric.label);
+      option.value = metric.id;
+      select.append(option);
+    });
+  }
+  const metric = metrics.find(m => m.id === select.value);
+  if (!metric) return;
+  $('overview-description').textContent = metric.description;
+  const rows = $('overview-rows');
+  rows.replaceChildren();
+  state.study.roles.forEach(role => {
+    const match = array(role.metrics).find(m => m.id === metric.id);
+    const count = number(match?.count);
+    const n = match?.n || role.sample_n;
+    const value = pct(count, n);
+    const row = node('div', null, 'overview-row');
+    row.style.setProperty('--chart-color', roleColor(role)[0]);
+    const label = safeLink(role.short_label || role.label, '#' + role.id, 'overview-role');
+    const track = node('div', null, 'overview-track');
+    track.setAttribute('aria-hidden', 'true');
+    if (value !== null) {
+      const fill = node('span', null, 'overview-fill');
+      fill.style.width = Math.min(100, value) + '%';
+      const dot = node('span', null, 'overview-dot');
+      dot.style.left = Math.min(100, value) + '%';
+      track.append(fill, dot);
+    }
+    const result = node('div', null, 'overview-result');
+    result.append(node('strong', percent(value)), node('span', count === null ? 'Not measured' : countLabel(count) + ' / ' + countLabel(n) + ' ads'));
+    row.append(label, track, result);
+    rows.append(row);
+  });
+}
 function renderTabs() {
   $('role-tabs').replaceChildren();
   state.study.roles.forEach(role => {
@@ -121,17 +159,14 @@ function renderRole() {
   const skills = skillsOf(role);
   const measured = skills.filter(s => number(s.count) !== null);
   const candidates = measured.some(s => skillStatus(s) === 'candidate');
-  $('map-status').textContent = role.measurement_note || (measured.length === 0 ? 'This is an operational taxonomy. Whole-corpus frequencies have not yet been calculated under these definitions.' : candidates ? 'Dashed bars show automated candidate matches in full job descriptions. These are screening results for review, not validated prevalence estimates.' : 'Counts show ads with AI-reviewed supporting evidence. Independent human validation remains pending. Categories may overlap.');
+  $('map-status').textContent = measured.length === 0 ? 'This is an operational taxonomy. Whole-corpus frequencies have not yet been calculated under these definitions.' : candidates ? 'Counts show ads with automated candidate matches. These still need contextual review. Engineering fundamentals can describe ordinary software work without an AI link.' : skills.some(s => partialReview(s, s.n || role.sample_n)) ? 'Counts show ads with supporting evidence from AI review of retrieved passages. Unmatched text has not been exhaustively reviewed, so whole-sample percentages are withheld.' : 'Counts show ads with supporting evidence from AI-assisted full-ad review. Independent human validation remains pending.';
   renderMap();
 }
 function renderMap() {
   const role = state.role;
   const term = $('skill-search').value.trim().toLowerCase();
   const filter = $('skill-filter').value;
-  const allSkills = skillsOf(role);
-  const maxPercent = Math.max(0, ...allSkills.map(s => measuredPercent(s, s.n || role.sample_n) || 0));
-  const scale = Math.max(10, Math.min(100, Math.ceil(maxPercent / 10) * 10));
-  $('map-scale').textContent = allSkills.every(s => partialReview(s, s.n || role.sample_n)) ? 'Supported detections; full-corpus prevalence not established' : allSkills.some(s => number(s.count) !== null) ? 'Bars share a 0–' + scale + '% scale within this map' : '';
+  $('map-scale').textContent = 'One ad can support several skills. Counts are not comparable across review methods.';
   $('map-grid').replaceChildren();
   $('map-grid').classList.toggle('four-branches', role.branches.length === 4);
   state.filtered = [];
@@ -156,27 +191,23 @@ function renderMap() {
       const status = skillStatus(skill);
       const denominator = skill.n || role.sample_n;
       const partial = partialReview(skill, denominator);
-      const value = measuredPercent(skill, denominator);
       const button = node('button', null, 'skill-node ' + status.replace('_', '-') + (skill.count === 0 ? ' zero' : ''));
       if (status === 'candidate') button.classList.add('candidate');
       if (status === 'not_assessed') button.classList.add('not-assessed');
       if (partial) button.classList.add('partial-review');
       button.dataset.skill = skill.id;
-      button.setAttribute('aria-label', (skill.short_id || '') + ' ' + skill.title + '. ' + (partial ? skill.count + (skill.count === 1 ? ' supporting ad, ' : ' supporting ads, ') + skill.reviewed_n + ' of ' + denominator + ' ads reviewed' : value === null ? 'Not yet measured' : percent(value) + ', ' + skill.count + ' of ' + denominator + ' ads. ' + statusLabel(status)) + '. Open details.');
+      button.setAttribute('aria-label', (skill.short_id || '') + ' ' + skill.title + '. ' + (number(skill.count) === null ? 'Not yet measured' : skill.count + (skill.count === 1 ? ' ad. ' : ' ads. ') + statusLabel(status) + '. ' + countLabel(denominator) + ' ads in the sample' + (partial ? '. Review of retrieved passages is incomplete for the full sample' : '')) + '. Open details.');
       const topline = node('span', null, 'skill-topline');
       topline.append(node('span', skill.short_id || skill.id), node('span', '↗', 'skill-open'));
       topline.lastChild.setAttribute('aria-hidden', 'true');
       const bottom = node('span', null, 'skill-bottom');
-      const rate = node('span', partial ? skill.count + (skill.count === 1 ? ' ad' : ' ads') : value === null ? 'n/a' : percent(value), 'skill-rate');
-      if (value !== null) rate.append(node('span', '  ' + skill.count + '/' + denominator, 'skill-denom'));
-      const stateText = partial ? 'Supported evidence' : status === 'not_assessed' ? 'Not measured' : skill.count === 0 ? 'Not detected' : status === 'candidate' ? 'Candidate match' : status === 'human_reviewed' ? 'Human-reviewed' : 'AI-reviewed';
-      bottom.append(rate, node('span', stateText, 'skill-state'));
-      const bar = node('span', null, 'skill-bar');
-      bar.setAttribute('aria-hidden', 'true');
-      const fill = node('span');
-      fill.style.width = Math.min(100, (value || 0) / scale * 100) + '%';
-      bar.append(fill);
-      button.append(topline, node('span', skill.title, 'skill-title'), bottom, bar);
+      const rate = node('span', number(skill.count) === null ? 'Not measured' : countLabel(skill.count), 'skill-rate');
+      if (number(skill.count) !== null) rate.append(node('span', skill.count === 1 ? ' ad' : ' ads', 'skill-unit'));
+      bottom.append(rate, node('span', countLabel(denominator) + ' in sample', 'skill-denom'));
+      const stateText = status === 'not_assessed' ? 'Not yet measured' : status === 'candidate' ? 'Automated matches' : status === 'human_reviewed' ? 'Human-reviewed evidence' : 'AI-reviewed evidence';
+      const evidenceLabel = node('span', stateText, 'skill-state');
+      if (number(skill.count) === 0) evidenceLabel.append(node('span', 'None detected', 'skill-zero-label'));
+      button.append(topline, node('span', skill.title, 'skill-title'), bottom, evidenceLabel);
       button.addEventListener('click', () => openSkill(fullSkill));
       list.append(button);
     });
@@ -275,10 +306,11 @@ function openSkill(skill, updateHash = true) {
   $('detail-definition').textContent = skill.definition || skill.operational_definition || skill.description || 'This competency is part of the working framework. Its operational definition is being refined.';
   $('detail-measure').replaceChildren();
   const measure = node('div', null, 'detail-measure');
-  measure.append(node('span', partial ? skill.count + (skill.count === 1 ? ' ad' : ' ads') : percent(value), 'big-number'));
-  const measureText = node('p', partial ? skill.count + ' supporting ads identified among ' + skill.reviewed_n + ' reviewed. ' + countLabel(denominator) + ' ads in the full cohort.' : value === null ? 'Whole-corpus frequency not yet measured.' : skill.count + ' of ' + countLabel(denominator) + ' ads');
+  measure.append(node('span', number(skill.count) === null ? 'n/a' : countLabel(skill.count) + (skill.count === 1 ? ' ad' : ' ads'), 'big-number'));
+  const measureText = node('p', partial ? skill.count + ' supporting ads identified among ' + skill.reviewed_n + ' ads with reviewed passages. ' + countLabel(denominator) + ' ads in the full cohort.' : value === null ? 'Whole-corpus frequency not yet measured.' : skill.count + ' of ' + countLabel(denominator) + ' ads');
   measureText.append(node('small', statusLabel(status) + (partial ? ' · Review is incomplete. This is not a whole-cohort prevalence estimate.' : status === 'not_assessed' ? ' · A category is not evidence of prevalence.' : ' · Multiple mentions in one ad count once.')));
-  if (!partial && number(skill.reviewed_n) !== null) measureText.append(node('small', 'Review coverage: ' + skill.reviewed_n + ' ads' + (number(skill.reviewed_positive_count) !== null ? ', including ' + skill.reviewed_positive_count + ' supporting cases' : '') + '. This coverage does not replace the automated count.'));
+  if (value !== null) measureText.append(node('small', percent(value) + ' of this sample. ' + (status === 'candidate' ? 'Automated match rate, not validated prevalence.' : 'AI-assisted interpretation, not independently human-validated.')));
+  if (!partial && number(skill.reviewed_n) !== null) measureText.append(node('small', 'Review coverage: ' + skill.reviewed_n + ' ads' + (number(skill.reviewed_positive_count) !== null ? ', including ' + skill.reviewed_positive_count + ' supporting cases' : '') + '.'));
   measure.append(measureText); $('detail-measure').append(measure);
   $('detail-facets').replaceChildren();
   const facets = array(skill.facets || skill.facet);
@@ -417,9 +449,14 @@ function readRoute() {
     $('skill-dialog').close();
     state.skill = null;
   }
-  if (parts[0] === 'compare') { setView('compare', false); return; }
+  if (parts[0] === 'compare') {
+    setView('compare', false);
+    $('explore').scrollIntoView({ behavior: 'instant' });
+    return;
+  }
   if (role) {
     setView('maps', false); selectRole(role.id, false);
+    if (!parts[1]) $('explore').scrollIntoView({ behavior: 'instant' });
     if (parts[1]) {
       const skill = skillsOf(role).find(s => s.short_id === decodeURIComponent(parts[1]) || s.id === decodeURIComponent(parts[1]));
       if (skill) openSkill(skill, false);
@@ -428,6 +465,7 @@ function readRoute() {
 }
 
 $('skill-search').addEventListener('input', renderMap);
+$('overview-metric').addEventListener('change', renderOverview);
 $('skill-filter').addEventListener('change', renderMap);
 $('view-maps').addEventListener('click', () => setView('maps'));
 $('view-compare').addEventListener('click', () => setView('compare'));
@@ -448,7 +486,7 @@ fetch('data/study.json').then(response => {
   if (!Array.isArray(data.roles) || !data.roles.length) throw new Error('The release does not contain any occupational maps.');
   state.study = data;
   state.role = data.roles[0];
-  renderHeader(); selectRole(state.role.id, false); renderComparison(); renderMethods(); renderDownloads();
+  renderHeader(); renderOverview(); selectRole(state.role.id, false); renderComparison(); renderMethods(); renderDownloads();
   renderOverlap();
   $('load-status').hidden = true; $('exploration').hidden = false;
   readRoute();

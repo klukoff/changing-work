@@ -7,8 +7,8 @@
   <meta name="description" content="Explore the AI skills and tasks employers advertise across UX research, design, product management, marketing, and software engineering. An open, evidence-linked research prototype.">
   <title>Changing Work · AI skills in job ads</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261027-4">
+  <script src="app.js?v=20261027-4" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#explore">Skip to the skills maps</a>
@@ -21,8 +21,18 @@
   <main id="top">
     <section class="intro wrap" aria-labelledby="intro-title">
       <div class="intro-copy"><p class="eyebrow">A field guide to advertised AI skills</p><h1 id="intro-title">AI skills,<br>as employers <em>describe them.</em></h1><p class="intro-description">Explore the tasks and capabilities advertised across five digital professions. Follow each skill from the map to its definition and evidence.</p><div class="intro-actions"><a class="primary-link" href="#explore">Explore the skills maps <span aria-hidden="true">↘</span></a><a class="text-link" href="#methods">Understand the study <span aria-hidden="true">→</span></a></div></div>
-      <div class="study-ledger" aria-label="Study at a glance"><p class="eyebrow">The current collection</p><div class="ledger-total"><span id="total-ads">…</span><span>job ads<br>examined</span></div><div class="ledger-line"><span>Occupations</span><strong id="total-roles">5</strong></div><div class="ledger-line"><span>Competencies mapped</span><strong id="total-skills">…</strong></div><div class="ledger-line"><span>Release</span><strong id="release-date">October 2026</strong></div><p class="ledger-foot">One baseline snapshot.<br>AI-assisted coding. Human validation pending.</p></div>
+      <figure class="overview-chart" aria-labelledby="overview-title" aria-describedby="overview-caveat">
+        <figcaption><p class="eyebrow">October 2026 / Sample comparison</p><h2 id="overview-title">Where AI appears <br>in job ads.</h2></figcaption>
+        <div class="overview-control"><label for="overview-metric">Text signal</label><select id="overview-metric" aria-describedby="overview-description"></select></div>
+        <p id="overview-description" class="overview-description"></p>
+        <div class="overview-axis" aria-hidden="true"><span>0%</span><span>50%</span><span>100%</span></div>
+        <div id="overview-rows" aria-live="polite" aria-atomic="true"></div>
+        <p class="overview-caveat" id="overview-caveat">Same automated screen across all five samples. These are text matches, not measured workplace adoption. Employer context can trigger a match.</p>
+        <a class="overview-link" href="#compare">Definitions and full comparison <span aria-hidden="true">→</span></a>
+      </figure>
     </section>
+
+    <div class="collection-strip wrap" aria-label="Study at a glance"><span><strong id="total-ads">…</strong> job ads</span><span><strong id="total-roles">5</strong> occupations</span><span><strong id="total-skills">…</strong> competencies</span><span>Release <strong id="release-date">October 2026</strong></span></div>
 
     <div class="scope-band"><div class="wrap"><span class="scope-label">Read the numbers carefully</span><p>We study <strong>advertised expectations</strong>, not observed workplace use. A missing mention does not mean a skill is absent from practice.</p><a href="#methods" aria-label="Read the measurement limits">↗</a></div></div>
 

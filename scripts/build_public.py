@@ -51,14 +51,14 @@ def main():
    for b in mc['branches']:
     branch={'id':b['id'],'title':b['title'],'skills':[]}
     for sid in b['short_ids']:
-     cb=code_by[sid];stat=counts[sid];item={'id':cb['stable_skill_id'],'short_id':sid,'title':cb['title'],'definition':cb['operational_definition'],'count':stat['count'],'n':n,'status':'ai_reviewed','reviewed_n':n,'facets':[],'include_when':aslist(cb['include_when']),'exclude_when':aslist(cb['exclude_when']),'minimum_evidence':aslist(cb['minimum_evidence']),'note':'Retained October marketing full-ad AI-assisted interpretation. '+stat.get('note','')+' Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.','evidence':[]}
+     cb=code_by[sid];stat=counts[sid];item={'id':cb['stable_skill_id'],'short_id':sid,'title':cb['title'],'definition':cb['operational_definition'],'count':stat['count'],'n':n,'status':'ai_reviewed','reviewed_n':n,'facets':[],'include_when':aslist(cb['include_when']),'exclude_when':aslist(cb['exclude_when']),'minimum_evidence':aslist(cb['minimum_evidence']),'note':'Retained October marketing full-ad AI-assisted interpretation. '+stat.get('note','')+' Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate counts in the software engineering map.','evidence':[]}
      for ex in examples:
       if ex['role']==r and sid in ex.get('accepted_codes',[]):
        item['evidence'].append({'employer':ex['employer'],'title':ex['title'],'source_url':ex['source_url'],'context':'Analyst paraphrase: '+ex['explanation'],'status':'Earlier AI-assisted full-ad interpretation'})
       if len(item['evidence'])>=2:break
      branch['skills'].append(item)
     role['branches'].append(branch)
-   role['measurement_note']='Solid bars retain the earlier AI-assisted full-ad marketing review (500 ads), including knowledge and alternative qualifications where explicit. UXR, design and PM show reviewed detections without prevalence percentages; engineering shows automated candidates. Use Compare occupations for the same automated measure across all five; neither view is independently human validated.'
+   role['measurement_note']='Counts retain the earlier AI-assisted full-ad marketing review (500 ads), including knowledge and alternative qualifications where explicit. UXR, design and PM show reviewed detections without prevalence percentages; engineering shows automated candidates. Use Compare occupations for the same automated measure across all five; neither view is independently human validated.'
   else:
    public_swe=load(swe/'public_examples.json') if (swe/'public_examples.json').exists() else []
    for b in sc['branches']:
@@ -71,7 +71,7 @@ def main():
       if len(item['evidence'])>=2:break
      branch['skills'].append(item)
     role['branches'].append(branch)
-   role['measurement_note']='Ng’s four branches include ordinary software fundamentals and product judgment as well as AI-specific work. Dashed bars count candidate capabilities. They do not all measure AI use. Open a category for its AI-linked subset; use Compare occupations for a shared AI screen.'
+   role['measurement_note']='Ng’s four branches include ordinary software fundamentals and product judgment as well as AI-specific work. Cards count candidate capabilities. They do not all measure AI use. Open a category for its AI-linked subset; use Compare occupations for a shared AI screen.'
   roles.append(role)
  capture=load(root/'collection/prospective_2026-10-26/latest_capture_summary.json')
  study={'title':'Changing Work','repository_url':'https://github.com/klukoff/changing-work','release':{'id':'2026-10-exploratory-v1','date':'2026-10-27','source_cutoff':'2026-10-16','baseline_label':'October 2026 baseline','status':'Exploratory release; independent validation pending','notes':'2,846 occupation-ad observations. Known original dates in 2026, with undated ads retained separately. Does not represent all current vacancies.'},'roles':roles,

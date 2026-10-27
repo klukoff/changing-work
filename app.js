@@ -20,7 +20,7 @@ const facetLabels = {
   product: 'Working on AI products', enablement: 'Enabling others',
   environment: 'Adapting to AI environments', foundations: 'Foundational capability',
 };
-const state = { study: null, role: null, view: 'maps', skill: null, filtered: [], review: {}, storageAvailable: true };
+const state = { study: null, role: null, view: 'maps', skill: null, review: {}, storageAvailable: true };
 const REVIEW_KEY = 'changing-work-public-review-v1';
 try { state.review = JSON.parse(localStorage.getItem(REVIEW_KEY) || '{}'); }
 catch { state.storageAvailable = false; }
@@ -68,6 +68,35 @@ function measuredPercent(item, denominator) {
 }
 function skillsOf(role) { return (role.branches || []).flatMap(branch => (branch.skills || []).map(skill => ({ ...skill, branch_title: branch.title }))); }
 function roleColor(role) { return colors[role.id] || ['#21665a', '#e6efea']; }
+function roleIcon(id) {
+  const paths = {
+    uxr: ['M15 10a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z', 'M4 21v-2a6 6 0 0 1 10-4', 'M20 17a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z', 'm19 19 3 3'],
+    design: ['m5 15 11-11 4 4L9 19l-5 1 1-5Z', 'm13 7 4 4', 'M4 4h5M4 4v5M15 21h6v-6'],
+    pm: ['M5 4v17M19 4v17', 'M5 7h9v4H5M10 15h9v4h-9', 'M8 2v3M16 2v3'],
+    marketing: ['m4 10 15-6v16L4 14v-4Z', 'M4 10H2v4h2M7 15l2 6h4l-2-5', 'M22 8v8'],
+    swe: ['m8 6-6 6 6 6M16 6l6 6-6 6M14 3l-4 18'],
+  };
+  const icon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  icon.setAttribute('viewBox', '0 0 24 24');
+  icon.setAttribute('class', 'occupation-icon');
+  icon.setAttribute('aria-hidden', 'true');
+  icon.setAttribute('focusable', 'false');
+  (paths[id] || paths.swe).forEach(d => {
+    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('d', d); icon.append(path);
+  });
+  return icon;
+}
+function renderProfessions() {
+  $('profession-links').replaceChildren();
+  state.study.roles.forEach(role => {
+    const link = safeLink(null, '#' + role.id, 'profession-link');
+    link.style.setProperty('--profession-color', roleColor(role)[0]);
+    link.append(roleIcon(role.id), node('span', role.short_label || role.label), node('span', '↗', 'profession-arrow'));
+    link.lastChild.setAttribute('aria-hidden', 'true');
+    $('profession-links').append(link);
+  });
+}
 function setColor(role) {
   const color = roleColor(role);
   document.documentElement.style.setProperty('--role', color[0]);
@@ -129,7 +158,7 @@ function renderTabs() {
     button.dataset.role = role.id;
     button.style.setProperty('--tab-color', roleColor(role)[0]);
     button.setAttribute('aria-pressed', String(state.role.id === role.id));
-    button.append(node('span', null, 'role-dot'));
+    button.append(roleIcon(role.id));
     const labels = node('span');
     labels.append(node('span', role.short_label || role.label), node('span', countLabel(number(role.sample_n)) + ' ads', 'tab-n'));
     button.append(labels);
@@ -141,8 +170,6 @@ function selectRole(id, updateHash = true) {
   const role = state.study.roles.find(r => r.id === id);
   if (!role) return;
   state.role = role;
-  $('skill-search').value = '';
-  $('skill-filter').value = 'all';
   setColor(role);
   renderTabs();
   renderRole();
@@ -164,17 +191,11 @@ function renderRole() {
 }
 function renderMap() {
   const role = state.role;
-  const term = $('skill-search').value.trim().toLowerCase();
-  const filter = $('skill-filter').value;
   $('map-scale').textContent = 'One ad can support several skills. Counts are not comparable across review methods.';
   $('map-grid').replaceChildren();
   $('map-grid').classList.toggle('four-branches', role.branches.length === 4);
-  state.filtered = [];
   role.branches.forEach((branch, branchIndex) => {
-    const matching = (branch.skills || []).filter(skill => {
-      const text = [skill.short_id, skill.title, skill.definition, skill.description, branch.title, ...array(skill.facets)].join(' ').toLowerCase();
-      return (!term || text.includes(term)) && (filter === 'all' || (filter === 'evidence' && skill.count > 0) || (filter === 'unmeasured' && number(skill.count) === null));
-    });
+    const matching = branch.skills || [];
     if (!matching.length) return;
     const section = node('section', null, 'branch');
     const heading = node('div', null, 'branch-head');
@@ -187,7 +208,6 @@ function renderMap() {
     const list = node('div', null, 'skill-list');
     matching.forEach(skill => {
       const fullSkill = { ...skill, branch_title: branch.title };
-      state.filtered.push(fullSkill);
       const status = skillStatus(skill);
       const denominator = skill.n || role.sample_n;
       const partial = partialReview(skill, denominator);
@@ -214,7 +234,6 @@ function renderMap() {
     section.append(list);
     $('map-grid').append(section);
   });
-  $('no-results').hidden = state.filtered.length > 0;
 }
 function setView(view, updateHash = true) {
   state.view = view;
@@ -403,32 +422,6 @@ function renderMethods() {
   if (state.study.monitoring?.summary) $('monitor-summary').textContent = state.study.monitoring.summary;
   if (state.study.monitoring?.note) $('monitoring-detail').textContent = state.study.monitoring.note;
 }
-function renderOverlap() {
-  const data = state.study.overlap;
-  if (!data) return;
-  $('overlap-note').textContent = data.note;
-  const wrap = node('div', null, 'comparison-table-wrap');
-  const table = node('table', null, 'comparison-table overlap-table');
-  const header = node('tr');
-  const first = node('th', 'Related activity'); first.scope = 'col'; header.append(first);
-  state.study.roles.forEach(role => { const th = node('th', role.short_label); th.scope = 'col'; header.append(th); });
-  const thead = node('thead'); thead.append(header); table.append(thead);
-  const tbody = node('tbody');
-  data.families.forEach(family => {
-    const tr = node('tr'); const th = node('th', family.label); th.scope = 'row'; tr.append(th);
-    state.study.roles.forEach(role => {
-      const td = node('td'); const ids = family.roles[role.id] || [];
-      ids.forEach(id => {
-        const skill = skillsOf(role).find(s => s.short_id === id);
-        if (skill) td.append(safeLink(id + ' · ' + skill.title, '#' + role.id + '/' + id));
-      });
-      if (!ids.length) td.append(node('span', 'No direct category', 'metric-note'));
-      tr.append(td);
-    }); tbody.append(tr);
-  });
-  table.append(tbody); wrap.append(table); $('overlap-grid').replaceChildren(wrap);
-}
-
 function renderDownloads() {
   const downloads = array(state.study.downloads);
   if (!downloads.some(d => d.url === 'data/study.json')) downloads.unshift({ label: 'Public study data', url: 'data/study.json', description: 'Counts, map definitions, evidence excerpts, and release metadata · JSON' });
@@ -464,9 +457,7 @@ function readRoute() {
   }
 }
 
-$('skill-search').addEventListener('input', renderMap);
 $('overview-metric').addEventListener('change', renderOverview);
-$('skill-filter').addEventListener('change', renderMap);
 $('view-maps').addEventListener('click', () => setView('maps'));
 $('view-compare').addEventListener('click', () => setView('compare'));
 $('close-dialog').addEventListener('click', closeSkill);
@@ -486,8 +477,7 @@ fetch('data/study.json').then(response => {
   if (!Array.isArray(data.roles) || !data.roles.length) throw new Error('The release does not contain any occupational maps.');
   state.study = data;
   state.role = data.roles[0];
-  renderHeader(); renderOverview(); selectRole(state.role.id, false); renderComparison(); renderMethods(); renderDownloads();
-  renderOverlap();
+  renderHeader(); renderProfessions(); renderOverview(); selectRole(state.role.id, false); renderComparison(); renderMethods(); renderDownloads();
   $('load-status').hidden = true; $('exploration').hidden = false;
   readRoute();
 }).catch(error => {

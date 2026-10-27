@@ -1,0 +1,51 @@
+{
+  "images": [
+    {
+      "file": "assets/people/kai-lukoff.jpg",
+      "subject": "Kai Lukoff",
+      "source_page": "https://kailukoff.com/media/",
+      "source_image": "https://kailukoff.com/assets/ad5c186e-lukoff_headshot_800_flipped.jpg",
+      "credit": "Kai Lukoff, headshot from his media and bio page",
+      "rights_note": "Provided on the subject’s media page as a downloadable headshot. Included at the subject’s explicit request. No separate open license stated.",
+      "alt": "Kai Lukoff",
+      "width": 800,
+      "height": 800,
+      "bytes": 199352,
+      "sha256": "6fdc7ec8335e6987cde2d25a0540cc711008eebfd994bd3db428fd165380d73a",
+      "verified_at": "2026-10-27",
+      "modifications": "None. Original downloaded bytes preserved."
+    },
+    {
+      "file": "assets/people/andrew-ng.jpg",
+      "subject": "Andrew Ng",
+      "source_page": "https://www.andrewng.org/",
+      "source_image": "https://www.andrewng.org/_next/image?dpl=dpl_6bohFvstLwgAVoY3TgnriRTNxNkR&q=75&url=%2Fimages%2Fandrew-ng-about-page.jpg&w=750",
+      "credit": "Andrew Ng, portrait from andrewng.org",
+      "rights_note": "Official public website image. No open license stated; original rights retained. Included to identify the author whose work is discussed, not to imply participation or endorsement.",
+      "alt": "Andrew Ng",
+      "width": 524,
+      "height": 564,
+      "bytes": 31372,
+      "sha256": "da36f5048c1dbe25396b36f6f067d9daf6a35058761e755df8cd3ae9e30b148e",
+      "verified_at": "2026-10-27",
+      "modifications": "None. Original downloaded bytes preserved."
+    },
+    {
+      "file": "assets/references/andrew-ng-ai-engineering-skills-map.png",
+      "subject": "AI Engineering Skills Map, top-level overview",
+      "source_page": "https://www.linkedin.com/pulse/ai-engineering-skills-map-andrew-ng-m479c/",
+      "source_image": "https://media.licdn.com/dms/image/v2/D5612AQFjmdAKmexd0w/article-cover_image-shrink_720_1280/B56aABFI75HcAQ-/0/1786724519946?e=2147483647&t=dQ1L9PuL5HE9pmBj2AffknrkfisjiYGNXpRejs34lGM&v=beta",
+      "credit": "Andrew Ng, The AI Engineering Skills Map, August 14, 2026",
+      "rights_note": "Original author graphic, unchanged. No open license stated; original rights retained. Reproduced for discussion of the framework that inspired this independent study.",
+      "alt": "Andrew Ng’s AI Engineering Skills Map: AI Engineering branches into building and deploying AI applications, software engineering fundamentals, using coding agents, and shaping the build.",
+      "published_date": "2026-08-14",
+      "note": "The published top-level overview, not the BayLearn research-versus-other-AI-jobs frequency slide.",
+      "width": 1279,
+      "height": 720,
+      "bytes": 73065,
+      "sha256": "a3902183682286e15f5455c65093f2f793a2102b2daac6bbbcbd16d708c4d3bb",
+      "verified_at": "2026-10-27",
+      "modifications": "None. Original downloaded bytes preserved."
+    }
+  ]
+}

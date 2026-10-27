@@ -66,3 +66,51 @@
 @media print{.overview-control select{appearance:none}.intro{grid-template-columns:1fr 1fr;gap:25px}.overview-chart{--label-width:90px;--result-width:65px;padding-left:20px}.overview-role{font-size:9px}.collection-strip{padding-block:10px}}
 
 @media(min-width:601px){.branch-head{min-height:58px}}
+
+/* Profession navigation and the people behind the project. */
+.intro{gap:64px;padding-block:50px 44px}
+.intro h1{font-size:clamp(43px,4.5vw,63px);margin-bottom:22px}
+.intro-description{font-size:16px;max-width:510px}
+.profession-links{display:grid;grid-template-columns:1fr 1fr;gap:0 24px;margin:25px 0 22px}
+.profession-link{display:flex;align-items:center;gap:11px;text-decoration:none;font-size:15px;line-height:1.35;padding:13px 0;border-bottom:1px solid var(--line);min-width:0}
+.profession-link:last-child{grid-column:1/-1}
+.profession-link:hover{color:var(--profession-color);border-color:var(--profession-color)}
+.profession-arrow{font-size:14px;margin-left:auto;color:var(--muted)}
+.occupation-icon{width:24px;height:24px;flex:none;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.profession-link .occupation-icon{color:var(--profession-color)}
+.intro-inspiration{font-size:12px;line-height:1.7;color:var(--muted);max-width:490px}
+.intro-inspiration a{text-decoration-color:#a9b8ab}
+.intro-inspiration .inspiration-more{display:block;margin-top:5px;font-size:11px;text-decoration:none}
+.intro-inspiration .inspiration-more:hover{text-decoration:underline}
+.role-tab{padding-block:21px;font-size:14px;line-height:1.3;gap:11px}
+.role-tab .occupation-icon{color:var(--tab-color);width:25px;height:25px}
+.role-tab .tab-n{margin-top:5px;font-size:10px}
+.role-intro{padding-bottom:15px}
+.map-caption{margin-top:8px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.origin-section{grid-template-columns:minmax(0,1fr) minmax(0,1.13fr);gap:70px;align-items:center;padding-block:64px}
+.origin-person{display:flex;align-items:center;gap:17px;margin-bottom:25px}
+.origin-person img{display:block;width:76px;height:84px;object-fit:cover;object-position:center 24%}
+.origin-person .eyebrow{font-size:10px;margin:0 0 5px}
+.origin-person a{font-size:15px;font-weight:500;text-decoration:none}
+.origin-person a:hover{text-decoration:underline}
+.origin-copy h2{font-size:37px;margin-bottom:23px}
+.origin-copy>p:not(.eyebrow){font-size:13px;line-height:1.8}
+.origin-branches{margin-top:22px}
+.origin-branches a{font-size:11px;padding-block:10px}
+.origin-map{margin:0;min-width:0}
+.origin-map>a{display:block;background:#fff;outline-offset:5px}
+.origin-map img{display:block;width:100%;height:auto;border:1px solid var(--line)}
+.origin-map figcaption{padding-top:16px;font-size:13px;line-height:1.6}
+.origin-map figcaption a{font-weight:500}
+.origin-map figcaption>span{display:block;color:var(--muted);font-size:11px;margin-top:5px}
+.origin-map .image-credit{font-size:10px;line-height:1.6;color:var(--muted);margin-top:15px}
+.researcher-section{border-top:1px solid var(--line);padding-block:55px 65px;display:grid;grid-template-columns:210px minmax(0,660px);gap:50px;align-items:start}
+.researcher-photo img{display:block;width:210px;height:230px;object-fit:cover;object-position:center}
+.researcher-copy .eyebrow{margin-bottom:10px;color:var(--muted)}
+.researcher-copy h2{font-size:35px;font-family:var(--serif);font-weight:400;margin-bottom:8px}
+.researcher-role{font-size:11px;color:var(--muted);margin-bottom:20px}
+.researcher-copy>p:not(.eyebrow):not(.researcher-role){font-size:13px;line-height:1.8;color:var(--muted)}
+.researcher-links{display:flex;flex-wrap:wrap;gap:14px 24px;margin-top:20px;font-size:12px}
+@media(max-width:1120px){.intro{gap:40px}.profession-link{font-size:13px}.profession-links{gap:0 17px}.site-header nav{gap:20px}.role-tab{font-size:12px;gap:9px}.role-tab .occupation-icon{width:22px;height:22px}.origin-section{gap:40px}.origin-copy h2{font-size:32px}}
+@media(max-width:850px){.intro{gap:32px}.intro-copy{max-width:650px}.intro h1{font-size:53px}.profession-links{max-width:580px}.profession-link{font-size:16px}.intro-inspiration{max-width:580px}.role-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));overflow:visible}.role-tab{min-width:0;font-size:13px;padding:15px 13px}.role-tab+.role-tab{padding-left:13px}.role-tab:nth-child(4){border-left:0}.role-tab:nth-child(n+4){border-top:1px solid var(--line)}.role-tab .occupation-icon{width:24px;height:24px}.origin-section{grid-template-columns:1fr;gap:30px;align-items:start}.origin-copy{max-width:680px}.origin-map{max-width:760px}.origin-copy h2{font-size:36px}.origin-copy>p:not(.eyebrow){font-size:14px}.researcher-section{grid-template-columns:175px 1fr;gap:32px}.researcher-photo img{width:175px;height:200px}.site-header nav{gap:15px}.site-header nav a{font-size:11px}}
+@media(max-width:600px){.intro{padding-block:33px 28px}.intro h1{font-size:44px}.intro-description{font-size:14px}.profession-links{gap:0 18px;margin:20px 0}.profession-link{font-size:13px;padding-block:13px;gap:9px}.profession-link .occupation-icon{width:22px;height:22px}.profession-arrow{font-size:12px}.intro-inspiration{font-size:11px}.intro-inspiration .inspiration-more{font-size:10px}.role-tabs{grid-template-columns:1fr 1fr;margin-inline:0;padding:0}.role-tab{font-size:12px;padding:15px 10px;min-height:76px}.role-tab+.role-tab{padding-left:10px}.role-tab:nth-child(odd){border-left:0}.role-tab:nth-child(even){border-left:1px solid var(--line)}.role-tab:nth-child(n+3){border-top:1px solid var(--line)}.role-tab:last-child{grid-column:1/-1}.role-tab .tab-n{font-size:9px}.role-intro{padding-bottom:15px}.map-caption{padding-bottom:15px}.origin-section{padding-block:35px 40px;gap:25px}.origin-copy h2{font-size:31px}.origin-copy>p:not(.eyebrow){font-size:12px}.origin-person{gap:15px;margin-bottom:22px}.origin-person img{width:65px;height:72px}.origin-person a{font-size:14px}.origin-map figcaption{font-size:12px;padding-top:13px}.origin-map figcaption>span{font-size:10px}.origin-map .image-credit{font-size:9px}.researcher-section{padding-block:35px 40px;grid-template-columns:1fr;gap:22px}.researcher-photo{width:130px}.researcher-photo img{width:130px;height:145px}.researcher-copy h2{font-size:30px}.researcher-copy>p:not(.eyebrow):not(.researcher-role){font-size:12px}.researcher-links{font-size:11px}.site-header nav{gap:14px}.site-header nav a{font-size:10px}.site-header nav a[href="#research"],.site-header nav a[href="#methods"]{display:none}}

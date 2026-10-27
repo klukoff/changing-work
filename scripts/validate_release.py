@@ -16,10 +16,15 @@ for r in roles:
    assert 0<=sk['count']<=r['sample_n']
    assert sk['n']==r['sample_n']
    assert sk['definition'] and sk['include_when'] and sk['exclude_when']
+   if r['id']=='marketing' and sk['count']>0:assert sk['evidence']
    if r['id'] in ['uxr','design','pm']:assert sk['status']=='ai_reviewed' and sk['reviewed_n']<sk['n']
    for ex in sk['evidence']:
     assert len(ex.get('quote','').split())<=25
     if ex.get('source_url'):assert ex['source_url'].startswith('https://')
+for family in s.get('overlap',{}).get('families',[]):
+ for role,ids in family['roles'].items():
+  valid={x['short_id'] for r in roles if r['id']==role for b in r['branches'] for x in b['skills']}
+  assert set(ids)<=valid
 metadata=load('downloads/cohort-metadata.json');assert len(metadata)==2846
 assert len({x.get('canonical_posting_id') or x.get('posting_id') for x in metadata})==2846
 for x in metadata:assert 'analysis_text' not in x and 'raw' not in x

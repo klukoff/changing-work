@@ -162,12 +162,12 @@ function renderMap() {
       if (status === 'not_assessed') button.classList.add('not-assessed');
       if (partial) button.classList.add('partial-review');
       button.dataset.skill = skill.id;
-      button.setAttribute('aria-label', (skill.short_id || '') + ' ' + skill.title + '. ' + (partial ? skill.count + ' supporting ads, ' + skill.reviewed_n + ' of ' + denominator + ' ads reviewed' : value === null ? 'Not yet measured' : percent(value) + ', ' + skill.count + ' of ' + denominator + ' ads. ' + statusLabel(status)) + '. Open details.');
+      button.setAttribute('aria-label', (skill.short_id || '') + ' ' + skill.title + '. ' + (partial ? skill.count + (skill.count === 1 ? ' supporting ad, ' : ' supporting ads, ') + skill.reviewed_n + ' of ' + denominator + ' ads reviewed' : value === null ? 'Not yet measured' : percent(value) + ', ' + skill.count + ' of ' + denominator + ' ads. ' + statusLabel(status)) + '. Open details.');
       const topline = node('span', null, 'skill-topline');
       topline.append(node('span', skill.short_id || skill.id), node('span', '↗', 'skill-open'));
       topline.lastChild.setAttribute('aria-hidden', 'true');
       const bottom = node('span', null, 'skill-bottom');
-      const rate = node('span', partial ? skill.count + ' ads' : value === null ? 'n/a' : percent(value), 'skill-rate');
+      const rate = node('span', partial ? skill.count + (skill.count === 1 ? ' ad' : ' ads') : value === null ? 'n/a' : percent(value), 'skill-rate');
       if (value !== null) rate.append(node('span', '  ' + skill.count + '/' + denominator, 'skill-denom'));
       const stateText = partial ? 'Supported evidence' : status === 'not_assessed' ? 'Not measured' : skill.count === 0 ? 'Not detected' : status === 'candidate' ? 'Candidate match' : status === 'human_reviewed' ? 'Human-reviewed' : 'AI-reviewed';
       bottom.append(rate, node('span', stateText, 'skill-state'));
@@ -275,7 +275,7 @@ function openSkill(skill, updateHash = true) {
   $('detail-definition').textContent = skill.definition || skill.operational_definition || skill.description || 'This competency is part of the working framework. Its operational definition is being refined.';
   $('detail-measure').replaceChildren();
   const measure = node('div', null, 'detail-measure');
-  measure.append(node('span', partial ? skill.count + ' ads' : percent(value), 'big-number'));
+  measure.append(node('span', partial ? skill.count + (skill.count === 1 ? ' ad' : ' ads') : percent(value), 'big-number'));
   const measureText = node('p', partial ? skill.count + ' supporting ads identified among ' + skill.reviewed_n + ' reviewed. ' + countLabel(denominator) + ' ads in the full cohort.' : value === null ? 'Whole-corpus frequency not yet measured.' : skill.count + ' of ' + countLabel(denominator) + ' ads');
   measureText.append(node('small', statusLabel(status) + (partial ? ' · Review is incomplete. This is not a whole-cohort prevalence estimate.' : status === 'not_assessed' ? ' · A category is not evidence of prevalence.' : ' · Multiple mentions in one ad count once.')));
   if (!partial && number(skill.reviewed_n) !== null) measureText.append(node('small', 'Review coverage: ' + skill.reviewed_n + ' ads' + (number(skill.reviewed_positive_count) !== null ? ', including ' + skill.reviewed_positive_count + ' supporting cases' : '') + '. This coverage does not replace the automated count.'));
@@ -371,6 +371,32 @@ function renderMethods() {
   if (state.study.monitoring?.summary) $('monitor-summary').textContent = state.study.monitoring.summary;
   if (state.study.monitoring?.note) $('monitoring-detail').textContent = state.study.monitoring.note;
 }
+function renderOverlap() {
+  const data = state.study.overlap;
+  if (!data) return;
+  $('overlap-note').textContent = data.note;
+  const wrap = node('div', null, 'comparison-table-wrap');
+  const table = node('table', null, 'comparison-table overlap-table');
+  const header = node('tr');
+  const first = node('th', 'Related activity'); first.scope = 'col'; header.append(first);
+  state.study.roles.forEach(role => { const th = node('th', role.short_label); th.scope = 'col'; header.append(th); });
+  const thead = node('thead'); thead.append(header); table.append(thead);
+  const tbody = node('tbody');
+  data.families.forEach(family => {
+    const tr = node('tr'); const th = node('th', family.label); th.scope = 'row'; tr.append(th);
+    state.study.roles.forEach(role => {
+      const td = node('td'); const ids = family.roles[role.id] || [];
+      ids.forEach(id => {
+        const skill = skillsOf(role).find(s => s.short_id === id);
+        if (skill) td.append(safeLink(id + ' · ' + skill.title, '#' + role.id + '/' + id));
+      });
+      if (!ids.length) td.append(node('span', 'No direct category', 'metric-note'));
+      tr.append(td);
+    }); tbody.append(tr);
+  });
+  table.append(tbody); wrap.append(table); $('overlap-grid').replaceChildren(wrap);
+}
+
 function renderDownloads() {
   const downloads = array(state.study.downloads);
   if (!downloads.some(d => d.url === 'data/study.json')) downloads.unshift({ label: 'Public study data', url: 'data/study.json', description: 'Counts, map definitions, evidence excerpts, and release metadata · JSON' });
@@ -387,6 +413,10 @@ function readRoute() {
   if (!state.study) return;
   const parts = location.hash.slice(1).split('/');
   const role = state.study.roles.find(r => r.id === parts[0]);
+  if ($('skill-dialog').open && !(role && parts[1])) {
+    $('skill-dialog').close();
+    state.skill = null;
+  }
   if (parts[0] === 'compare') { setView('compare', false); return; }
   if (role) {
     setView('maps', false); selectRole(role.id, false);
@@ -419,6 +449,7 @@ fetch('data/study.json').then(response => {
   state.study = data;
   state.role = data.roles[0];
   renderHeader(); selectRole(state.role.id, false); renderComparison(); renderMethods(); renderDownloads();
+  renderOverlap();
   $('load-status').hidden = true; $('exploration').hidden = false;
   readRoute();
 }).catch(error => {

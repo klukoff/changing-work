@@ -3,7 +3,7 @@
   "repository_url": "https://github.com/klukoff/changing-work",
   "release": {
     "id": "2026-10-exploratory-v1",
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "source_cutoff": "2026-10-16",
     "baseline_label": "October 2026 baseline",
     "status": "Exploratory release; independent validation pending",
@@ -24,7 +24,7 @@
         {
           "id": "any_ai_reference",
           "label": "Any AI reference",
-          "count": 205,
+          "count": 204,
           "n": 346,
           "status": "candidate",
           "note": "AI terms anywhere in the ad, including company and recruitment context."
@@ -83,14 +83,14 @@
               ],
               "reviewed_positive_count": 9,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 49 ad matches. Contextual AI review supports 9; 3 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Khan Academy",
                   "title": "Staff User Experience Researcher, Foundations and Enablement",
                   "source_url": "https://job-boards.greenhouse.io/khanacademy/jobs/7822591",
-                  "context": "Analyst paraphrase: Connected program context assigns AI-enhanced research operations, training, workflow implementation and human quality oversight. Ordinary cross-product synthesis alone is not AI, but the explicitly AI-powered synthesis workflow qualifies.",
+                  "context": "Analyst paraphrase: Connected program context assigns AI-enhanced research operations, training, workflow implementation and human quality oversight. Ordinary cross-product synthesis alone is not AI, but the explicitly AI-powered synthesis workflow qualifies. Full-ad follow-up: Research-participant recruiting, not hiring: explicit research-stack automation, human output validation and AI synthesis.",
                   "status": "AI contextual review, not independent human validation"
                 },
                 {
@@ -125,14 +125,14 @@
               ],
               "reviewed_positive_count": 10,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 59 ad matches. Contextual AI review supports 10; 4 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Khan Academy",
                   "title": "Staff User Experience Researcher, Foundations and Enablement",
                   "source_url": "https://job-boards.greenhouse.io/khanacademy/jobs/7822591",
-                  "context": "Analyst paraphrase: Connected program context assigns AI-enhanced research operations, training, workflow implementation and human quality oversight. Ordinary cross-product synthesis alone is not AI, but the explicitly AI-powered synthesis workflow qualifies.",
+                  "context": "Analyst paraphrase: Connected program context assigns AI-enhanced research operations, training, workflow implementation and human quality oversight. Ordinary cross-product synthesis alone is not AI, but the explicitly AI-powered synthesis workflow qualifies. Full-ad follow-up: Research-participant recruiting, not hiring: explicit research-stack automation, human output validation and AI synthesis.",
                   "status": "AI contextual review, not independent human validation"
                 },
                 {
@@ -167,14 +167,14 @@
               ],
               "reviewed_positive_count": 4,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 11 ad matches. Contextual AI review supports 4; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Khan Academy",
                   "title": "Staff User Experience Researcher, Foundations and Enablement",
                   "source_url": "https://job-boards.greenhouse.io/khanacademy/jobs/7822591",
-                  "context": "Analyst paraphrase: Connected program context assigns AI-enhanced research operations, training, workflow implementation and human quality oversight. Ordinary cross-product synthesis alone is not AI, but the explicitly AI-powered synthesis workflow qualifies.",
+                  "context": "Analyst paraphrase: Connected program context assigns AI-enhanced research operations, training, workflow implementation and human quality oversight. Ordinary cross-product synthesis alone is not AI, but the explicitly AI-powered synthesis workflow qualifies. Full-ad follow-up: Research-participant recruiting, not hiring: explicit research-stack automation, human output validation and AI synthesis.",
                   "status": "AI contextual review, not independent human validation"
                 },
                 {
@@ -209,7 +209,7 @@
               ],
               "reviewed_positive_count": 1,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 4 ad matches. Contextual AI review supports 1; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
@@ -226,7 +226,7 @@
               "short_id": "R17",
               "title": "Review AI research quality and safeguards",
               "definition": "Review AI-assisted research for explicit quality, privacy, or ethical safeguards.",
-              "count": 24,
+              "count": 25,
               "n": 346,
               "status": "ai_reviewed",
               "candidate_count": 66,
@@ -243,10 +243,10 @@
               "minimum_evidence": [
                 "At least one concrete safeguard applied to AI-assisted research: source grounding, accuracy, hallucination/bias checks, participant privacy, or accountable human interpretation."
               ],
-              "reviewed_positive_count": 24,
+              "reviewed_positive_count": 25,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
-              "note": "Automated retrieval proposed 66 ad matches. Contextual AI review supports 24; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_n": 153,
+              "note": "Automated retrieval proposed 66 ad matches. Contextual AI review supports 25; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Pfizer",
@@ -294,7 +294,7 @@
               ],
               "reviewed_positive_count": 2,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 17 ad matches. Contextual AI review supports 2; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
@@ -318,7 +318,7 @@
               "short_id": "R19",
               "title": "Conduct AI-assisted research synthesis",
               "definition": "Use AI to analyze or synthesize research material into patterns, themes, summaries, or insights.",
-              "count": 51,
+              "count": 55,
               "n": 346,
               "status": "ai_reviewed",
               "candidate_count": 84,
@@ -334,10 +334,10 @@
               "minimum_evidence": [
                 "A role-linked AI method or tool is explicitly applied to research analysis or synthesis; a generic AI-tool list is insufficient."
               ],
-              "reviewed_positive_count": 51,
+              "reviewed_positive_count": 55,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
-              "note": "Automated retrieval proposed 84 ad matches. Contextual AI review supports 51; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_n": 153,
+              "note": "Automated retrieval proposed 84 ad matches. Contextual AI review supports 55; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Pfizer",
@@ -360,7 +360,7 @@
               "short_id": "R20",
               "title": "Support AI-moderated usability research",
               "definition": "Conduct or contribute to usability research in which AI performs moderation.",
-              "count": 1,
+              "count": 2,
               "n": 346,
               "status": "ai_reviewed",
               "candidate_count": 13,
@@ -376,11 +376,18 @@
               "minimum_evidence": [
                 "AI moderation is explicitly linked to usability research or a usability-research roadmap; support responsibilities qualify as contribution."
               ],
-              "reviewed_positive_count": 1,
+              "reviewed_positive_count": 2,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
-              "note": "Automated retrieval proposed 13 ad matches. Contextual AI review supports 1; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_n": 153,
+              "note": "Automated retrieval proposed 13 ad matches. Contextual AI review supports 2; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
+                {
+                  "employer": "Oura",
+                  "title": "Senior UX Researcher, Commerce (Fixed-Term)",
+                  "source_url": "https://job-boards.greenhouse.io/oura/jobs/4411439009",
+                  "context": "Analyst paraphrase: Conventional qualitative mastery and responsible synthesis, no AI link in retrieved evidence. Full-ad follow-up: AI explicitly performs session moderation and transcript analysis with privacy safeguards; repository use does not specify contributing to an AI-enabled knowledge base.",
+                  "status": "AI contextual review, not independent human validation"
+                },
                 {
                   "employer": "Comcast",
                   "title": "Sr. Manager, Unassisted Experience Insights",
@@ -420,7 +427,7 @@
               ],
               "reviewed_positive_count": 2,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 9 ad matches. Contextual AI review supports 2; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
@@ -462,7 +469,7 @@
               ],
               "reviewed_positive_count": 3,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 7 ad matches. Contextual AI review supports 3; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
@@ -504,7 +511,7 @@
               ],
               "reviewed_positive_count": 2,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 19 ad matches. Contextual AI review supports 2; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
@@ -553,7 +560,7 @@
               ],
               "reviewed_positive_count": 1,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 2 ad matches. Contextual AI review supports 1; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
@@ -588,7 +595,7 @@
               ],
               "reviewed_positive_count": 1,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 1 ad matches. Contextual AI review supports 1; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
@@ -623,7 +630,7 @@
               ],
               "reviewed_positive_count": 1,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 2 ad matches. Contextual AI review supports 1; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
@@ -665,7 +672,7 @@
               ],
               "reviewed_positive_count": 13,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 41 ad matches. Contextual AI review supports 13; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
@@ -707,7 +714,7 @@
               ],
               "reviewed_positive_count": 2,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 4 ad matches. Contextual AI review supports 2; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
@@ -749,7 +756,7 @@
               ],
               "reviewed_positive_count": 2,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 5 ad matches. Contextual AI review supports 2; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
@@ -773,7 +780,7 @@
               "short_id": "R16",
               "title": "Study human–AI interaction",
               "definition": "Investigate how people collaborate with, supervise, delegate to, or recover from AI systems.",
-              "count": 27,
+              "count": 28,
               "n": 346,
               "status": "ai_reviewed",
               "candidate_count": 25,
@@ -789,10 +796,10 @@
               "minimum_evidence": [
                 "A research or evaluation activity explicitly concerns human interaction with AI, including control, orientation, review, or recovery."
               ],
-              "reviewed_positive_count": 27,
+              "reviewed_positive_count": 28,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
-              "note": "Automated retrieval proposed 25 ad matches. Contextual AI review supports 27; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_n": 153,
+              "note": "Automated retrieval proposed 25 ad matches. Contextual AI review supports 28; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Conga",
@@ -840,7 +847,7 @@
               ],
               "reviewed_positive_count": 1,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 16 ad matches. Contextual AI review supports 1; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
@@ -876,7 +883,7 @@
               ],
               "reviewed_positive_count": 19,
               "unreviewed_candidate_count": 0,
-              "reviewed_n": 152,
+              "reviewed_n": 153,
               "note": "Automated retrieval proposed 30 ad matches. Contextual AI review supports 19; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
@@ -905,7 +912,7 @@
       "known_original_date_n": 315,
       "unknown_original_date_n": 31,
       "methods_note": "346 ads · 229 source employer names · 315 known 2026 posting dates, 31 unknown dates. Active and closed ads from the October 16 snapshot.",
-      "measurement_note": "Counts show ads with contextually supported evidence, not complete prevalence. 152 of 152 ads with proposed matches have received AI review. Percentages are withheld because the entire cohort has not been reviewed. Open a skill for automated candidates and remaining uncertainty."
+      "measurement_note": "Counts show ads with contextually supported evidence, not complete prevalence. 153 ads have contextually reviewed passages; 0 initial candidate ads await review. Percentages are withheld because the entire cohort has not been reviewed. Open a skill for automated candidates and remaining uncertainty."
     },
     {
       "id": "design",
@@ -961,7 +968,7 @@
               "short_id": "D19",
               "title": "Synthesize research with AI",
               "definition": "Use AI to analyze or synthesize research material into design-relevant patterns, summaries, or insights.",
-              "count": 14,
+              "count": 18,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 50,
@@ -977,10 +984,10 @@
               "minimum_evidence": [
                 "AI use is explicitly tied to research analysis or synthesis in the designer’s work."
               ],
-              "reviewed_positive_count": 14,
-              "unreviewed_candidate_count": 14,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 50 ad matches. Contextual AI review supports 14; 2 remain unclear and 14 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 18,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 50 ad matches. Contextual AI review supports 18; 2 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Smartsheet",
@@ -1003,7 +1010,7 @@
               "short_id": "D20",
               "title": "Explore design alternatives with AI",
               "definition": "Use AI to generate or explore design concepts, variants, copy, or creative assets.",
-              "count": 44,
+              "count": 64,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 155,
@@ -1019,10 +1026,10 @@
               "minimum_evidence": [
                 "An AI method/tool is explicitly connected to ideation, concept exploration, or generation of design alternatives or creative material."
               ],
-              "reviewed_positive_count": 44,
-              "unreviewed_candidate_count": 54,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 155 ad matches. Contextual AI review supports 44; 1 remain unclear and 54 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 64,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 155 ad matches. Contextual AI review supports 64; 3 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Extend",
@@ -1052,7 +1059,7 @@
               "short_id": "D01",
               "title": "Prototype with AI coding tools",
               "definition": "Use AI coding tools to create working/code-based design prototypes.",
-              "count": 36,
+              "count": 62,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 91,
@@ -1068,10 +1075,10 @@
               "minimum_evidence": [
                 "An explicit AI coding/tool link to working or coded prototypes. Familiarity with this activity is recorded as understanding, not execution."
               ],
-              "reviewed_positive_count": 36,
-              "unreviewed_candidate_count": 34,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 91 ad matches. Contextual AI review supports 36; 9 remain unclear and 34 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 62,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 91 ad matches. Contextual AI review supports 62; 11 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Later",
@@ -1094,7 +1101,7 @@
               "short_id": "D02",
               "title": "Prototype with existing code and components",
               "definition": "Use AI to create prototypes grounded in an existing product codebase or design system.",
-              "count": 4,
+              "count": 6,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 31,
@@ -1110,10 +1117,10 @@
               "minimum_evidence": [
                 "Both AI-assisted prototyping and use of actual existing code/components/design-system material are explicit."
               ],
-              "reviewed_positive_count": 4,
-              "unreviewed_candidate_count": 9,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 31 ad matches. Contextual AI review supports 4; 2 remain unclear and 9 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 6,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 31 ad matches. Contextual AI review supports 6; 5 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "SecurityScorecard",
@@ -1136,7 +1143,7 @@
               "short_id": "D03",
               "title": "Refine and ship AI-assisted UI code",
               "definition": "Use AI coding tools in implementing, refining, or shipping production interfaces.",
-              "count": 18,
+              "count": 30,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 135,
@@ -1152,10 +1159,10 @@
               "minimum_evidence": [
                 "AI-assisted coding is linked to production implementation or shipping the designed interface, with hands-on or explicit collaborative involvement."
               ],
-              "reviewed_positive_count": 18,
-              "unreviewed_candidate_count": 48,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 135 ad matches. Contextual AI review supports 18; 5 remain unclear and 48 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 30,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 135 ad matches. Contextual AI review supports 30; 7 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "BetterUp",
@@ -1178,7 +1185,7 @@
               "short_id": "D14",
               "title": "Review AI-generated interfaces",
               "definition": "Assess AI-generated interfaces and identify or make needed design refinements.",
-              "count": 11,
+              "count": 14,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 14,
@@ -1194,10 +1201,10 @@
               "minimum_evidence": [
                 "An explicit review/judgment activity concerns AI-generated UI or design output needing interface refinement. Record knowledge-only expectations separately."
               ],
-              "reviewed_positive_count": 11,
-              "unreviewed_candidate_count": 3,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 14 ad matches. Contextual AI review supports 11; 3 remain unclear and 3 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 14,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 14 ad matches. Contextual AI review supports 14; 3 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "AllTrails",
@@ -1227,7 +1234,7 @@
               "short_id": "D04",
               "title": "Make design systems usable by AI agents",
               "definition": "Structure design-system components, semantics, architecture, or documentation for AI-agent use.",
-              "count": 14,
+              "count": 17,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 28,
@@ -1243,10 +1250,10 @@
               "minimum_evidence": [
                 "The role is assigned to make design-system material usable or interpretable by AI tools/agents; company descriptions alone do not establish the role activity."
               ],
-              "reviewed_positive_count": 14,
-              "unreviewed_candidate_count": 10,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 28 ad matches. Contextual AI review supports 14; 1 remain unclear and 10 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 17,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 28 ad matches. Contextual AI review supports 17; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "PropertyRadar",
@@ -1269,7 +1276,7 @@
               "short_id": "D05",
               "title": "Create reusable design rules and agent skills",
               "definition": "Create or maintain reusable instructions, rules, skills, or documentation for AI-assisted design implementation.",
-              "count": 12,
+              "count": 15,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 23,
@@ -1286,10 +1293,10 @@
               "minimum_evidence": [
                 "Creating or maintaining a reusable AI-consumable design artifact is explicit."
               ],
-              "reviewed_positive_count": 12,
-              "unreviewed_candidate_count": 7,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 23 ad matches. Contextual AI review supports 12; 0 remain unclear and 7 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 15,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 23 ad matches. Contextual AI review supports 15; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "PropertyRadar",
@@ -1319,7 +1326,7 @@
               "short_id": "D07",
               "title": "Design prompts, voice and persona",
               "definition": "Create, configure, or refine prompts, voices, or personas that shape conversational AI behavior.",
-              "count": 6,
+              "count": 10,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 64,
@@ -1335,10 +1342,10 @@
               "minimum_evidence": [
                 "At least one role-linked activity shapes conversational AI through prompts, voice selection, or persona configuration."
               ],
-              "reviewed_positive_count": 6,
-              "unreviewed_candidate_count": 28,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 64 ad matches. Contextual AI review supports 6; 2 remain unclear and 28 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 10,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 64 ad matches. Contextual AI review supports 10; 2 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Later",
@@ -1361,7 +1368,7 @@
               "short_id": "D08",
               "title": "Design intent and conversational context",
               "definition": "Design how conversational AI interprets intent or maintains and presents context.",
-              "count": 2,
+              "count": 5,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 9,
@@ -1377,10 +1384,10 @@
               "minimum_evidence": [
                 "Intent architecture/routing or conversational memory/context behavior is explicitly assigned to the role."
               ],
-              "reviewed_positive_count": 2,
-              "unreviewed_candidate_count": 5,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 9 ad matches. Contextual AI review supports 2; 0 remain unclear and 5 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 5,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 9 ad matches. Contextual AI review supports 5; 2 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Contentsquare",
@@ -1403,7 +1410,7 @@
               "short_id": "D12",
               "title": "Connect conversational and visual experiences",
               "definition": "Design coherent AI experiences across conversation, voice, graphical interfaces, or human-support handoffs.",
-              "count": 4,
+              "count": 10,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 9,
@@ -1419,10 +1426,10 @@
               "minimum_evidence": [
                 "An AI experience explicitly spans multiple interaction surfaces or a meaningful handoff, with responsibility for coordinating them."
               ],
-              "reviewed_positive_count": 4,
-              "unreviewed_candidate_count": 5,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 9 ad matches. Contextual AI review supports 4; 1 remain unclear and 5 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 10,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 9 ad matches. Contextual AI review supports 10; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Landing",
@@ -1452,7 +1459,7 @@
               "short_id": "D10",
               "title": "Design delegation and human control",
               "definition": "Design agent authority and the means for people to approve, intervene in, or recover control of AI actions.",
-              "count": 10,
+              "count": 19,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 27,
@@ -1468,10 +1475,10 @@
               "minimum_evidence": [
                 "Concrete agent-action boundaries or user-control mechanisms are explicit."
               ],
-              "reviewed_positive_count": 10,
-              "unreviewed_candidate_count": 14,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 27 ad matches. Contextual AI review supports 10; 1 remain unclear and 14 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 19,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 27 ad matches. Contextual AI review supports 19; 2 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Sunset",
@@ -1494,7 +1501,7 @@
               "short_id": "D11",
               "title": "Design AI states and recovery",
               "definition": "Design how an interface communicates AI execution states, uncertainty, failures, or recovery.",
-              "count": 13,
+              "count": 22,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 20,
@@ -1510,10 +1517,10 @@
               "minimum_evidence": [
                 "At least one AI-specific interaction state or recovery behavior is assigned for interface design."
               ],
-              "reviewed_positive_count": 13,
-              "unreviewed_candidate_count": 7,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 20 ad matches. Contextual AI review supports 13; 0 remain unclear and 7 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 22,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 20 ad matches. Contextual AI review supports 22; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Later",
@@ -1536,7 +1543,7 @@
               "short_id": "D17",
               "title": "Design for appropriate reliance",
               "definition": "Design human review or interaction patterns to address overreliance, automation bias, or review fatigue in AI use.",
-              "count": 11,
+              "count": 19,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 4,
@@ -1552,10 +1559,10 @@
               "minimum_evidence": [
                 "An explicit reliance-related issue or meaningful human-review problem is tied to design action."
               ],
-              "reviewed_positive_count": 11,
-              "unreviewed_candidate_count": 2,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 4 ad matches. Contextual AI review supports 11; 0 remain unclear and 2 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 19,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 4 ad matches. Contextual AI review supports 19; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Later",
@@ -1585,7 +1592,7 @@
               "short_id": "D13",
               "title": "Develop AI evals and regression checks",
               "definition": "Develop or contribute to evaluation frameworks, quality tests, or regression checks for AI interactions.",
-              "count": 6,
+              "count": 11,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 43,
@@ -1601,10 +1608,10 @@
               "minimum_evidence": [
                 "An explicit evaluation/testing contribution concerns AI or conversational quality; record the particular test artifact and participation level."
               ],
-              "reviewed_positive_count": 6,
-              "unreviewed_candidate_count": 16,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 43 ad matches. Contextual AI review supports 6; 0 remain unclear and 16 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 11,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 43 ad matches. Contextual AI review supports 11; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Sunset",
@@ -1627,7 +1634,7 @@
               "short_id": "D15",
               "title": "Use live interaction data to improve agents",
               "definition": "Analyze live AI interactions and use the evidence to improve agent behavior or experience.",
-              "count": 1,
+              "count": 4,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 54,
@@ -1644,16 +1651,23 @@
               "minimum_evidence": [
                 "Interaction/conversation evidence from AI use is linked to diagnosing behavior or informing improvements."
               ],
-              "reviewed_positive_count": 1,
-              "unreviewed_candidate_count": 20,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 54 ad matches. Contextual AI review supports 1; 1 remain unclear and 20 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 4,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 54 ad matches. Contextual AI review supports 4; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Gusto",
                   "title": "Staff Product Designer, Benefits",
                   "source_url": "https://job-boards.greenhouse.io/gusto/jobs/7676166",
                   "context": "Analyst paraphrase: Explicit AI coding to production, product prompt refinement, evaluation metrics and feedback loops for tuning AI guidance/routing. Generic responsible automation does not specify a user-control boundary.",
+                  "status": "AI contextual review, not independent human validation"
+                },
+                {
+                  "employer": "Dialpad",
+                  "title": "AI Voice Experience Designer",
+                  "source_url": "https://job-boards.greenhouse.io/dialpad/jobs/8638277002",
+                  "context": "Analyst paraphrase: Voice/persona/prompt tuning tied to real production customer conversations and identifying improvement patterns. General product shipping is not UI coding.",
                   "status": "AI contextual review, not independent human validation"
                 }
               ]
@@ -1670,7 +1684,7 @@
               "short_id": "D06",
               "title": "Build shared AI design tools",
               "definition": "Build or develop reusable AI-powered tools or workflows for design work.",
-              "count": 15,
+              "count": 22,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 180,
@@ -1687,10 +1701,10 @@
               "minimum_evidence": [
                 "Creating tools/workflows for design use is explicit and AI-linked; exploratory building qualifies with exploration recorded."
               ],
-              "reviewed_positive_count": 15,
-              "unreviewed_candidate_count": 60,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 180 ad matches. Contextual AI review supports 15; 1 remain unclear and 60 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 22,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 180 ad matches. Contextual AI review supports 22; 3 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "BetterUp",
@@ -1713,7 +1727,7 @@
               "short_id": "D18",
               "title": "Develop and govern AI design workflows",
               "definition": "Develop organizational practices for adopting, governing, or measuring AI-assisted design workflows.",
-              "count": 14,
+              "count": 19,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 76,
@@ -1729,10 +1743,10 @@
               "minimum_evidence": [
                 "At least one concrete organization/team-level activity is explicit: pilot implementation, standards/governance, adoption measurement, scaling, or retirement."
               ],
-              "reviewed_positive_count": 14,
-              "unreviewed_candidate_count": 30,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 76 ad matches. Contextual AI review supports 14; 0 remain unclear and 30 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 19,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 76 ad matches. Contextual AI review supports 19; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Smartsheet",
@@ -1762,7 +1776,7 @@
               "short_id": "D09",
               "title": "Understand AI capabilities and limits",
               "definition": "Understand model capabilities and constraints sufficiently to inform AI interaction design.",
-              "count": 6,
+              "count": 11,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 22,
@@ -1778,10 +1792,10 @@
               "minimum_evidence": [
                 "A role-specific expectation links knowledge of AI capabilities/limits to design decisions or technical collaboration."
               ],
-              "reviewed_positive_count": 6,
-              "unreviewed_candidate_count": 11,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 22 ad matches. Contextual AI review supports 6; 0 remain unclear and 11 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 11,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 22 ad matches. Contextual AI review supports 11; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Glean",
@@ -1804,7 +1818,7 @@
               "short_id": "D16",
               "title": "Verify AI-generated evidence and outputs",
               "definition": "Apply explicit quality or safety checks to AI-generated material used in design work.",
-              "count": 5,
+              "count": 6,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 16,
@@ -1820,10 +1834,10 @@
               "minimum_evidence": [
                 "At least one concrete check is named: accuracy, bias, source traceability, privacy, or regulatory risk, linked to the designer’s AI-assisted outputs."
               ],
-              "reviewed_positive_count": 5,
-              "unreviewed_candidate_count": 5,
-              "reviewed_n": 200,
-              "note": "Automated retrieval proposed 16 ad matches. Contextual AI review supports 5; 1 remain unclear and 5 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 6,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 300,
+              "note": "Automated retrieval proposed 16 ad matches. Contextual AI review supports 6; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Rocket Companies",
@@ -1852,7 +1866,7 @@
       "known_original_date_n": 442,
       "unknown_original_date_n": 58,
       "methods_note": "500 ads · 419 source employer names · 442 known 2026 posting dates, 58 unknown dates. Active and closed ads from the October 16 snapshot.",
-      "measurement_note": "Counts show ads with contextually supported evidence, not complete prevalence. 200 of 300 ads with proposed matches have received AI review. Percentages are withheld because the entire cohort has not been reviewed. Open a skill for automated candidates and remaining uncertainty."
+      "measurement_note": "Counts show ads with contextually supported evidence, not complete prevalence. 300 ads have contextually reviewed passages; 0 initial candidate ads await review. Percentages are withheld because the entire cohort has not been reviewed. Open a skill for automated candidates and remaining uncertainty."
     },
     {
       "id": "pm",
@@ -1867,7 +1881,7 @@
         {
           "id": "any_ai_reference",
           "label": "Any AI reference",
-          "count": 326,
+          "count": 323,
           "n": 500,
           "status": "candidate",
           "note": "AI terms anywhere in the ad, including company and recruitment context."
@@ -1891,7 +1905,7 @@
         {
           "id": "enablement",
           "label": "Possible AI enablement",
-          "count": 140,
+          "count": 139,
           "n": 500,
           "status": "candidate",
           "note": "Automated retrieval of AI adoption, tooling or enablement passages; not a confirmed duty."
@@ -1908,7 +1922,7 @@
               "short_id": "P01",
               "title": "Choose when to use AI",
               "definition": "Compare AI approaches with non-AI solutions when defining a product or workflow.",
-              "count": 1,
+              "count": 8,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 28,
@@ -1924,16 +1938,23 @@
               "minimum_evidence": [
                 "The role explicitly decides where AI is appropriate versus deterministic software, a UX change, or another non-AI approach."
               ],
-              "reviewed_positive_count": 1,
-              "unreviewed_candidate_count": 17,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 28 ad matches. Contextual AI review supports 1; 2 remain unclear and 17 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 8,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 28 ad matches. Contextual AI review supports 8; 3 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Vantaca",
                   "title": "Product Manager - Core Management Platform ",
                   "source_url": "https://jobs.gem.com/vantaca/am9icG9zdDoK-Xwi7xNbNNc69GdFTEAL",
-                  "context": "Analyst paraphrase: Full ad read: the preceding sentence explicitly says know when not to build an agent, resolving P01. Explicit own AI prototype/spec workflow and agent-chain knowledge. Additional full-ad evidence supports P08/P17/P09 in parent_pm_extra_evidence.json.",
+                  "context": "Analyst paraphrase: Full ad read: the preceding sentence explicitly says know when not to build an agent, resolving P01. Explicit own AI prototype/spec workflow and agent-chain knowledge. Additional full-ad evidence supports P08/P17/P09 in parent_pm_extra_evidence.json. Full-ad follow-up: Additional exact evidence found during recall review.",
+                  "status": "AI contextual review, not independent human validation"
+                },
+                {
+                  "employer": "Harvey",
+                  "title": "GTM Technology Product Owner",
+                  "source_url": "https://jobs.ashbyhq.com/harvey/320427e4-333f-445c-87f1-67d08ab0fa6c/application",
+                  "context": "Analyst paraphrase: Full ad confirms agentic applications and ownership of orchestration, but the retrieved passage names no trigger, tool chain, handoff, state or checkpoint. Full-ad supplements explicitly distinguish AI versus human work and data structures for agents. Full-ad follow-up: Explicit AI-versus-human allocation advice; no specific agent permission/approval mechanism is inferred. The full role describes agentic applications and AI agents. The quoted ability explicitly structures cross-platform data for those agents.",
                   "status": "AI contextual review, not independent human validation"
                 }
               ]
@@ -1943,7 +1964,7 @@
               "short_id": "P02",
               "title": "Choose models and AI architectures",
               "definition": "Select or contribute to selecting AI models or architectural approaches against product constraints.",
-              "count": 4,
+              "count": 8,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 51,
@@ -1959,10 +1980,10 @@
               "minimum_evidence": [
                 "Model/provider or AI-pattern selection is explicitly linked to product needs, quality, cost, latency, or other constraints."
               ],
-              "reviewed_positive_count": 4,
-              "unreviewed_candidate_count": 26,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 51 ad matches. Contextual AI review supports 4; 1 remain unclear and 26 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 8,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 51 ad matches. Contextual AI review supports 8; 2 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Rippling",
@@ -1985,7 +2006,7 @@
               "short_id": "P16",
               "title": "Manage AI unit economics and pricing",
               "definition": "Assess AI operating economics or AI-product pricing models.",
-              "count": 2,
+              "count": 3,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 14,
@@ -2001,10 +2022,10 @@
               "minimum_evidence": [
                 "Inference cost/economics, token economics, or consumption-based pricing is explicitly linked to AI systems/products."
               ],
-              "reviewed_positive_count": 2,
-              "unreviewed_candidate_count": 5,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 14 ad matches. Contextual AI review supports 2; 0 remain unclear and 5 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 3,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 14 ad matches. Contextual AI review supports 3; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Rippling",
@@ -2034,7 +2055,7 @@
               "short_id": "P04",
               "title": "Define AI success criteria and evals",
               "definition": "Define or contribute to measurable acceptance criteria, evaluation cases, or quality thresholds for AI behavior.",
-              "count": 9,
+              "count": 19,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 46,
@@ -2050,10 +2071,10 @@
               "minimum_evidence": [
                 "An explicit role contribution translates expectations into AI evaluation criteria or measurable acceptance conditions."
               ],
-              "reviewed_positive_count": 9,
-              "unreviewed_candidate_count": 25,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 46 ad matches. Contextual AI review supports 9; 0 remain unclear and 25 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 19,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 46 ad matches. Contextual AI review supports 19; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Rippling",
@@ -2076,7 +2097,7 @@
               "short_id": "P05",
               "title": "Diagnose AI failures",
               "definition": "Investigate AI failures and distinguish plausible causes to inform corrective action.",
-              "count": 1,
+              "count": 3,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 8,
@@ -2092,16 +2113,23 @@
               "minimum_evidence": [
                 "Explicit diagnostic/root-cause work concerning AI behavior, retrieval, representations, or comparable failures."
               ],
-              "reviewed_positive_count": 1,
-              "unreviewed_candidate_count": 5,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 8 ad matches. Contextual AI review supports 1; 1 remain unclear and 5 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 3,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 8 ad matches. Contextual AI review supports 3; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Shepherd",
                   "title": "AI Product Manager",
                   "source_url": "https://jobs.ashbyhq.com/shepherd/40c71ff0-f3ce-4237-9538-4ceae6e7870a/application",
-                  "context": "Analyst paraphrase: Full ad read: evaluation framework is the product spec, with release blockers, concrete AI failure diagnosis, coding-agent prototypes and encoded domain risk. Graduated trust is an explicit preferred qualification; additional duties establish P08/P17 in the extra-evidence file.",
+                  "context": "Analyst paraphrase: Full ad read: evaluation framework is the product spec, with release blockers, concrete AI failure diagnosis, coding-agent prototypes and encoded domain risk. Graduated trust is an explicit preferred qualification; additional duties establish P08/P17 in the extra-evidence file. Full-ad follow-up: Additional exact evidence found during recall review.",
+                  "status": "AI contextual review, not independent human validation"
+                },
+                {
+                  "employer": "OpenAI",
+                  "title": "Product Manager, Core Models",
+                  "source_url": "https://jobs.ashbyhq.com/openai/33b8effb-b048-4934-a279-87fff192a330/application",
+                  "context": "Analyst paraphrase: Full ad explicitly assigns architecture choices against user/product goals, clarifying the retrieved model/system decisions. Separate exact full-ad excerpts support evaluation criteria, learning loops, retrieval requirements and failure diagnosis. Research prototypes do not imply the PM builds with AI. Full-ad follow-up: Model/architecture choices are tied to user/product goals; role-linked model requirements explicitly encompass retrieval. The full role concerns OpenAI model behavior, not ordinary search at an unrelated employer. An explicit production-signal-to-AI-improvement loop. Launch decisions alone are not separately coded as release/regression thresholds. Explicit model quality/evaluation success criteria tied to multiple operational constraints. In the model-behavior role, concrete failures are used to identify gaps and form hypotheses for corrective research. No independent implementation or proven causal diagnosis is inferred.",
                   "status": "AI contextual review, not independent human validation"
                 }
               ]
@@ -2111,7 +2139,7 @@
               "short_id": "P06",
               "title": "Set AI release and regression criteria",
               "definition": "Define release acceptance or regression checks for AI-system changes.",
-              "count": 3,
+              "count": 4,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 7,
@@ -2127,10 +2155,10 @@
               "minimum_evidence": [
                 "AI-related release gating, regression testing, or backtesting against relevant cases is explicitly assigned."
               ],
-              "reviewed_positive_count": 3,
-              "unreviewed_candidate_count": 3,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 7 ad matches. Contextual AI review supports 3; 0 remain unclear and 3 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 4,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 7 ad matches. Contextual AI review supports 4; 0 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Rippling",
@@ -2143,7 +2171,7 @@
                   "employer": "Shepherd",
                   "title": "AI Product Manager",
                   "source_url": "https://jobs.ashbyhq.com/shepherd/40c71ff0-f3ce-4237-9538-4ceae6e7870a/application",
-                  "context": "Analyst paraphrase: Full ad read: evaluation framework is the product spec, with release blockers, concrete AI failure diagnosis, coding-agent prototypes and encoded domain risk. Graduated trust is an explicit preferred qualification; additional duties establish P08/P17 in the extra-evidence file.",
+                  "context": "Analyst paraphrase: Full ad read: evaluation framework is the product spec, with release blockers, concrete AI failure diagnosis, coding-agent prototypes and encoded domain risk. Graduated trust is an explicit preferred qualification; additional duties establish P08/P17 in the extra-evidence file. Full-ad follow-up: Additional exact evidence found during recall review.",
                   "status": "AI contextual review, not independent human validation"
                 }
               ]
@@ -2153,7 +2181,7 @@
               "short_id": "P15",
               "title": "Turn production feedback into AI improvements",
               "definition": "Use production/user evidence and evaluation results to prioritize or specify AI improvements.",
-              "count": 5,
+              "count": 19,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 76,
@@ -2169,10 +2197,10 @@
               "minimum_evidence": [
                 "A feedback-to-improvement connection is explicit for an AI system, agent, or orchestration workflow."
               ],
-              "reviewed_positive_count": 5,
-              "unreviewed_candidate_count": 45,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 76 ad matches. Contextual AI review supports 5; 1 remain unclear and 45 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 19,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 76 ad matches. Contextual AI review supports 19; 2 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Rippling",
@@ -2202,7 +2230,7 @@
               "short_id": "P07",
               "title": "Specify agent orchestration",
               "definition": "Define how an AI-agent workflow coordinates actions, tools, conditions, or handoffs.",
-              "count": 3,
+              "count": 7,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 41,
@@ -2218,10 +2246,10 @@
               "minimum_evidence": [
                 "At least one orchestration element is specified for agents: triggers, tool/action chaining, state, handoffs, exceptions, or checkpoints."
               ],
-              "reviewed_positive_count": 3,
-              "unreviewed_candidate_count": 24,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 41 ad matches. Contextual AI review supports 3; 2 remain unclear and 24 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 7,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 41 ad matches. Contextual AI review supports 7; 3 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Rippling",
@@ -2234,7 +2262,7 @@
                   "employer": "Vantaca",
                   "title": "Product Manager - Core Management Platform ",
                   "source_url": "https://jobs.gem.com/vantaca/am9icG9zdDoK-Xwi7xNbNNc69GdFTEAL",
-                  "context": "Analyst paraphrase: Full ad read: the preceding sentence explicitly says know when not to build an agent, resolving P01. Explicit own AI prototype/spec workflow and agent-chain knowledge. Additional full-ad evidence supports P08/P17/P09 in parent_pm_extra_evidence.json.",
+                  "context": "Analyst paraphrase: Full ad read: the preceding sentence explicitly says know when not to build an agent, resolving P01. Explicit own AI prototype/spec workflow and agent-chain knowledge. Additional full-ad evidence supports P08/P17/P09 in parent_pm_extra_evidence.json. Full-ad follow-up: Additional exact evidence found during recall review.",
                   "status": "AI contextual review, not independent human validation"
                 }
               ]
@@ -2244,7 +2272,7 @@
               "short_id": "P08",
               "title": "Set agent permissions and escalation",
               "definition": "Specify authorization boundaries or approval/escalation mechanisms for AI-agent actions.",
-              "count": 7,
+              "count": 14,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 19,
@@ -2260,10 +2288,10 @@
               "minimum_evidence": [
                 "AI-agent permissions, confirmation/approval, action authority, or escalation to people is explicit."
               ],
-              "reviewed_positive_count": 7,
-              "unreviewed_candidate_count": 12,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 19 ad matches. Contextual AI review supports 7; 1 remain unclear and 12 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 14,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 19 ad matches. Contextual AI review supports 14; 4 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Wellabe",
@@ -2286,7 +2314,7 @@
               "short_id": "P09",
               "title": "Make products accessible to AI agents",
               "definition": "Define product tools, actions, or integrations that external AI assistants and agents can use.",
-              "count": 5,
+              "count": 6,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 10,
@@ -2303,10 +2331,10 @@
               "minimum_evidence": [
                 "An explicit product capability exposes actions or integrations to customer/external AI agents or assistants."
               ],
-              "reviewed_positive_count": 5,
-              "unreviewed_candidate_count": 6,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 10 ad matches. Contextual AI review supports 5; 0 remain unclear and 6 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 6,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 10 ad matches. Contextual AI review supports 6; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Glean",
@@ -2329,7 +2357,7 @@
               "short_id": "P17",
               "title": "Stage AI autonomy and rollout",
               "definition": "Set conditions for progressing an AI workflow between levels of autonomy or rollout.",
-              "count": 3,
+              "count": 5,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 12,
@@ -2346,23 +2374,23 @@
               "minimum_evidence": [
                 "A role-linked decision ties advancing autonomy/rollout to readiness criteria such as trust, accuracy, adoption, or risk."
               ],
-              "reviewed_positive_count": 3,
-              "unreviewed_candidate_count": 6,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 12 ad matches. Contextual AI review supports 3; 0 remain unclear and 6 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 5,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 12 ad matches. Contextual AI review supports 5; 2 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Vantaca",
                   "title": "Product Manager - Core Management Platform ",
                   "source_url": "https://jobs.gem.com/vantaca/am9icG9zdDoK-Xwi7xNbNNc69GdFTEAL",
-                  "context": "Analyst paraphrase: Full ad read: the preceding sentence explicitly says know when not to build an agent, resolving P01. Explicit own AI prototype/spec workflow and agent-chain knowledge. Additional full-ad evidence supports P08/P17/P09 in parent_pm_extra_evidence.json.",
+                  "context": "Analyst paraphrase: Full ad read: the preceding sentence explicitly says know when not to build an agent, resolving P01. Explicit own AI prototype/spec workflow and agent-chain knowledge. Additional full-ad evidence supports P08/P17/P09 in parent_pm_extra_evidence.json. Full-ad follow-up: Additional exact evidence found during recall review.",
                   "status": "AI contextual review, not independent human validation"
                 },
                 {
                   "employer": "Shepherd",
                   "title": "AI Product Manager",
                   "source_url": "https://jobs.ashbyhq.com/shepherd/40c71ff0-f3ce-4237-9538-4ceae6e7870a/application",
-                  "context": "Analyst paraphrase: Full ad read: evaluation framework is the product spec, with release blockers, concrete AI failure diagnosis, coding-agent prototypes and encoded domain risk. Graduated trust is an explicit preferred qualification; additional duties establish P08/P17 in the extra-evidence file.",
+                  "context": "Analyst paraphrase: Full ad read: evaluation framework is the product spec, with release blockers, concrete AI failure diagnosis, coding-agent prototypes and encoded domain risk. Graduated trust is an explicit preferred qualification; additional duties establish P08/P17 in the extra-evidence file. Full-ad follow-up: Additional exact evidence found during recall review.",
                   "status": "AI contextual review, not independent human validation"
                 }
               ]
@@ -2379,7 +2407,7 @@
               "short_id": "P10",
               "title": "Build prototypes with AI",
               "definition": "Use AI tools to create working concepts, prototypes, or proofs of concept in the PM’s work, including internal tooling.",
-              "count": 15,
+              "count": 41,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 64,
@@ -2395,10 +2423,10 @@
               "minimum_evidence": [
                 "The PM uses AI tools in creating a prototype or proof of concept. Purpose and code/production status are separately recorded."
               ],
-              "reviewed_positive_count": 15,
-              "unreviewed_candidate_count": 44,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 64 ad matches. Contextual AI review supports 15; 0 remain unclear and 44 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 41,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 64 ad matches. Contextual AI review supports 41; 5 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Vuori",
@@ -2421,7 +2449,7 @@
               "short_id": "P11",
               "title": "Use spec-driven development with AI",
               "definition": "Use AI to develop specifications or coordinate specification-led product development.",
-              "count": 6,
+              "count": 19,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 38,
@@ -2438,10 +2466,10 @@
               "minimum_evidence": [
                 "AI-assisted specification generation or an explicitly AI spec-driven development workflow is assigned to the PM."
               ],
-              "reviewed_positive_count": 6,
-              "unreviewed_candidate_count": 22,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 38 ad matches. Contextual AI review supports 6; 0 remain unclear and 22 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 19,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 38 ad matches. Contextual AI review supports 19; 2 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "HungerRush",
@@ -2464,7 +2492,7 @@
               "short_id": "P12",
               "title": "Build reusable agents for PM work",
               "definition": "Create or customize reusable AI agents, skills, prompt patterns, or multi-step workflows for PM activities.",
-              "count": 0,
+              "count": 9,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 118,
@@ -2480,18 +2508,33 @@
               "minimum_evidence": [
                 "Explicit construction/customization of reusable AI workflows for research, analysis, or documentation."
               ],
-              "reviewed_positive_count": 0,
-              "unreviewed_candidate_count": 73,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 118 ad matches. Contextual AI review supports 0; 1 remain unclear and 73 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
-              "evidence": []
+              "reviewed_positive_count": 9,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 118 ad matches. Contextual AI review supports 9; 8 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "evidence": [
+                {
+                  "employer": "Versapay",
+                  "title": "Product Manager, Documentation Systems",
+                  "source_url": "https://jobs.lever.co/versapay/8601d9c9-943c-408d-a4c1-ec1e0218b1c3/apply",
+                  "context": "Analyst paraphrase: Full ad makes the AI documentation pipeline explicit. Role owns boundaries between AI drafting and human truth/judgment, plus an evaluation process for incorrect AI content. Separate full-ad passage establishes construction of the reusable documentation pipeline. Support escalations concern customers, not agent authorization. Full-ad follow-up: Explicit construction of a reusable documentation pipeline by the PM, integrating internal sources. This is stronger than merely using a packaged AI tool.",
+                  "status": "AI contextual review, not independent human validation"
+                },
+                {
+                  "employer": "Osmo",
+                  "title": "Senior Product Manager, Internal Tools",
+                  "source_url": "https://jobs.ashbyhq.com/osmo/b75d99de-a563-4395-9251-1f12b51b3454/application",
+                  "context": "Analyst paraphrase: Explicitly builds and uses AI-powered workflows in own requirements drafting, dependency tracking and communication. This is personal PM workflow construction, unlike customer-facing AI-agent products.",
+                  "status": "AI contextual review, not independent human validation"
+                }
+              ]
             },
             {
               "id": "pm_ai_research_synthesis",
               "short_id": "P19",
               "title": "Use AI for customer and market synthesis",
               "definition": "Use AI to analyze or synthesize customer, behavioral, market, or competitor evidence for product work.",
-              "count": 2,
+              "count": 21,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 48,
@@ -2507,10 +2550,10 @@
               "minimum_evidence": [
                 "AI is explicitly applied to relevant research, analysis, summarization, or synthesis in the PM’s workflow."
               ],
-              "reviewed_positive_count": 2,
-              "unreviewed_candidate_count": 36,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 48 ad matches. Contextual AI review supports 2; 1 remain unclear and 36 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 21,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 48 ad matches. Contextual AI review supports 21; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "HungerRush",
@@ -2540,7 +2583,7 @@
               "short_id": "P03",
               "title": "Translate domain expertise into AI behavior",
               "definition": "Translate domain-specific distinctions or exceptions into the rules, prompts, or structures of an AI system.",
-              "count": 3,
+              "count": 5,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 11,
@@ -2556,23 +2599,23 @@
               "minimum_evidence": [
                 "An explicit translation/encoding action connects domain knowledge to AI behavior, prompts, agents, rules, or data structures."
               ],
-              "reviewed_positive_count": 3,
-              "unreviewed_candidate_count": 3,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 11 ad matches. Contextual AI review supports 3; 0 remain unclear and 3 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 5,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 11 ad matches. Contextual AI review supports 5; 1 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Shepherd",
                   "title": "AI Product Manager",
                   "source_url": "https://jobs.ashbyhq.com/shepherd/40c71ff0-f3ce-4237-9538-4ceae6e7870a/application",
-                  "context": "Analyst paraphrase: Full ad read: evaluation framework is the product spec, with release blockers, concrete AI failure diagnosis, coding-agent prototypes and encoded domain risk. Graduated trust is an explicit preferred qualification; additional duties establish P08/P17 in the extra-evidence file.",
+                  "context": "Analyst paraphrase: Full ad read: evaluation framework is the product spec, with release blockers, concrete AI failure diagnosis, coding-agent prototypes and encoded domain risk. Graduated trust is an explicit preferred qualification; additional duties establish P08/P17 in the extra-evidence file. Full-ad follow-up: Additional exact evidence found during recall review.",
                   "status": "AI contextual review, not independent human validation"
                 },
                 {
-                  "employer": "Duck Creek Technologies",
-                  "title": "Senior Product Manager – Semantic Insurance Data",
-                  "source_url": "https://duckcreek.wd1.myworkdayjobs.com/duckcreek-linkedin/job/Senior-Product-Manager---Semantic-Insurance-Data_REQID55127",
-                  "context": "Analyst paraphrase: Insurance meanings and semantic structures are explicitly translated into AI-ready data and grounding/retrieval requirements. Responsible consumption lacks named operational controls. Data-product acceptance criteria and portfolio performance are not automatically AI behavior evals or AI-system improvement; hiring AI is recruitment context.",
+                  "employer": "Scopely",
+                  "title": "Product Manager - Platform, Applied AI/ML",
+                  "source_url": "https://job-boards.greenhouse.io/scopely/jobs/5116884008",
+                  "context": "Analyst paraphrase: GenAI tool/workflow experience alone does not establish constructing reusable PM workflows. Full-ad review finds separate domain-to-ML translation and technical AI success metrics. Full-ad follow-up: Explicit translation connects game-domain intent to ML requirements for player-facing behavior; this establishes contribution, not independent implementation. The role owns applied ML player experiences, and explicitly defines accuracy/latency success measures, beyond business KPIs alone.",
                   "status": "AI contextual review, not independent human validation"
                 }
               ]
@@ -2582,7 +2625,7 @@
               "short_id": "P13",
               "title": "Define AI-ready data and semantics",
               "definition": "Specify data meaning, structure, quality, or interfaces that support AI use.",
-              "count": 9,
+              "count": 13,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 16,
@@ -2599,10 +2642,10 @@
               "minimum_evidence": [
                 "A role-specific data/semantic specification or assessment explicitly supports AI grounding, inference, or agent use."
               ],
-              "reviewed_positive_count": 9,
-              "unreviewed_candidate_count": 6,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 16 ad matches. Contextual AI review supports 9; 2 remain unclear and 6 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 13,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 16 ad matches. Contextual AI review supports 13; 4 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Troveo",
@@ -2625,7 +2668,7 @@
               "short_id": "P14",
               "title": "Specify retrieval and grounded answers",
               "definition": "Define or contribute requirements for AI retrieval, grounding, citations, or use of domain knowledge.",
-              "count": 7,
+              "count": 11,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 20,
@@ -2641,10 +2684,10 @@
               "minimum_evidence": [
                 "A role-linked specification or collaboration activity explicitly concerns retrieval augmentation, answer grounding/citation accuracy, or client-specific AI context."
               ],
-              "reviewed_positive_count": 7,
-              "unreviewed_candidate_count": 11,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 20 ad matches. Contextual AI review supports 7; 0 remain unclear and 11 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 11,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 20 ad matches. Contextual AI review supports 11; 2 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Tanium",
@@ -2674,7 +2717,7 @@
               "short_id": "P18",
               "title": "Define AI governance controls",
               "definition": "Translate AI governance requirements into operational controls or product practices.",
-              "count": 7,
+              "count": 19,
               "n": 500,
               "status": "ai_reviewed",
               "candidate_count": 66,
@@ -2691,10 +2734,10 @@
               "minimum_evidence": [
                 "Concrete AI-linked controls, guardrails, audit trails, versioning, or release practices are explicitly assigned."
               ],
-              "reviewed_positive_count": 7,
-              "unreviewed_candidate_count": 41,
-              "reviewed_n": 100,
-              "note": "Automated retrieval proposed 66 ad matches. Contextual AI review supports 7; 3 remain unclear and 41 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
+              "reviewed_positive_count": 19,
+              "unreviewed_candidate_count": 0,
+              "reviewed_n": 244,
+              "note": "Automated retrieval proposed 66 ad matches. Contextual AI review supports 19; 5 remain unclear and 0 candidate matches await review. These counts concern retrieved passages. Unmatched text has not received an exhaustive recall audit; zero detections do not establish absence.",
               "evidence": [
                 {
                   "employer": "Wellabe",
@@ -2722,7 +2765,7 @@
       "known_original_date_n": 439,
       "unknown_original_date_n": 61,
       "methods_note": "500 ads · 394 source employer names · 439 known 2026 posting dates, 61 unknown dates. Active and closed ads from the October 16 snapshot.",
-      "measurement_note": "Counts show ads with contextually supported evidence, not complete prevalence. 100 of 244 ads with proposed matches have received AI review. Percentages are withheld because the entire cohort has not been reviewed. Open a skill for automated candidates and remaining uncertainty."
+      "measurement_note": "Counts show ads with contextually supported evidence, not complete prevalence. 244 ads have contextually reviewed passages; 0 initial candidate ads await review. Percentages are withheld because the entire cohort has not been reviewed. Open a skill for automated candidates and remaining uncertainty."
     },
     {
       "id": "marketing",
@@ -2737,7 +2780,7 @@
         {
           "id": "any_ai_reference",
           "label": "Any AI reference",
-          "count": 186,
+          "count": 185,
           "n": 500,
           "status": "candidate",
           "note": "AI terms anywhere in the ad, including company and recruitment context."
@@ -2761,7 +2804,7 @@
         {
           "id": "enablement",
           "label": "Possible AI enablement",
-          "count": 57,
+          "count": 56,
           "n": 500,
           "status": "candidate",
           "note": "Automated retrieval of AI adoption, tooling or enablement passages; not a confirmed duty."
@@ -2792,7 +2835,15 @@
                 "The passage links AI to gathering, analyzing, or synthesizing specified customer, audience, competitor, market, campaign, or commercial-performance information."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 19/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Lone Wolf Technologies",
+                  "title": "AI/SEO Content Specialist",
+                  "source_url": "https://jobs.lever.co/lwolf/2aaabe8a-b58d-4e10-b347-180438c2dffb/apply",
+                  "context": "Analyst paraphrase: Lone Wolf’s content specialist is expected to use AI-supported search tools for keyword and content-gap research, improve AI drafts, and check their accuracy. These are separate evidence-backed activities: analysis, content creation, channel optimization, and output verification.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             },
             {
               "id": "marketing_ai_planning",
@@ -2814,7 +2865,15 @@
                 "AI is explicitly linked to creating or exploring a marketing plan, strategy, brief, positioning, or campaign concept."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 8/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "SwimOutlet",
+                  "title": "Senior Site Merchandiser, SwimOutlet.com",
+                  "source_url": "https://ats.rippling.com/swimoutlet/jobs/9bd07b36-6ede-4070-8b01-db60c6430b87",
+                  "context": "Analyst paraphrase: SwimOutlet asks the merchandiser to produce initial merchandising plans and analyses with AI. The AI link comes from the list’s introductory sentence, which applies to the activities beneath it; the isolated planning bullet would not establish that link.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             },
             {
               "id": "marketing_customer_simulation",
@@ -2858,7 +2917,15 @@
                 "A role responsibility or qualification explicitly concerns positioning, launching, messaging, or marketing an AI-enabled product or service; directly linked full-ad product context can establish its object."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 39/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Ford Motor Company",
+                  "title": "Director, Product Marketing - AI Optimization",
+                  "source_url": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/62107",
+                  "context": "Analyst paraphrase: Ford assigns this director responsibility for creating marketing strategy for AI products. This supports marketing an AI offering; it does not by itself show that the director uses AI to prepare marketing materials.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             }
           ]
         },
@@ -2886,7 +2953,15 @@
                 "A named customer-experience personalization or recommendation activity is explicitly AI-linked."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 10/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Zoetis",
+                  "title": "Marketing Communications & Media Manager",
+                  "source_url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/Marketing-Communications---Media-Manager_JR00021009",
+                  "context": "Analyst paraphrase: Zoetis asks the marketer to apply AI or machine learning to audience segmentation, personalization, and recommendations about the next action to take. The ad explicitly makes this conditional on organizational approval.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             },
             {
               "id": "marketing_conversational_commerce",
@@ -2908,7 +2983,15 @@
                 "An explicit AI/conversational automation mechanism is linked to a customer-facing marketing or commerce experience and this role."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 2/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Teal Health",
+                  "title": "Lifecycle Marketing Manager",
+                  "source_url": "https://jobs.ashbyhq.com/teal-health/abe74a55-5e35-46d0-beb5-292929199fe1/application",
+                  "context": "Analyst paraphrase: Teal Health includes voice AI among the channels in patient-engagement programs that this marketer designs and implements. This supports shaping a customer-facing AI interaction, without establishing that the person builds the underlying AI model or writes content with AI.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             },
             {
               "id": "marketing_ai_experience_experiments",
@@ -2952,7 +3035,15 @@
                 "AI is explicitly used to create a prototype, demonstration, mockup, or proof of concept; retain stated purpose and do not infer production delivery."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 2/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Tonic.ai",
+                  "title": "Marketing Engineer",
+                  "source_url": "https://jobs.ashbyhq.com/tonicai/bce2541d-1fd0-40cb-a200-190e99ea6fe1/application",
+                  "context": "Analyst paraphrase: Tonic.ai asks its marketing engineer to use AI to quickly create working experiments inside the product, including pricing and credit mechanisms. This is explicit AI-assisted prototyping for growth experiments; the ad does not establish that those experiments will succeed.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             }
           ]
         },
@@ -2980,7 +3071,15 @@
                 "AI is explicitly linked to producing, editing, repurposing, or adapting a named marketing content or creative artifact."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 34/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Lone Wolf Technologies",
+                  "title": "AI/SEO Content Specialist",
+                  "source_url": "https://jobs.lever.co/lwolf/2aaabe8a-b58d-4e10-b347-180438c2dffb/apply",
+                  "context": "Analyst paraphrase: Lone Wolf’s content specialist is expected to use AI-supported search tools for keyword and content-gap research, improve AI drafts, and check their accuracy. These are separate evidence-backed activities: analysis, content creation, channel optimization, and output verification.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             },
             {
               "id": "marketing_ai_localization",
@@ -3002,7 +3101,15 @@
                 "An explicit AI link to localization, translation, transcreation, or regional/cultural adaptation of marketing work."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 3/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Allegro MicroSystems",
+                  "title": "Digital Experience & Web Strategy Manager",
+                  "source_url": "https://allegromicro.wd5.myworkdayjobs.com/allegrocareers/job/Digital-Experience---Web-Strategy-Manager_R5721",
+                  "context": "Analyst paraphrase: Allegro MicroSystems gives this manager responsibility for overseeing AI translation services and their quality across regional websites. The evidence concerns AI-supported localization and oversight, without specifying a particular manual verification procedure.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             },
             {
               "id": "marketing_ai_channel_optimization",
@@ -3024,7 +3131,15 @@
                 "AI is explicitly linked to a named targeting, search, channel, campaign, scoring, or allocation action; a named platform alone is insufficient."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 20/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Lone Wolf Technologies",
+                  "title": "AI/SEO Content Specialist",
+                  "source_url": "https://jobs.lever.co/lwolf/2aaabe8a-b58d-4e10-b347-180438c2dffb/apply",
+                  "context": "Analyst paraphrase: Lone Wolf’s content specialist is expected to use AI-supported search tools for keyword and content-gap research, improve AI drafts, and check their accuracy. These are separate evidence-backed activities: analysis, content creation, channel optimization, and output verification.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             },
             {
               "id": "marketing_ai_partner_enablement",
@@ -3046,7 +3161,15 @@
                 "AI use or capability is linked to enabling other people through training, playbooks, coaching, tools, or partner programs."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 9/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Listen Labs",
+                  "title": "Product Marketing Manager",
+                  "source_url": "https://jobs.ashbyhq.com/listenlabs/fb327c12-735e-4447-b02e-33f2b9133948/application",
+                  "context": "Analyst paraphrase: Listen Labs asks the product marketer to build AI tools that let the go-to-market team obtain current sales materials and messaging themselves. This equips other people to work with AI; no formal training program is specified.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             },
             {
               "id": "marketing_ai_search_discovery",
@@ -3068,7 +3191,15 @@
                 "An advertised role activity explicitly concerns AI-search visibility, answer/generative-engine optimization, or discovery through AI systems. Record whether the marketer actually uses AI tools separately."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 17/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Alcon",
+                  "title": "Sr Manager - Digital Marketing Campaigns, Global Digital Health",
+                  "source_url": "https://alcon.wd5.myworkdayjobs.com/careers_alcon/job/Sr-Manager---Digital-Marketing-Campaigns_R-2026-49898-1",
+                  "context": "Analyst paraphrase: Alcon asks this marketer to improve how website content appears in AI search and language-model-based discovery. This is adapting to an AI-mediated channel; the passage does not show that the marketer uses AI to create or edit the content.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             }
           ]
         },
@@ -3096,7 +3227,15 @@
                 "The passage explicitly links AI to construction/configuration/integration of repeatable marketing workflows or agents; normal tool use does not establish building."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 25/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Vendelux",
+                  "title": "Senior IRL Engineer (In-Person Marketing Engineer)",
+                  "source_url": "https://jobs.ashbyhq.com/vendelux/858f0c2f-7926-4ff4-99f6-1f0ba0609289/application",
+                  "context": "Analyst paraphrase: Vendelux asks an events-focused marketer to build agent-based follow-up processes and coordinate AI and human outreach around events. The construction of a repeatable process supports this category, beyond simply using an existing AI tool.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             },
             {
               "id": "marketing_ai_data_infrastructure",
@@ -3118,7 +3257,15 @@
                 "A specified data/knowledge infrastructure activity has an explicit AI application or consumer."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 7/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "OpenLoop",
+                  "title": "Director of Revenue Systems & AI",
+                  "source_url": "https://jobs.ashbyhq.com/openloophealth/275584bf-12f5-4de3-bc3a-f5b1d2b4f8b2/application",
+                  "context": "Analyst paraphrase: OpenLoop assigns its director the design of Salesforce data structures and workflows that can support AI from the outset, while maintaining authoritative revenue and customer records. This is explicit infrastructure preparation for AI, rather than ordinary CRM maintenance alone.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             },
             {
               "id": "marketing_ai_adoption",
@@ -3140,7 +3287,15 @@
                 "An organizational marketing AI adoption activity or responsibility is explicit; retain explore/pilot/operate only when the source supports that stage."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 36/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Grand Circle Corporation",
+                  "title": "Senior Manager, Email & Lifecycle Marketing",
+                  "source_url": "https://recruiting.ultipro.com/gra1008gcirc/JobBoard/7f0198d2-b59a-4441-9f15-79ce5a4de55b/OpportunityDetail?opportunityId=25d78360-93e8-42a5-89ca-e42972738d83",
+                  "context": "Analyst paraphrase: Grand Circle asks this lifecycle marketer to help bring practical AI applications into everyday work. The evidence supports contributing to adoption; it does not establish a completed rollout or responsibility for building agents.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             },
             {
               "id": "marketing_ai_output_verification",
@@ -3162,7 +3317,15 @@
                 "A review, verification, quality-control, or human-judgment action is explicitly linked to AI-generated output."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 6/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Lone Wolf Technologies",
+                  "title": "AI/SEO Content Specialist",
+                  "source_url": "https://jobs.lever.co/lwolf/2aaabe8a-b58d-4e10-b347-180438c2dffb/apply",
+                  "context": "Analyst paraphrase: Lone Wolf’s content specialist is expected to use AI-supported search tools for keyword and content-gap research, improve AI drafts, and check their accuracy. These are separate evidence-backed activities: analysis, content creation, channel optimization, and output verification.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             },
             {
               "id": "marketing_ai_governance",
@@ -3184,7 +3347,15 @@
                 "A named risk, safeguard, policy, governance, or oversight responsibility is explicitly linked to marketing AI."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 3/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Memorial Health",
+                  "title": "Manager, Digital Experience",
+                  "source_url": "https://jobs-choosememorial.icims.com/jobs/35027/manager%2c-digital-experience/job",
+                  "context": "Analyst paraphrase: Memorial Health asks the manager to work with leaders on AI-related governance, risk, and ethics policies. The role contributes to safeguards; the passage does not specify sole ownership or particular privacy or copyright controls.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             },
             {
               "id": "marketing_ai_outcomes",
@@ -3206,7 +3377,15 @@
                 "Measurement or evaluation is explicitly about the impact/value of adopting or using AI in marketing processes, teams, or experiences."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 2/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Verizon",
+                  "title": "Digital Marketing-Senior Manager",
+                  "source_url": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Digital-Marketing-Senior-Manager_R-1098658-1",
+                  "context": "Analyst paraphrase: Verizon asks the manager to develop ways to measure the return on investment from AI tools. This evaluates the value of AI adoption itself, rather than merely tracking the results of an ordinary marketing campaign.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             },
             {
               "id": "marketing_ai_analytics_toolbuilding",
@@ -3228,7 +3407,15 @@
                 "Building a marketing analytics artifact is explicitly linked to AI-assisted coding or vibe coding, either directly or through directly linked full-ad context. Preserve packaged-tool alternatives; a typo such as vide code alone is an unresolved recall lead."
               ],
               "note": "Retained October marketing full-ad AI-assisted interpretation. Task-performance expectation: 1/500. Counted once per ad, including explicit knowledge-only expectations. Independent human validation remains outstanding. These reviewed counts are not directly comparable to the automated candidate bars in other maps.",
-              "evidence": []
+              "evidence": [
+                {
+                  "employer": "Newfold Digital",
+                  "title": "Sr. Manager, Growth Marketing Analytics and Insights",
+                  "source_url": "https://web.wd1.myworkdayjobs.com/externalcareersite/job/Sr-Manager--Growth-Marketing-Analytics-and-Insights_R14259-1",
+                  "context": "Analyst paraphrase: Newfold Digital lists AI-assisted app creation as an alternative to packaged visualization software and also assigns dashboard and report development. The qualification supplies the AI-coding link that an apparent typo in the task description cannot establish alone. AI coding is an allowed route, not a requirement for every applicant; deployment is unspecified.",
+                  "status": "Earlier AI-assisted full-ad interpretation"
+                }
+              ]
             }
           ]
         }
@@ -3256,7 +3443,7 @@
         {
           "id": "any_ai_reference",
           "label": "Any AI reference",
-          "count": 512,
+          "count": 510,
           "n": 1000,
           "status": "candidate",
           "note": "AI terms anywhere in the ad, including company and recruitment context."
@@ -3280,7 +3467,7 @@
         {
           "id": "enablement",
           "label": "Possible AI enablement",
-          "count": 214,
+          "count": 212,
           "n": 1000,
           "status": "candidate",
           "note": "Automated retrieval of AI adoption, tooling or enablement passages; not a confirmed duty."
@@ -4068,7 +4255,7 @@
     }
   ],
   "comparison": {
-    "note": "The same rule-based screen (common-ai-signals-2026-10-26-v1.1) is applied to all five full-ad samples. Counts are candidate text signals, not confirmed employee expectations, observed AI use, or a ranking of occupations. Company descriptions can trigger matches. Scope, employer mix, source coverage and unknown dates differ. Earlier reviewed pilot rates are not combined with this screen.",
+    "note": "The same rule-based screen (common-ai-signals-2026-10-26-v1.2) is applied to all five full-ad samples. Counts are candidate text signals, not confirmed employee expectations, observed AI use, or a ranking of occupations. Company descriptions can trigger matches. Scope, employer mix, source coverage and unknown dates differ. Earlier reviewed pilot rates are not combined with this screen.",
     "metrics": [
       {
         "id": "any_ai_reference",
@@ -4121,7 +4308,7 @@
       "Known dates are in 2026, but closed ads and unknown original dates are included. Collection date is not posting date.",
       "Automatic rules can confuse employer AI products with role expectations and can miss implicit terminology.",
       "Review coverage differs by occupation. Map candidate rates, reviewed detections and historical pilot rates are different measures.",
-      "Location metadata can be wrong. A supplementary body-location audit and a corroborated-US sensitivity view accompany the release.",
+      "The retained baseline includes one design ad with explicit non-US location and nine UXR ads with unresolved or conflicting location evidence. See the corroborated-US sensitivity report; these flags have not been silently removed.",
       "Occupations, employers, seniority and specialties differ. Hybrid roles can occur across cohorts; percentages are not an occupation ranking.",
       "Advertisements show advertised expectations, not observed workplace use, productivity, job displacement or causal change."
     ],
@@ -4189,5 +4376,136 @@
     "status": "baseline_and_collection_infrastructure",
     "summary": "One analyzed source snapshot is available. A separate October 26 capture retained 7,697 unscreened title-candidate versions, ready for recovery and eligibility review. This is collection progress, not a second comparable month.",
     "note": "Keep stable headline categories and a versioned discovery layer. Preserve monthly text versions, separate new postings from updates and closures, and bridge-code category revisions. The new capture also revealed a manifest/event-count discrepancy, recorded in the download; no trend is inferred from it. Monthly automatic publication is not enabled."
+  },
+  "overlap": {
+    "note": "An analyst crosswalk of related activities, not a measure of overlap in job ads. Similar activities can serve different purposes. Follow each link for the occupation-specific rule; an empty cell indicates a gap in this working framework, not absence from the profession.",
+    "families": [
+      {
+        "label": "Build with AI assistance",
+        "roles": {
+          "uxr": [
+            "R10"
+          ],
+          "design": [
+            "D01"
+          ],
+          "pm": [
+            "P10"
+          ],
+          "marketing": [
+            "M08",
+            "M20"
+          ],
+          "swe": [
+            "S12",
+            "S16"
+          ]
+        }
+      },
+      {
+        "label": "Evaluate AI products and experiences",
+        "roles": {
+          "uxr": [
+            "R13"
+          ],
+          "design": [
+            "D13"
+          ],
+          "pm": [
+            "P04",
+            "P06"
+          ],
+          "marketing": [
+            "M07"
+          ],
+          "swe": [
+            "S04"
+          ]
+        }
+      },
+      {
+        "label": "Set oversight and safeguards",
+        "roles": {
+          "uxr": [
+            "R06",
+            "R17"
+          ],
+          "design": [
+            "D10",
+            "D16"
+          ],
+          "pm": [
+            "P08",
+            "P18"
+          ],
+          "marketing": [
+            "M17"
+          ],
+          "swe": [
+            "S13",
+            "S14"
+          ]
+        }
+      },
+      {
+        "label": "Create reusable AI tools",
+        "roles": {
+          "uxr": [
+            "R05"
+          ],
+          "design": [
+            "D06"
+          ],
+          "pm": [
+            "P12"
+          ],
+          "marketing": [
+            "M13"
+          ],
+          "swe": [
+            "S03",
+            "S15"
+          ]
+        }
+      },
+      {
+        "label": "Prepare knowledge and data for AI",
+        "roles": {
+          "uxr": [
+            "R07"
+          ],
+          "design": [
+            "D04"
+          ],
+          "pm": [
+            "P13",
+            "P14"
+          ],
+          "marketing": [
+            "M14"
+          ],
+          "swe": [
+            "S02"
+          ]
+        }
+      },
+      {
+        "label": "Study or lead AI adoption",
+        "roles": {
+          "uxr": [
+            "R18"
+          ],
+          "design": [
+            "D18"
+          ],
+          "pm": [],
+          "marketing": [
+            "M15",
+            "M18"
+          ],
+          "swe": []
+        }
+      }
+    ]
   }
 }

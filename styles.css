@@ -12,3 +12,7 @@
 @media print{.site-header nav,.intro-actions,.view-switch,.map-tools,.map-help,.feedback-section,.dialog-footer,.download-list,.site-footer,.skip-link{display:none}.wrap,.site-header{width:100%}body{font-size:11px;background:white}.intro{padding-block:20px;gap:30px}.intro h1{font-size:32px}.explore-section{padding-top:25px}.map-grid,.map-grid.four-branches{grid-template-columns:repeat(3,1fr)}.branch{break-inside:avoid}.skill-node{break-inside:avoid}.reading-guide,.methods-section,.monitoring-section,.downloads-section{break-before:page;padding-block:20px}.methods-section{background:white;color:#223a32}.methods-section p,.methods-section li,.methods-section .eyebrow,.methods-section .section-deck{color:#526354}}
 /* Partial evidence review has no prevalence bar. */
 .skill-node.partial-review .skill-bar{visibility:hidden}
+
+.overlap-section{padding:5rem 0}.overlap-table td{vertical-align:top}.overlap-table td a{display:block;color:var(--ink);font-size:.82rem;line-height:1.5;margin:.2rem 0 .7rem;text-underline-offset:3px}.overlap-table td a:hover{color:var(--role)}
+.overlap-section .methods-summary{color:var(--muted)}
+.overlap-table th{vertical-align:top}

@@ -22,13 +22,13 @@
         "retained_cohort": {
           "n": 346,
           "automatic_signal_counts": {
-            "any_ai_reference": 205,
+            "any_ai_reference": 204,
             "workflow": 122,
             "product": 73,
             "enablement": 70
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 59.25,
+            "any_ai_reference": 58.96,
             "workflow": 35.26,
             "product": 21.1,
             "enablement": 20.23
@@ -37,13 +37,13 @@
         "corroborated_US": {
           "n": 326,
           "automatic_signal_counts": {
-            "any_ai_reference": 191,
+            "any_ai_reference": 190,
             "workflow": 111,
             "product": 65,
             "enablement": 66
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 58.59,
+            "any_ai_reference": 58.28,
             "workflow": 34.05,
             "product": 19.94,
             "enablement": 20.25
@@ -52,13 +52,13 @@
         "known_2026_original_date": {
           "n": 315,
           "automatic_signal_counts": {
-            "any_ai_reference": 193,
+            "any_ai_reference": 192,
             "workflow": 117,
             "product": 69,
             "enablement": 65
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 61.27,
+            "any_ai_reference": 60.95,
             "workflow": 37.14,
             "product": 21.9,
             "enablement": 20.63
@@ -97,13 +97,13 @@
         "excluding_largest_source_employer": {
           "n": 339,
           "automatic_signal_counts": {
-            "any_ai_reference": 202,
+            "any_ai_reference": 201,
             "workflow": 120,
             "product": 72,
             "enablement": 69
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 59.59,
+            "any_ai_reference": 59.29,
             "workflow": 35.4,
             "product": 21.24,
             "enablement": 20.35
@@ -112,13 +112,13 @@
         "one_record_per_exact_text_hash": {
           "n": 334,
           "automatic_signal_counts": {
-            "any_ai_reference": 200,
+            "any_ai_reference": 199,
             "workflow": 118,
             "product": 71,
             "enablement": 68
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 59.88,
+            "any_ai_reference": 59.58,
             "workflow": 35.33,
             "product": 21.26,
             "enablement": 20.36
@@ -265,73 +265,73 @@
         "retained_cohort": {
           "n": 500,
           "automatic_signal_counts": {
-            "any_ai_reference": 326,
+            "any_ai_reference": 323,
             "workflow": 166,
             "product": 150,
-            "enablement": 140
+            "enablement": 139
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 65.2,
+            "any_ai_reference": 64.6,
             "workflow": 33.2,
             "product": 30.0,
-            "enablement": 28.0
+            "enablement": 27.8
           }
         },
         "corroborated_US": {
           "n": 471,
           "automatic_signal_counts": {
-            "any_ai_reference": 311,
+            "any_ai_reference": 308,
             "workflow": 159,
             "product": 141,
-            "enablement": 132
+            "enablement": 131
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 66.03,
+            "any_ai_reference": 65.39,
             "workflow": 33.76,
             "product": 29.94,
-            "enablement": 28.03
+            "enablement": 27.81
           }
         },
         "known_2026_original_date": {
           "n": 439,
           "automatic_signal_counts": {
-            "any_ai_reference": 291,
+            "any_ai_reference": 288,
             "workflow": 148,
             "product": 138,
-            "enablement": 124
+            "enablement": 123
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 66.29,
+            "any_ai_reference": 65.6,
             "workflow": 33.71,
             "product": 31.44,
-            "enablement": 28.25
+            "enablement": 28.02
           }
         },
         "posted_since_2026_07_18": {
           "n": 171,
           "automatic_signal_counts": {
-            "any_ai_reference": 114,
+            "any_ai_reference": 112,
             "workflow": 62,
             "product": 54,
-            "enablement": 49
+            "enablement": 48
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 66.67,
+            "any_ai_reference": 65.5,
             "workflow": 36.26,
             "product": 31.58,
-            "enablement": 28.65
+            "enablement": 28.07
           }
         },
         "active_at_snapshot": {
           "n": 114,
           "automatic_signal_counts": {
-            "any_ai_reference": 83,
+            "any_ai_reference": 82,
             "workflow": 42,
             "product": 33,
             "enablement": 33
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 72.81,
+            "any_ai_reference": 71.93,
             "workflow": 36.84,
             "product": 28.95,
             "enablement": 28.95
@@ -340,31 +340,31 @@
         "excluding_largest_source_employer": {
           "n": 495,
           "automatic_signal_counts": {
-            "any_ai_reference": 321,
+            "any_ai_reference": 318,
             "workflow": 166,
             "product": 148,
-            "enablement": 138
+            "enablement": 137
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 64.85,
+            "any_ai_reference": 64.24,
             "workflow": 33.54,
             "product": 29.9,
-            "enablement": 27.88
+            "enablement": 27.68
           }
         },
         "one_record_per_exact_text_hash": {
           "n": 495,
           "automatic_signal_counts": {
-            "any_ai_reference": 323,
+            "any_ai_reference": 320,
             "workflow": 164,
             "product": 150,
-            "enablement": 139
+            "enablement": 138
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 65.25,
+            "any_ai_reference": 64.65,
             "workflow": 33.13,
             "product": 30.3,
-            "enablement": 28.08
+            "enablement": 27.88
           }
         }
       }
@@ -386,46 +386,46 @@
         "retained_cohort": {
           "n": 500,
           "automatic_signal_counts": {
-            "any_ai_reference": 186,
+            "any_ai_reference": 185,
             "workflow": 85,
             "product": 51,
-            "enablement": 57
+            "enablement": 56
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 37.2,
+            "any_ai_reference": 37.0,
             "workflow": 17.0,
             "product": 10.2,
-            "enablement": 11.4
+            "enablement": 11.2
           }
         },
         "corroborated_US": {
           "n": 482,
           "automatic_signal_counts": {
-            "any_ai_reference": 180,
+            "any_ai_reference": 179,
             "workflow": 80,
             "product": 50,
-            "enablement": 56
+            "enablement": 55
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 37.34,
+            "any_ai_reference": 37.14,
             "workflow": 16.6,
             "product": 10.37,
-            "enablement": 11.62
+            "enablement": 11.41
           }
         },
         "known_2026_original_date": {
           "n": 419,
           "automatic_signal_counts": {
-            "any_ai_reference": 165,
+            "any_ai_reference": 164,
             "workflow": 71,
             "product": 45,
-            "enablement": 53
+            "enablement": 52
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 39.38,
+            "any_ai_reference": 39.14,
             "workflow": 16.95,
             "product": 10.74,
-            "enablement": 12.65
+            "enablement": 12.41
           }
         },
         "posted_since_2026_07_18": {
@@ -461,31 +461,31 @@
         "excluding_largest_source_employer": {
           "n": 495,
           "automatic_signal_counts": {
-            "any_ai_reference": 186,
+            "any_ai_reference": 185,
             "workflow": 85,
             "product": 51,
-            "enablement": 57
+            "enablement": 56
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 37.58,
+            "any_ai_reference": 37.37,
             "workflow": 17.17,
             "product": 10.3,
-            "enablement": 11.52
+            "enablement": 11.31
           }
         },
         "one_record_per_exact_text_hash": {
           "n": 499,
           "automatic_signal_counts": {
-            "any_ai_reference": 186,
+            "any_ai_reference": 185,
             "workflow": 85,
             "product": 51,
-            "enablement": 57
+            "enablement": 56
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 37.27,
+            "any_ai_reference": 37.07,
             "workflow": 17.03,
             "product": 10.22,
-            "enablement": 11.42
+            "enablement": 11.22
           }
         }
       }
@@ -507,46 +507,46 @@
         "retained_cohort": {
           "n": 1000,
           "automatic_signal_counts": {
-            "any_ai_reference": 512,
+            "any_ai_reference": 510,
             "workflow": 260,
             "product": 222,
-            "enablement": 214
+            "enablement": 212
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 51.2,
+            "any_ai_reference": 51.0,
             "workflow": 26.0,
             "product": 22.2,
-            "enablement": 21.4
+            "enablement": 21.2
           }
         },
         "corroborated_US": {
           "n": 978,
           "automatic_signal_counts": {
-            "any_ai_reference": 498,
+            "any_ai_reference": 496,
             "workflow": 250,
             "product": 212,
-            "enablement": 207
+            "enablement": 205
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 50.92,
+            "any_ai_reference": 50.72,
             "workflow": 25.56,
             "product": 21.68,
-            "enablement": 21.17
+            "enablement": 20.96
           }
         },
         "known_2026_original_date": {
           "n": 811,
           "automatic_signal_counts": {
-            "any_ai_reference": 452,
+            "any_ai_reference": 450,
             "workflow": 226,
             "product": 196,
-            "enablement": 186
+            "enablement": 184
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 55.73,
+            "any_ai_reference": 55.49,
             "workflow": 27.87,
             "product": 24.17,
-            "enablement": 22.93
+            "enablement": 22.69
           }
         },
         "posted_since_2026_07_18": {
@@ -555,13 +555,13 @@
             "any_ai_reference": 212,
             "workflow": 108,
             "product": 94,
-            "enablement": 92
+            "enablement": 91
           },
           "automatic_signal_percent": {
             "any_ai_reference": 57.45,
             "workflow": 29.27,
             "product": 25.47,
-            "enablement": 24.93
+            "enablement": 24.66
           }
         },
         "active_at_snapshot": {
@@ -582,31 +582,31 @@
         "excluding_largest_source_employer": {
           "n": 952,
           "automatic_signal_counts": {
-            "any_ai_reference": 512,
+            "any_ai_reference": 510,
             "workflow": 260,
             "product": 222,
-            "enablement": 214
+            "enablement": 212
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 53.78,
+            "any_ai_reference": 53.57,
             "workflow": 27.31,
             "product": 23.32,
-            "enablement": 22.48
+            "enablement": 22.27
           }
         },
         "one_record_per_exact_text_hash": {
           "n": 971,
           "automatic_signal_counts": {
-            "any_ai_reference": 512,
+            "any_ai_reference": 510,
             "workflow": 260,
             "product": 222,
-            "enablement": 214
+            "enablement": 212
           },
           "automatic_signal_percent": {
-            "any_ai_reference": 52.73,
+            "any_ai_reference": 52.52,
             "workflow": 26.78,
             "product": 22.86,
-            "enablement": 22.04
+            "enablement": 21.83
           }
         }
       }

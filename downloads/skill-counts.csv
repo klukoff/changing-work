@@ -3,10 +3,10 @@ uxr,R04,Enable self-service AI research,9,346,partial_AI_reviewed_detections,9,0
 uxr,R05,Build research agents and automations,10,346,partial_AI_reviewed_detections,10,0,,59
 uxr,R06,Set human oversight for research agents,4,346,partial_AI_reviewed_detections,4,0,,11
 uxr,R07,Contribute to an AI research repository,1,346,partial_AI_reviewed_detections,1,0,,4
-uxr,R17,Review AI research quality and safeguards,24,346,partial_AI_reviewed_detections,24,0,,66
+uxr,R17,Review AI research quality and safeguards,25,346,partial_AI_reviewed_detections,25,0,,66
 uxr,R09,Support continuous discovery with AI,2,346,partial_AI_reviewed_detections,2,0,,17
-uxr,R19,Conduct AI-assisted research synthesis,51,346,partial_AI_reviewed_detections,51,0,,84
-uxr,R20,Support AI-moderated usability research,1,346,partial_AI_reviewed_detections,1,0,,13
+uxr,R19,Conduct AI-assisted research synthesis,55,346,partial_AI_reviewed_detections,55,0,,84
+uxr,R20,Support AI-moderated usability research,2,346,partial_AI_reviewed_detections,2,0,,13
 uxr,R10,Build prototypes with AI coding tools,2,346,partial_AI_reviewed_detections,2,0,,9
 uxr,R11,Prototype from research evidence,3,346,partial_AI_reviewed_detections,3,0,,7
 uxr,R12,Create AI-assisted concepts for testing,2,346,partial_AI_reviewed_detections,2,0,,19
@@ -16,48 +16,48 @@ uxr,R03,Validate simulations against real behavior,1,346,partial_AI_reviewed_det
 uxr,R13,Develop AI evaluation criteria and materials,13,346,partial_AI_reviewed_detections,13,0,,41
 uxr,R14,Validate LLM-as-judge evaluations,2,346,partial_AI_reviewed_detections,2,0,,4
 uxr,R15,Analyze conversational AI failures,2,346,partial_AI_reviewed_detections,2,0,,5
-uxr,R16,Study human–AI interaction,27,346,partial_AI_reviewed_detections,27,0,,25
+uxr,R16,Study human–AI interaction,28,346,partial_AI_reviewed_detections,28,0,,25
 uxr,R08,Build dashboards for AI experience metrics,1,346,partial_AI_reviewed_detections,1,0,,16
 uxr,R18,Evaluate AI adoption and outcomes,19,346,partial_AI_reviewed_detections,19,0,,30
-design,D19,Synthesize research with AI,14,500,partial_AI_reviewed_detections,14,14,,50
-design,D20,Explore design alternatives with AI,44,500,partial_AI_reviewed_detections,44,54,,155
-design,D01,Prototype with AI coding tools,36,500,partial_AI_reviewed_detections,36,34,,91
-design,D02,Prototype with existing code and components,4,500,partial_AI_reviewed_detections,4,9,,31
-design,D03,Refine and ship AI-assisted UI code,18,500,partial_AI_reviewed_detections,18,48,,135
-design,D14,Review AI-generated interfaces,11,500,partial_AI_reviewed_detections,11,3,,14
-design,D04,Make design systems usable by AI agents,14,500,partial_AI_reviewed_detections,14,10,,28
-design,D05,Create reusable design rules and agent skills,12,500,partial_AI_reviewed_detections,12,7,,23
-design,D07,"Design prompts, voice and persona",6,500,partial_AI_reviewed_detections,6,28,,64
-design,D08,Design intent and conversational context,2,500,partial_AI_reviewed_detections,2,5,,9
-design,D12,Connect conversational and visual experiences,4,500,partial_AI_reviewed_detections,4,5,,9
-design,D10,Design delegation and human control,10,500,partial_AI_reviewed_detections,10,14,,27
-design,D11,Design AI states and recovery,13,500,partial_AI_reviewed_detections,13,7,,20
-design,D17,Design for appropriate reliance,11,500,partial_AI_reviewed_detections,11,2,,4
-design,D13,Develop AI evals and regression checks,6,500,partial_AI_reviewed_detections,6,16,,43
-design,D15,Use live interaction data to improve agents,1,500,partial_AI_reviewed_detections,1,20,,54
-design,D06,Build shared AI design tools,15,500,partial_AI_reviewed_detections,15,60,,180
-design,D18,Develop and govern AI design workflows,14,500,partial_AI_reviewed_detections,14,30,,76
-design,D09,Understand AI capabilities and limits,6,500,partial_AI_reviewed_detections,6,11,,22
-design,D16,Verify AI-generated evidence and outputs,5,500,partial_AI_reviewed_detections,5,5,,16
-pm,P01,Choose when to use AI,1,500,partial_AI_reviewed_detections,1,17,,28
-pm,P02,Choose models and AI architectures,4,500,partial_AI_reviewed_detections,4,26,,51
-pm,P16,Manage AI unit economics and pricing,2,500,partial_AI_reviewed_detections,2,5,,14
-pm,P04,Define AI success criteria and evals,9,500,partial_AI_reviewed_detections,9,25,,46
-pm,P05,Diagnose AI failures,1,500,partial_AI_reviewed_detections,1,5,,8
-pm,P06,Set AI release and regression criteria,3,500,partial_AI_reviewed_detections,3,3,,7
-pm,P15,Turn production feedback into AI improvements,5,500,partial_AI_reviewed_detections,5,45,,76
-pm,P07,Specify agent orchestration,3,500,partial_AI_reviewed_detections,3,24,,41
-pm,P08,Set agent permissions and escalation,7,500,partial_AI_reviewed_detections,7,12,,19
-pm,P09,Make products accessible to AI agents,5,500,partial_AI_reviewed_detections,5,6,,10
-pm,P17,Stage AI autonomy and rollout,3,500,partial_AI_reviewed_detections,3,6,,12
-pm,P10,Build prototypes with AI,15,500,partial_AI_reviewed_detections,15,44,,64
-pm,P11,Use spec-driven development with AI,6,500,partial_AI_reviewed_detections,6,22,,38
-pm,P12,Build reusable agents for PM work,0,500,partial_AI_reviewed_detections,0,73,,118
-pm,P19,Use AI for customer and market synthesis,2,500,partial_AI_reviewed_detections,2,36,,48
-pm,P03,Translate domain expertise into AI behavior,3,500,partial_AI_reviewed_detections,3,3,,11
-pm,P13,Define AI-ready data and semantics,9,500,partial_AI_reviewed_detections,9,6,,16
-pm,P14,Specify retrieval and grounded answers,7,500,partial_AI_reviewed_detections,7,11,,20
-pm,P18,Define AI governance controls,7,500,partial_AI_reviewed_detections,7,41,,66
+design,D19,Synthesize research with AI,18,500,partial_AI_reviewed_detections,18,0,,50
+design,D20,Explore design alternatives with AI,64,500,partial_AI_reviewed_detections,64,0,,155
+design,D01,Prototype with AI coding tools,62,500,partial_AI_reviewed_detections,62,0,,91
+design,D02,Prototype with existing code and components,6,500,partial_AI_reviewed_detections,6,0,,31
+design,D03,Refine and ship AI-assisted UI code,30,500,partial_AI_reviewed_detections,30,0,,135
+design,D14,Review AI-generated interfaces,14,500,partial_AI_reviewed_detections,14,0,,14
+design,D04,Make design systems usable by AI agents,17,500,partial_AI_reviewed_detections,17,0,,28
+design,D05,Create reusable design rules and agent skills,15,500,partial_AI_reviewed_detections,15,0,,23
+design,D07,"Design prompts, voice and persona",10,500,partial_AI_reviewed_detections,10,0,,64
+design,D08,Design intent and conversational context,5,500,partial_AI_reviewed_detections,5,0,,9
+design,D12,Connect conversational and visual experiences,10,500,partial_AI_reviewed_detections,10,0,,9
+design,D10,Design delegation and human control,19,500,partial_AI_reviewed_detections,19,0,,27
+design,D11,Design AI states and recovery,22,500,partial_AI_reviewed_detections,22,0,,20
+design,D17,Design for appropriate reliance,19,500,partial_AI_reviewed_detections,19,0,,4
+design,D13,Develop AI evals and regression checks,11,500,partial_AI_reviewed_detections,11,0,,43
+design,D15,Use live interaction data to improve agents,4,500,partial_AI_reviewed_detections,4,0,,54
+design,D06,Build shared AI design tools,22,500,partial_AI_reviewed_detections,22,0,,180
+design,D18,Develop and govern AI design workflows,19,500,partial_AI_reviewed_detections,19,0,,76
+design,D09,Understand AI capabilities and limits,11,500,partial_AI_reviewed_detections,11,0,,22
+design,D16,Verify AI-generated evidence and outputs,6,500,partial_AI_reviewed_detections,6,0,,16
+pm,P01,Choose when to use AI,8,500,partial_AI_reviewed_detections,8,0,,28
+pm,P02,Choose models and AI architectures,8,500,partial_AI_reviewed_detections,8,0,,51
+pm,P16,Manage AI unit economics and pricing,3,500,partial_AI_reviewed_detections,3,0,,14
+pm,P04,Define AI success criteria and evals,19,500,partial_AI_reviewed_detections,19,0,,46
+pm,P05,Diagnose AI failures,3,500,partial_AI_reviewed_detections,3,0,,8
+pm,P06,Set AI release and regression criteria,4,500,partial_AI_reviewed_detections,4,0,,7
+pm,P15,Turn production feedback into AI improvements,19,500,partial_AI_reviewed_detections,19,0,,76
+pm,P07,Specify agent orchestration,7,500,partial_AI_reviewed_detections,7,0,,41
+pm,P08,Set agent permissions and escalation,14,500,partial_AI_reviewed_detections,14,0,,19
+pm,P09,Make products accessible to AI agents,6,500,partial_AI_reviewed_detections,6,0,,10
+pm,P17,Stage AI autonomy and rollout,5,500,partial_AI_reviewed_detections,5,0,,12
+pm,P10,Build prototypes with AI,41,500,partial_AI_reviewed_detections,41,0,,64
+pm,P11,Use spec-driven development with AI,19,500,partial_AI_reviewed_detections,19,0,,38
+pm,P12,Build reusable agents for PM work,9,500,partial_AI_reviewed_detections,9,0,,118
+pm,P19,Use AI for customer and market synthesis,21,500,partial_AI_reviewed_detections,21,0,,48
+pm,P03,Translate domain expertise into AI behavior,5,500,partial_AI_reviewed_detections,5,0,,11
+pm,P13,Define AI-ready data and semantics,13,500,partial_AI_reviewed_detections,13,0,,16
+pm,P14,Specify retrieval and grounded answers,11,500,partial_AI_reviewed_detections,11,0,,20
+pm,P18,Define AI governance controls,19,500,partial_AI_reviewed_detections,19,0,,66
 marketing,M01,Analyze customer and marketing data with AI,20,500,earlier_AI_reviewed_detections,,,,
 marketing,M02,Develop marketing plans and concepts with AI,9,500,earlier_AI_reviewed_detections,,,,
 marketing,M03,Use synthetic audiences and customer simulations,0,500,earlier_AI_reviewed_detections,,,,

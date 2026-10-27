@@ -4,7 +4,7 @@ An exploratory dashboard of AI-related activities in job advertisements across U
 
 **Live site:** https://klukoff.github.io/changing-work/
 
-The October 2026 release covers 2,846 occupation-ad observations and 99 operational competencies. The software-engineering hierarchy follows [Andrew Ng's AI Engineering Skills Map](https://www.linkedin.com/pulse/ai-engineering-skills-map-andrew-ng-m479c/). Study definitions, samples and numerical results are independent of his project.
+The October 27, 2026 exploratory release covers 2,846 occupation-ad observations and 99 operational competencies. The software-engineering hierarchy follows [Andrew Ng's AI Engineering Skills Map](https://www.linkedin.com/pulse/ai-engineering-skills-map-andrew-ng-m479c/). Study definitions, samples and numerical results are independent of his project.
 
 ## What the numbers mean
 
@@ -42,6 +42,7 @@ Raw provider payloads, complete descriptions, private calibration feedback and w
 
 ```sh
 python3 scripts/build_public.py --project-root /path/to/retained-research-workspace
+python3 scripts/build_quality.py --project-root /path/to/retained-research-workspace
 python3 scripts/validate_release.py
 ```
 
